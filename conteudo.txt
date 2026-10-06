@@ -1,0 +1,49 @@
+Cargo 05: Analista Legislativo - Programação PL.AL.092
+1 Hardware e Software: Conceitos, Características, Sistemas de Numeração (binário, decimal, octal,
+hexadecimal, conversão de bases), Modalidades de processamento "batch", "time sharing" e "real time". 2
+Arquitetura de Computadores: Componentes de hardware, memória, processador, registradores, barramento,
+dispositivos e mídias de armazenamento de dados, interfaces USB, SATA e NVMe, interfaces de
+entrada/saída. 3 Sistemas Operacionais: conceitos, técnicas de gerência de memória, memória virtual
+(segmentação, paginação), escalonamento de processos. Multiprogramação e multiprocessamento.
+Ambientes Windows e Linux. 4 Pacote Office (Word, Excel, Access, PowerPoint). 5 Sistemas de
+Arquivamento: arquivo, registro, métodos de acesso, organização de diretórios, proteção de arquivos.
+CONCURSO PÚBLICO N.º 002/2026 DA ASSEMBLEIA LEGISLATIVA DO ESTADO DO PARÁ – ALEPA 5 / 8
+ASSEMBLÉIA LEGISLATIVA DO ESTADO DO PARÁ – ALEPA
+CONCURSO PÚBLICO Nº 002/2026
+EDITAL DE ABERTURA N.º 001/2026, DE 28 DE SETEMBRO DE 2026
+ANEXO II - CONTEÚDO PROGRAMÁTICO
+Proteção de Sistemas e de Equipamentos de Informática: proteção lógica e física, backup, estabilizadores,
+no-breaks. 6 Algoritmos e Linguagens de Programação. Conceitos: estruturas básicas de programação,
+pseudocódigo. Estruturas de dados: tipos de dados, matrizes, cadeia de caracteres, listas lineares, pilhas,
+filas, árvores e grafos. Construção de algoritmos: procedimentos, funções, recursividade, passagem de
+parâmetros, algoritmos de busca, pesquisa, ordenação, merge. 7 Programas: interpretação, linkedição,
+compilação, código-fonte, código-objeto. Linguagens: C, C++, Java. 8 Redes de Computadores. Conceitos:
+terminologia, WAN X LAN, sinais analógicos e digitais, transmissão assíncrona e síncrona, serial e paralela,
+half-duplex e full-duplex, topologias, padrões. Tecnologias Ethernet, Fast Ethernet e Gigabit Ethernet.
+Interconexão de redes: conceitos, equipamentos (repetidores, hubs, switches, bridges, roteadores, gateway).
+Arquitetura TCP/IP: conceitos, características, protocolos, modelo em camadas. SMTP, POP, FTP, DNS,
+HTTP, SNMP. 9 Bancos de Dados. Sistemas Gerenciadores de Bancos de dados: Características. Relacional:
+dicionarização, restrições e normalizações. Formas Normais: 1ª, 2ª e 3ª FN. Ferramentas. Abordagem
+Relacional: SQL. Interface e Conectividade Web. Acesso. Segurança. Análise, Modelagem, Projeto e
+Implementação: Conceitos. Características, Utilização. Banco de Dados Orientados a Objeto: Objetos,
+Classes, Variáveis de instância, Métodos, Mensagens. Encapsulamento. Herança. Banco de Dados em
+Aplicações Cliente/Servidor. Administração de Banco de Dados. 10 Desenvolvimento, Análise, Projeto e
+Gerência de Sistemas: Conceitos. Características. Ciclo de Vida de Sistemas. Atividades de análise. Fases
+de projeto. Estudo de Viabilidade Técnica de Projetos. Análise Estruturada de Sistemas. Modelagem.
+Diagramas. Fluxo de Dados, processos, entidades, depósito de dados. Regras de consistência. Diagrama de
+Contexto. Diagrama de Fluxo de Dados (DFD). Diagrama de Entidades e Relacionamentos (DER). Diagrama
+de Transição de Dados. Dicionário de Dados. Especificação de processos: português estruturado. Análise
+Orientada a Objeto. Conceitos. Características. Modelagem. UML. Metodologias. Ferramentas. Projeto
+Estruturado de Sistemas. Uso de Ferramentas CASE. Projeto de Sistemas de Informação. Diagramas de
+estrutura modular, componentes e significado. Gerenciamento de Mudanças. Qualidade do Projeto:
+acoplamento e coesão. Modelagem conceitual da informação. 11 Modelo conceitual de entidades e
+relacionamentos. Atributos: compostos, multivalorados e determinantes. Relacionamentos parciais e totais.
+Autorrelacionamento, relacionamentos múltiplos e agregações. Particionamento do conjunto de entidades.
+Decomposição de relacionamentos. 12 Engenharia e Qualidade de Software: qualidades do produto e do
+processo, princípios básicos, projeto de software, especificação, requisitos, testes, técnicas informais de
+verificação e prova de programas; processo de produção de software: modelo em cascata e espiral;
+organização de processo; metodologias. Qualidade de Software (ISO, CMMI e MPS.BR). Execução de testes
+integrados de sistemas. Homologação de sistemas junto aos usuários. 13 DataWarehouse. Conceitos
+básicos. Análise, Avaliação, Elaboração e Manutenção de documentação. Supervisão da documentação
+técnica de sistemas. Especificação da manutenção corretiva, evolutiva e legal, necessárias aos sistemas
+existentes. 14 Planejamento Estratégico de Sistemas de Informações. Gerência de Projetos. 

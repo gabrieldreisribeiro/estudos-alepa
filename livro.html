@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Livro de Estudos ALEPA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#F6F7FA; --page:#FFFFFF; --ink:#18223A; --muted:#5B6680; --line:#DEE3EC; --soft:#EEF1F7;
+  --accent:#2346A8; --accent-soft:#E8EDFB;
+  --warn:#B3312C; --warn-soft:#FBEBEA;
+  --ok:#2C7A4B; --ok-soft:#E7F4EC;
+  --tip:#8A5A00; --tip-soft:#FBF3E2;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --ui:"Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",Consolas,ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    color-scheme:dark;
+    --bg:#0F1422; --page:#161D2E; --ink:#E5EAF4; --muted:#9BA6BE; --line:#28324B; --soft:#1D2639;
+    --accent:#8FA9FF; --accent-soft:#1E2A4D;
+    --warn:#FF8A80; --warn-soft:#3A1F22;
+    --ok:#6FD39A; --ok-soft:#183126;
+    --tip:#F2C46B; --tip-soft:#33291A;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 var(--body);padding-inline:16px}
+a{color:var(--accent)}
+.layout{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:260px minmax(0,1fr);gap:40px;padding-block:32px 80px}
+@media (max-width:880px){.layout{grid-template-columns:1fr;gap:20px}}
+
+/* lateral */
+aside{position:sticky;top:24px;align-self:start;font:15px/1.4 var(--ui);display:flex;flex-direction:column;gap:22px;max-height:calc(100vh - 48px);overflow:auto}
+@media (max-width:880px){aside{position:static;max-height:none;background:var(--page);border:1px solid var(--line);border-radius:10px;padding:14px}}
+.lbl{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:6px}
+.navlist{display:flex;flex-direction:column;gap:2px}
+.navlist a{color:var(--ink);text-decoration:none;padding:6px 10px;border-radius:6px;display:grid;grid-template-columns:2.4em 1fr;gap:2px}
+.navlist a span{color:var(--muted);font-family:var(--mono);font-size:13px;padding-top:1px}
+.navlist a:hover,.navlist a.on{background:var(--accent-soft);color:var(--accent)}
+.navlist a:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
+/* página */
+main{background:var(--page);border:1px solid var(--line);border-radius:12px;padding:48px clamp(20px,5vw,64px);min-width:0}
+.book{font:600 13px var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(32px,5vw,46px);font-weight:800;margin-top:8px}
+.lead{color:var(--muted);font-size:19px;margin-top:12px;max-width:62ch}
+section{margin-top:56px;scroll-margin-top:20px}
+section>h2{font-size:28px;font-weight:800;display:flex;gap:14px;align-items:baseline}
+section>h2 .n{font-family:var(--mono);font-size:16px;color:var(--accent);font-weight:500}
+h3{font-size:20px;font-weight:600;margin-top:32px}
+p,ul,ol{max-width:66ch}
+p{margin:14px 0}
+ul,ol{padding-left:1.3em;margin:12px 0}
+li{margin:5px 0}
+strong{font-weight:600}
+code{font-family:var(--mono);font-size:.84em;background:var(--soft);padding:2px 6px;border-radius:4px}
+pre{background:var(--soft);padding:14px 16px;border-radius:8px;overflow-x:auto;max-width:100%}
+pre code{background:none;padding:0}
+sup.ref a{font:600 11px var(--ui);text-decoration:none;padding:0 2px}
+sup.ref a:hover{text-decoration:underline}
+
+/* quadros */
+.box{border-radius:10px;padding:14px 20px;margin:22px 0;max-width:66ch;font-size:17px;border:0}
+.box .t{font:700 12px var(--ui);letter-spacing:.09em;text-transform:uppercase;display:block;margin-bottom:4px}
+.box p{margin:6px 0}
+.box ul{margin:6px 0}
+.box-cai{background:var(--accent-soft)} .box-cai .t{color:var(--accent)}
+.box-pegadinha{background:var(--warn-soft)} .box-pegadinha .t{color:var(--warn)}
+.box-exemplo{background:var(--soft)} .box-exemplo .t{color:var(--muted)}
+.box-dica{background:var(--tip-soft)} .box-dica .t{color:var(--tip)}
+.box-texto{background:transparent;border:1px solid var(--line);font-size:17.5px;max-width:70ch}.box-texto .t{color:var(--muted)}.box-texto p{margin:10px 0;text-indent:1.5em}
+blockquote{margin:22px 0;padding:4px 20px;border-left:3px solid var(--line);color:var(--muted)}
+
+/* tabelas */
+.tw{overflow-x:auto;margin:20px 0}
+table{border-collapse:collapse;width:100%;font:15.5px/1.45 var(--ui);min-width:520px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--soft)}
+td:first-child{font-weight:600}
+
+/* seções especiais */
+section.colunas ul{columns:2 280px;column-gap:32px;font-size:17px}
+section.colunas li{break-inside:avoid}
+section.referencias ol{font:15px/1.5 var(--ui);max-width:none}
+section.referencias li{margin:8px 0;scroll-margin-top:20px}
+section.referencias li:target,section.referencias li.flash{background:var(--accent-soft);border-radius:4px}
+
+/* questões */
+.q{border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0;max-width:70ch}
+.q .qn{font:700 13px var(--mono);color:var(--accent)}
+.q .enun{margin:6px 0 12px}
+.q .alts{display:flex;flex-direction:column;gap:6px}
+.q button.alt{all:unset;box-sizing:border-box;display:grid;grid-template-columns:28px 1fr;gap:8px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);cursor:pointer;font-size:17px;line-height:1.45}
+.q button.alt b{font-family:var(--mono);font-size:14px;color:var(--muted);padding-top:2px}
+.q button.alt:hover{border-color:var(--accent)}
+.q button.alt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.q button.alt.certa{background:var(--ok-soft);border-color:var(--ok)}
+.q button.alt.certa b{color:var(--ok)}
+.q button.alt.errada{background:var(--warn-soft);border-color:var(--warn)}
+.q button.alt.errada b{color:var(--warn)}
+.q .ans{background:var(--ok-soft);border-radius:8px;padding:10px 14px;margin-top:12px;font:15px/1.5 var(--ui)}
+.q .ans b{color:var(--ok)}
+.q .ans.ruim b{color:var(--warn)}
+
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:56px;padding-top:24px;border-top:1px solid var(--line);font:15px var(--ui);flex-wrap:wrap}
+.pager a{text-decoration:none;display:flex;flex-direction:column;gap:2px;max-width:48%}
+.pager a small{color:var(--muted);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.pager a.next{text-align:right;margin-left:auto}
+.erro{font:16px/1.6 var(--ui)}
+.erro code{font-size:14px}
+small.nota{font:13px/1.4 var(--ui);color:var(--muted)}
+.fonte{font:14px/1.5 var(--ui);color:var(--muted);word-break:break-all}
+main h4{font-family:var(--display);font-size:17px;font-weight:600;margin-top:24px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside>
+    <div><div class="lbl">Capítulos</div><nav class="navlist" id="caps"></nav></div>
+    <div id="resBox" hidden><div class="lbl">Resumos das leis</div><nav class="navlist" id="resumos"></nav></div>
+    <div id="leisBox" hidden><div class="lbl">Leis · texto oficial</div><nav class="navlist" id="leis"></nav></div>
+    <div><div class="lbl" id="tocLbl">Neste capítulo</div><nav class="navlist" id="toc"></nav></div>
+  </aside>
+  <main id="page"></main>
+</div>
+
+<script src="livro/vendor/marked.min.js"></script>
+<script src="livro/conteudo.js" charset="utf-8"></script>
+<script>
+const CALLOUTS={CAI:"Cai na prova",PEGADINHA:"Pegadinha",EXEMPLO:"Exemplo",DICA:"Dica",TEXTO:"Texto"};
+const SEM_NUMERO=/\s*\{([^}]*)\}\s*$/;
+
+/* ---------- leitura dos capítulos ---------- */
+function frontmatter(md){
+  const m=md.match(/^﻿?---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  const meta={};
+  if(!m) return {meta,body:md};
+  m[1].split(/\r?\n/).forEach(l=>{const i=l.indexOf(":");if(i>0)meta[l.slice(0,i).trim()]=l.slice(i+1).trim()});
+  return {meta,body:md.slice(m[0].length)};
+}
+const todos=(window.LIVRO||[]).map(c=>{const f=frontmatter(c.md);return {arquivo:c.arquivo,...f,id:String(f.meta.capitulo||c.arquivo),num:Number(f.meta.capitulo)||0,lei:f.meta.tipo==="lei"}});
+const estudo=todos.filter(c=>!c.lei&&c.meta.tipo!=="resumo").sort((a,b)=>a.num-b.num);
+const resumos=todos.filter(c=>c.meta.tipo==="resumo").sort((a,b)=>(+a.meta.ordem||0)-(+b.meta.ordem||0));
+resumos.forEach(c=>c.resumo=true);
+const leis=todos.filter(c=>c.lei).sort((a,b)=>(+a.meta.ordem||0)-(+b.meta.ordem||0));
+const caps=[...estudo,...resumos,...leis];
+
+/* ---------- markdown -> html ---------- */
+function render(cap){
+  const questoes=[];
+  let md=cap.body.replace(/\r\n/g,"\n");
+  // blocos de questão
+  md=md.replace(/^:::\s*questao\s*\n([\s\S]*?)\n:::\s*$/gm,(_,corpo)=>{questoes.push(corpo);return `\n<div class="q-slot" data-q="${questoes.length-1}"></div>\n`});
+  // citações [^n]
+  md=md.replace(/\[\^(\d+)\]/g,'<sup class="ref"><a href="#ref-$1" data-ref="$1">$1</a></sup>');
+
+  const tmp=document.createElement("div");
+  tmp.innerHTML=marked.parse(md);
+
+  // quadros: > [!TIPO]
+  tmp.querySelectorAll("blockquote").forEach(bq=>{
+    const p=bq.firstElementChild; if(!p) return;
+    const m=p.innerHTML.match(/^\s*\[!(\w+)\]\s*(<br>)?\s*/);
+    if(!m) return;
+    const tipo=m[1].toUpperCase();
+    p.innerHTML=p.innerHTML.slice(m[0].length);
+    if(!p.innerHTML.trim()) p.remove();
+    const div=document.createElement("div");
+    div.className="box box-"+tipo.toLowerCase();
+    div.innerHTML=`<span class="t">${CALLOUTS[tipo]||tipo}</span>`+bq.innerHTML;
+    bq.replaceWith(div);
+  });
+  // tabelas roláveis
+  tmp.querySelectorAll("table").forEach(t=>{const w=document.createElement("div");w.className="tw";t.replaceWith(w);w.appendChild(t)});
+  // questões
+  let qn=0;
+  tmp.querySelectorAll(".q-slot").forEach(slot=>{slot.replaceWith(buildQuestao(questoes[+slot.dataset.q],++qn))});
+
+  // agrupar por h2 em seções
+  const out=document.createElement("div");
+  let sec=null,n=0;
+  [...tmp.childNodes].forEach(node=>{
+    if(node.nodeName==="H2"){
+      sec=document.createElement("section");
+      let txt=node.innerHTML, numerar=true;
+      const a=txt.match(SEM_NUMERO);
+      if(a){
+        txt=txt.replace(SEM_NUMERO,"");
+        a[1].split(/\s+/).forEach(t=>{if(t==="-")numerar=false;else if(t.startsWith("."))sec.classList.add(t.slice(1))});
+      }
+      const id="s"+(out.children.length+1);
+      sec.id=id;
+      const label=numerar?(cap.num?`${cap.num}.${++n}`:String(++n)):"";
+      sec.dataset.label=label;
+      sec.dataset.title=txt.replace(/<[^>]+>/g,"");
+      node.innerHTML=(label?`<span class="n">${label}</span>`:"")+txt;
+      sec.appendChild(node); out.appendChild(sec);
+    }else if(sec){sec.appendChild(node)}
+    else out.appendChild(node);
+  });
+  // ids das referências
+  out.querySelectorAll("section.referencias ol > li").forEach((li,i)=>li.id="ref-"+(i+1));
+  return out;
+}
+
+function buildQuestao(corpo,n){
+  const enun=[],alts=[];let resp=null,expl="";
+  corpo.split("\n").forEach(l=>{
+    let m;
+    if((m=l.match(/^\s*([A-E])\)\s+(.*)$/))) alts.push([m[1],m[2]]);
+    else if((m=l.match(/^\s*=\s*([A-E])\s*\|\s*(.*)$/))){resp=m[1];expl=m[2]}
+    else if(l.trim()) enun.push(l);
+  });
+  const div=document.createElement("div");
+  div.className="q";
+  div.innerHTML=`<span class="qn">Questão ${n}</span><div class="enun">${marked.parse(enun.join("\n"))}</div>
+    <div class="alts">${alts.map(([k,t])=>`<button type="button" class="alt" data-k="${k}"><b>${k}</b><span>${marked.parseInline(t)}</span></button>`).join("")}</div>`;
+  div.addEventListener("click",e=>{
+    const b=e.target.closest("button.alt"); if(!b||div.dataset.done) return;
+    div.dataset.done="1";
+    const acertou=b.dataset.k===resp;
+    div.querySelectorAll("button.alt").forEach(x=>{if(x.dataset.k===resp)x.classList.add("certa")});
+    if(!acertou) b.classList.add("errada");
+    const ans=document.createElement("div");
+    ans.className="ans"+(acertou?"":" ruim");
+    ans.innerHTML=`<b>${acertou?"Correto!":"Errado."}</b> Gabarito: <b>${resp}</b>. ${marked.parseInline(expl)}`;
+    if(acertou) ans.firstElementChild.style.color="var(--ok)";
+    div.appendChild(ans);
+  });
+  return div;
+}
+
+/* ---------- navegação ---------- */
+const $=s=>document.querySelector(s);
+function capAtual(){const id=decodeURIComponent(location.hash.slice(1).split("/")[0]);return caps.find(c=>c.id===id)||caps[0]}
+
+function mostrar(){
+  const page=$("#page");
+  if(!window.marked){page.innerHTML='<div class="erro"><h2>Não foi possível carregar</h2><p>Arquivo <code>livro/vendor/marked.min.js</code> não encontrado.</p></div>';return}
+  if(!caps.length){page.innerHTML='<div class="erro"><h2>Nenhum capítulo encontrado</h2><p>Coloque os arquivos <code>.md</code> na pasta <code>capitulos</code> e dê dois cliques em <code>atualizar-livro.bat</code>.</p></div>';return}
+  const cap=capAtual();
+  const grupo=cap.lei?leis:cap.resumo?resumos:estudo;
+  const idx=grupo.indexOf(cap);
+  document.title=(cap.lei||cap.resumo)?cap.meta.titulo:`Cap. ${cap.num} · ${cap.meta.titulo||""}`;
+  $("#caps").innerHTML=estudo.map(c=>`<a href="#${c.id}" class="${c===cap?"on":""}"><span>${c.num}</span>${esc(c.meta.titulo||c.arquivo)}</a>`).join("");
+  $("#resBox").hidden=!resumos.length;
+  $("#resumos").innerHTML=resumos.map((c,i)=>`<a href="#${c.id}" class="${c===cap?"on":""}"><span>R${i+1}</span>${esc(c.meta.titulo)}</a>`).join("");
+  $("#leisBox").hidden=!leis.length;
+  $("#leis").innerHTML=leis.map(c=>`<a href="#${c.id}" class="${c===cap?"on":""}"><span>§</span>${esc(c.meta.titulo)}</a>`).join("");
+  $("#tocLbl").textContent=cap.lei?"Nesta lei":cap.resumo?"Neste resumo":"Neste capítulo";
+
+  page.innerHTML=`<div class="book">ALEPA 2026 · Analista Legislativo – Programação${cap.meta.edital?" · "+esc(cap.meta.edital):""}</div>
+    <h1>${(cap.lei||cap.resumo)?esc(cap.meta.titulo):`Capítulo ${cap.num} — ${esc(cap.meta.titulo||"")}`}</h1>
+    ${cap.meta.lead?`<p class="lead">${marked.parseInline(cap.meta.lead)}</p>`:""}${cap.meta.fonte?`<p class="fonte">Fonte oficial: <a href="${esc(cap.meta.fonte)}" target="_blank" rel="noopener">${esc(cap.meta.fonte)}</a></p>`:""}`;
+  const corpo=render(cap);
+  page.append(...corpo.childNodes);
+
+  const prev=grupo[idx-1],next=grupo[idx+1];
+  const pager=document.createElement("nav");pager.className="pager";
+  pager.innerHTML=(prev?`<a href="#${prev.id}"><small>← Anterior</small>${esc(prev.meta.titulo)}</a>`:"")+(next?`<a class="next" href="#${next.id}"><small>Próximo →</small>${esc(next.meta.titulo)}</a>`:"");
+  page.appendChild(pager);
+
+  const secs=[...page.querySelectorAll("section")];
+  $("#toc").innerHTML=secs.map(s=>`<a href="#${cap.id}/${s.id}" data-s="${s.id}"><span>${s.dataset.label||"·"}</span>${esc(s.dataset.title)}</a>`).join("");
+
+  const alvo=(location.hash.split("/")[1]||"");
+  if(alvo&&document.getElementById(alvo)) document.getElementById(alvo).scrollIntoView();
+  else window.scrollTo(0,0);
+  observar(secs);
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+
+let obs;
+function observar(secs){
+  if(obs) obs.disconnect();
+  const links=[...document.querySelectorAll("#toc a")];
+  obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle("on",a.dataset.s===e.target.id))}),{rootMargin:"-25% 0px -65% 0px"});
+  secs.forEach(s=>obs.observe(s));
+}
+
+// cliques: sumário e citações sem trocar de capítulo
+document.addEventListener("click",e=>{
+  const t=e.target.closest("#toc a, sup.ref a"); if(!t) return;
+  e.preventDefault();
+  const id=t.dataset.s||("ref-"+t.dataset.ref);
+  const el=document.getElementById(id); if(!el) return;
+  el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:t.dataset.ref?"center":"start"});
+  if(t.dataset.ref){el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1600)}
+  if(t.dataset.s) history.replaceState(null,"","#"+capAtual().id+"/"+id);
+});
+let ultimoCap=null;
+window.addEventListener("hashchange",()=>{const c=capAtual();if(c!==ultimoCap){ultimoCap=c;mostrar()}});
+ultimoCap=capAtual();
+mostrar();
+</script>
+</body>
+</html>
