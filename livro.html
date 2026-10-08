@@ -76,6 +76,7 @@ sup.ref a:hover{text-decoration:underline}
 .box-pegadinha{background:var(--warn-soft)} .box-pegadinha .t{color:var(--warn)}
 .box-exemplo{background:var(--soft)} .box-exemplo .t{color:var(--muted)}
 .box-dica{background:var(--tip-soft)} .box-dica .t{color:var(--tip)}
+.box-simples{background:var(--ok-soft);border-left:4px solid var(--ok);border-radius:0 10px 10px 0}.box-simples .t{color:var(--ok)}
 .box-texto{background:transparent;border:1px solid var(--line);font-size:17.5px;max-width:70ch}.box-texto .t{color:var(--muted)}.box-texto p{margin:10px 0;text-indent:1.5em}
 blockquote{margin:22px 0;padding:4px 20px;border-left:3px solid var(--line);color:var(--muted)}
 
@@ -136,7 +137,7 @@ main h4{font-family:var(--display);font-size:17px;font-weight:600;margin-top:24p
 <script src="livro/vendor/marked.min.js"></script>
 <script src="livro/conteudo.js" charset="utf-8"></script>
 <script>
-const CALLOUTS={CAI:"Cai na prova",PEGADINHA:"Pegadinha",EXEMPLO:"Exemplo",DICA:"Dica",TEXTO:"Texto"};
+const CALLOUTS={CAI:"Cai na prova",PEGADINHA:"Pegadinha",EXEMPLO:"Exemplo",DICA:"Dica",TEXTO:"Texto",SIMPLES:"🧠 Em palavras simples"};
 const SEM_NUMERO=/\s*\{([^}]*)\}\s*$/;
 
 /* ---------- leitura dos capítulos ---------- */

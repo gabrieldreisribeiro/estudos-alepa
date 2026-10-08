@@ -17,11 +17,19 @@ lead: Já com a reforma de 2021, que é o que as provas cobram hoje. Texto compl
 > [!PEGADINHA]
 > Desde a Lei 14.230/2021 **não existe mais improbidade culposa**, nem no art. 10 (dano ao erário). Questão que fala em "culpa grave" está errada.
 
+> [!SIMPLES]
+> Improbidade é a **desonestidade** de quem cuida de coisa pública. Desde 2021, só existe quando a pessoa **quis** fazer o errado (dolo). Erro, descuido ou interpretação diferente da lei **não** é improbidade.
+
+
 ## Quem responde
 
 - **Agente público**: agente político, servidor e todo aquele que exerce mandato, cargo, emprego ou função, **ainda que transitoriamente ou sem remuneração**.[^2]
 - **Particular** que celebra convênio, contrato de repasse ou ajuste com a administração, quanto aos recursos públicos.[^2]
 - **Terceiro** que, mesmo sem ser agente público, **induza ou concorra dolosamente** para o ato.[^3]
+
+> [!SIMPLES]
+> Responde quem trabalha para o poder público, **mesmo temporário ou sem salário**, e também o particular que **ajudou** no esquema.
+
 
 ## As três espécies
 
@@ -35,6 +43,12 @@ lead: Já com a reforma de 2021, que é o que as provas cobram hoje. Texto compl
 > - O rol do **art. 11 é taxativo**: a conduta tem que estar entre as listadas.[^4]
 > - O art. 11 exige **lesividade relevante**, mas **não depende** de dano ao erário nem de enriquecimento.[^4]
 > - Nomeação ou indicação política, sozinha, não é improbidade.[^4]
+
+> [!SIMPLES]
+> - **Art. 9º**: o agente **ficou mais rico** (recebeu propina, por exemplo).
+> - **Art. 10**: o **cofre público perdeu** dinheiro (licitação fraudada, por exemplo).
+> - **Art. 11**: ninguém ganhou nem perdeu dinheiro, mas o agente **agiu de forma desonesta** numa das situações listadas, como **nomear parente** (nepotismo).
+
 
 ## Sanções (art. 12)
 
@@ -54,6 +68,10 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 > - Atos de menor ofensa: só **multa**, sem prejuízo do ressarcimento.[^5]
 > - As sanções independem de dano (exceto o ressarcimento e o art. 10) e da **aprovação ou rejeição de contas** pelo Tribunal de Contas.[^7]
 
+> [!SIMPLES]
+> Quanto mais grave, maior a pena: **enriquecer** (art. 9º) é o pior, depois **dar prejuízo** (art. 10), depois **ferir princípios** (art. 11). No art. 11 a pessoa **não perde o cargo** nem os direitos políticos, só leva multa e proibição de contratar.
+
+
 ## Processo
 
 - Qualquer pessoa pode **representar** à autoridade administrativa.[^8]
@@ -62,11 +80,19 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 - **Indisponibilidade de bens**: exige perigo de dano irreparável ou risco ao resultado do processo. É vedada sobre até **40 salários mínimos** em poupança, aplicações ou conta-corrente e, em regra, sobre o **bem de família**.[^11]
 - **Declaração de bens**: a posse depende da declaração de imposto de renda, atualizada anualmente. Recusa ou declaração falsa leva a **demissão**.[^12]
 
+> [!SIMPLES]
+> Qualquer pessoa pode **denunciar**. Quem entra com a ação na Justiça é o **Ministério Público** (e, pelo STF, também o órgão prejudicado). Para garantir o ressarcimento, o juiz pode **bloquear bens**, mas não a poupança pequena (até 40 salários mínimos) nem, em regra, a casa da família.
+
+
 ## Prescrição (art. 23)
 
 - **8 anos**, contados do **fato** ou, se a infração for permanente, do dia em que ela cessou.[^13]
 - Interrompida (por exemplo, pelo ajuizamento da ação ou pela sentença condenatória), volta a correr pela **metade: 4 anos**.[^13]
 - Inquérito civil: **365 dias**, prorrogável **uma vez**. Ele suspende a prescrição por no máximo **180 dias**.[^13]
+
+> [!SIMPLES]
+> Depois de **8 anos** do fato, não dá mais para processar. Se o processo começar e houver interrupção, o prazo **recomeça pela metade** (4 anos).
+
 
 ## Revisão rápida {- .colunas}
 

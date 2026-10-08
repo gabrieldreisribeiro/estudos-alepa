@@ -26,11 +26,19 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > [!CAI]
 > A investigação preliminar é **sigilosa e não punitiva**. Serve para apurar **indícios de autoria e materialidade**. Prazo de até **180 dias**, prorrogável.[^3]
 
+> [!SIMPLES]
+> Antes de abrir um processo, a corregedoria **analisa se há indícios**. Se precisar, faz uma **investigação preliminar**, que é **em segredo** e **não pune ninguém**: só serve para juntar provas.
+
+
 ## PAR
 
 - **Competência**: autoridade máxima da entidade lesada ou, na administração direta, o **Ministro de Estado**. Pode delegar, **vedada a subdelegação**.[^4]
 - **Comissão**: **2 ou mais servidores estáveis**. Conclui em até **180 dias**, prorrogáveis.[^5]
 - **Defesa escrita**: **30 dias** após a intimação.[^6]
+
+> [!SIMPLES]
+> O processo é conduzido por pelo menos **2 servidores estáveis**. A empresa tem **30 dias** para se defender, e o processo deve acabar em **180 dias**, com prorrogação possível.
+
 
 ## Cálculo da multa
 
@@ -52,12 +60,20 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > - o programa de integridade for **anterior ao ato lesivo**;
 > - a devolução dos valores for **integral**.
 
+> [!SIMPLES]
+> A multa funciona como uma **conta de somar e subtrair**: coisas que pioram a situação (reincidência, diretoria sabia) **aumentam** a porcentagem. Coisas que ajudam (confessar, devolver o dinheiro, ter programa de integridade) **diminuem**.
+
+
 ## Acordo de leniência
 
 - É **ato administrativo negocial**: busca aumentar a capacidade de investigação e a recuperação de ativos.[^10]
 - **Requisitos para a empresa**: ser a **primeira** a manifestar interesse (quando relevante), **cessar** o envolvimento e **admitir** a responsabilidade objetiva.[^11]
 - A proposta **suspende a prescrição** durante a negociação, por no máximo **360 dias**.[^12]
 - A negociação deve terminar em **180 dias**, contados do memorando de entendimentos.[^13]
+
+> [!SIMPLES]
+> O decreto detalha a "delação premiada da empresa". Enquanto o acordo está sendo negociado, o prazo para punir **fica parado** (até 360 dias).
+
 
 ## Programa de integridade (compliance)
 
@@ -73,6 +89,10 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 - medidas disciplinares;
 - **diligências** ao contratar terceiros e em fusões e aquisições;
 - monitoramento contínuo.
+
+> [!SIMPLES]
+> É o conjunto de **regras internas da empresa contra a corrupção**: código de ética, treinamentos, canal de denúncia e chefes que dão o exemplo. Ter um programa que funcione de verdade **reduz a multa** em até 5%.
+
 
 ## Revisão rápida {- .colunas}
 

@@ -16,7 +16,7 @@ e recarregue o livro.html.
 - "## Título {- .colunas}"     → lista em duas colunas (revisão rápida)
 - "## Referências {- .referencias}" → lista numerada de fontes
 - "[^3]"                 → citação que leva à referência nº 3
-- Quadros: "> [!CAI]", "> [!PEGADINHA]", "> [!EXEMPLO]", "> [!DICA]", "> [!TEXTO]" (texto-base)
+- Quadros: "> [!CAI]", "> [!PEGADINHA]", "> [!EXEMPLO]", "> [!DICA]", "> [!TEXTO]" (texto-base), "> [!SIMPLES]" (explicação em linguagem simples, logo abaixo de cada regra técnica)
 -->
 
 ## Primeira seção

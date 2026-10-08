@@ -2,161 +2,224 @@
 capitulo: 4
 titulo: Constituição do Pará — Poder Legislativo (I)
 edital: Ter 06/10 · Legislação A — Constituição do Pará: arts. 11, 86, 90 e 92 a 104
-lead: Separação dos Poderes, Assembleia Legislativa, competências exclusivas, Deputados, reuniões, comissões e início do processo legislativo. Texto atualizado até a EC nº 81/2020.
+lead: Separação dos Poderes, Assembleia Legislativa, o que só ela pode fazer, Deputados, reuniões, comissões e começo do processo legislativo. Cada regra vem com uma explicação simples logo abaixo.
 ---
 
 > [!DICA]
-> Este tema é **lei seca**: a CETAP costuma copiar o texto e trocar um número ou uma palavra. Decore os **quóruns e prazos** em negrito.
+> Este tema é **lei seca**: a CETAP costuma copiar o texto e trocar um número ou uma palavra. Primeiro entenda a ideia (quadros verdes), depois decore os **números em negrito**.
 
 ## Separação dos Poderes (art. 11)
 
-- São Poderes do Estado, **independentes e harmônicos**: Legislativo, Executivo e Judiciário.[^1]
-- Salvo exceções da própria Constituição, é **vedado delegar atribuições**, e quem exerce um Poder não pode exercer outro.[^1]
+São Poderes do Estado, **independentes e harmônicos** entre si, o Legislativo, o Executivo e o Judiciário. Salvo as exceções da própria Constituição, é **vedado delegar atribuições**, e quem exerce um Poder não pode exercer outro.[^1]
+
+> [!SIMPLES]
+> O Estado tem três "times": o que **faz as leis** (Assembleia), o que **governa** (Governador) e o que **julga** (Tribunal de Justiça). Cada um cuida do seu trabalho, sem passar a tarefa para o outro, e uma pessoa não pode estar em dois times ao mesmo tempo.
 
 ## Assembleia Legislativa (arts. 86 e 90)
 
 - O Poder Legislativo é exercido pela **Assembleia Legislativa**, com **autonomia administrativa e financeira**.[^2]
-- A ALEPA elabora sua **proposta orçamentária** nos limites da LDO. O **Presidente** a encaminha, **após aprovação do Plenário**.[^2]
+- A ALEPA elabora sua **proposta orçamentária** dentro dos limites da LDO. O **Presidente** a encaminha **após aprovação do Plenário**.[^2]
 - Cada **legislatura dura 4 anos**.[^2]
-- A **Procuradoria da ALEPA** representa o Legislativo em juízo, sem prejuízo das atribuições da Procuradoria-Geral do Estado.[^3]
-- O **assessoramento** é prestado por **Procuradoria, Consultoria Técnica, Assessoria Técnica e Coordenadoria Técnico-Legislativa**. O ingresso nessas carreiras é por **concurso público de provas e títulos**.[^3][^9]
+- A **Procuradoria da ALEPA** representa o Legislativo na Justiça.[^3]
+- O **assessoramento** é feito por **Procuradoria, Consultoria Técnica, Assessoria Técnica e Coordenadoria Técnico-Legislativa**, com ingresso por **concurso público de provas e títulos**.[^3][^9]
 
-## Competência exclusiva (art. 92)
+> [!SIMPLES]
+> - **Autonomia**: a Assembleia organiza a própria casa e o próprio dinheiro, sem pedir licença ao Governador.
+> - **Legislatura** é o "mandato" da turma de Deputados: 4 anos.
+> - Quando a Assembleia é processada ou precisa processar alguém, quem a defende é a **Procuradoria** dela.
+> - Os cargos técnicos de assessoria (como o que você está disputando) são preenchidos por **concurso**.
 
-O art. 92 lista o que a ALEPA faz **sem sanção do Governador** (por decreto legislativo ou resolução).[^4] Os incisos que mais caem:
+## O que só a Assembleia pode fazer (art. 92)
 
-| Tema | Regra |
+O art. 92 lista a **competência exclusiva** da ALEPA.[^4]
+
+> [!SIMPLES]
+> "Competência exclusiva" quer dizer: a Assembleia decide **sozinha**, sem o Governador sancionar. Ela faz isso por **decreto legislativo** ou **resolução**, e não por lei.
+
+| O que diz a lei | Em palavras simples |
 |---|---|
-| Mesa Diretora | Elege a Mesa, que **pode ser reeleita na mesma legislatura** |
-| Subsídios | Fixa os dos **Deputados** e os do **Governador, Vice e Secretários** |
-| Perda de mandato | Declara perda ou suspensão, **presentes 2/3** dos membros, por **votação secreta e maioria absoluta** |
-| Governador | Autoriza ausência da **Capital por mais de 15 dias** e do **País** (qualquer prazo) |
-| Contas do Governador | **Julga anualmente**. Se não forem apresentadas em **60 dias** após a abertura da sessão legislativa, faz a **tomada de contas** |
-| Contas da Mesa | Aprecia **após julgamento pelo TCE**, sem os membros da Mesa, presidida pelo **Deputado mais idoso** |
-| Tribunais de Contas | Escolhe **2/3 dos Conselheiros** do TCE e do TCM. Aprova a escolha do Governador por **voto secreto, após arguição pública** |
-| Contas do TCE | Julga **anualmente** |
-| Processo contra o Governador | Autoriza por **2/3** dos membros |
-| Crimes de responsabilidade | Processa e julga Governador e Vice (e Secretários, nos conexos), e o **PGJ, o PGE e o Defensor Público-Geral**[^10] |
-| Procurador-Geral de Justiça | Pode **destituí-lo** por **maioria absoluta** |
-| Lei inconstitucional | **Suspende** a execução de lei declarada inconstitucional por decisão definitiva do **TJ** |
+| Eleger a Mesa Diretora, que **pode ser reeleita na mesma legislatura** | A diretoria da Assembleia pode ser reeleita |
+| Fixar os subsídios dos **Deputados**, do **Governador**, do **Vice** e dos **Secretários** | A Assembleia decide quanto essas autoridades ganham |
+| Declarar perda ou suspensão de mandato, **presentes 2/3**, por **votação secreta e maioria absoluta** | Para cassar um Deputado, pelo menos 2/3 têm que estar presentes e mais da metade de todos tem que votar a favor |
+| Autorizar o Governador e o Vice a se ausentarem da **Capital por mais de 15 dias** e do **País** | Viagem curta não precisa de autorização; longa (mais de 15 dias) ou para fora do Brasil, precisa |
+| **Julgar anualmente** as contas do Governador. Se não forem apresentadas em **60 dias** após a abertura da sessão legislativa, faz a **tomada de contas** | Todo ano a Assembleia analisa como o Governador gastou o dinheiro. Se ele não entregar as contas a tempo, ela mesma vai atrás |
+| Apreciar as contas da Mesa **após julgamento pelo TCE**, sem os membros da Mesa, presidida pelo **Deputado mais idoso** | Quem está sendo avaliado não participa da própria avaliação |
+| Escolher **2/3 dos Conselheiros** do TCE e do TCM | A maior parte dos conselheiros dos Tribunais de Contas é escolhida pela Assembleia |
+| Autorizar, por **2/3**, processo contra o Governador | Para abrir processo contra o Governador, 2/3 dos Deputados precisam concordar |
+| Processar e julgar, nos crimes de responsabilidade, o **Governador**, o **Vice**, o **PGJ**, o **PGE** e o **Defensor Público-Geral**[^10] | A Assembleia funciona como um "tribunal político" para essas autoridades |
+| **Destituir** o Procurador-Geral de Justiça por **maioria absoluta** | Pode tirar o chefe do Ministério Público do cargo |
+| **Suspender** lei declarada inconstitucional pelo **TJ** em decisão definitiva | Se o Tribunal disser que uma lei estadual fere a Constituição, a Assembleia suspende essa lei |
 
 > [!CAI]
-> No julgamento por crime de responsabilidade, preside o **Presidente do Tribunal de Justiça**. A condenação exige **2/3 dos votos**. A pena é a **perda do cargo com inabilitação por 8 anos** para função pública.[^4]
+> No julgamento por crime de responsabilidade:[^4]
+> - quem **preside** é o **Presidente do Tribunal de Justiça**;
+> - a condenação exige **2/3 dos votos**;
+> - a pena é a **perda do cargo** com **inabilitação por 8 anos**.
+
+> [!SIMPLES]
+> "Crime de responsabilidade" não é crime comum, como roubo. É uma **falta grave no exercício do cargo**, como desrespeitar a Constituição. A punição é **política**: a autoridade perde o cargo e fica **8 anos sem poder ocupar função pública**.
 
 > [!PEGADINHA]
-> - A Mesa **pode** ser reeleita na mesma legislatura (redação da EC 67/2015). Versões antigas vedavam.[^4]
-> - O **Defensor Público-Geral** entrou na lista dos crimes de responsabilidade pela EC 78/2019.[^10]
+> - A Mesa **pode** ser reeleita na mesma legislatura (EC 67/2015). Textos antigos diziam o contrário.[^4]
+> - O **Defensor Público-Geral** entrou na lista pela EC 78/2019.[^10]
 
-## Convocação e denúncia (arts. 93 e 94)
+## Convocação de Secretários e denúncia (arts. 93 e 94)
 
-- A ALEPA e **qualquer de suas Comissões** podem convocar **Secretário de Estado** ou dirigente da administração indireta. A **ausência sem justificação** é **crime de responsabilidade**.[^5]
+- A ALEPA e **qualquer de suas Comissões** podem **convocar Secretário de Estado** ou dirigente da administração indireta. A **ausência sem justificativa** é **crime de responsabilidade**.[^5]
 - A convocação é enviada **por escrito, pela Mesa**.[^5]
-- Pedido escrito de informação da Mesa: a recusa, o **não atendimento em 30 dias** ou a informação falsa é crime de responsabilidade.[^5]
-- **Qualquer cidadão, partido, associação ou sindicato** pode denunciar crimes de responsabilidade e irregularidades à ALEPA.[^5]
+- Se a Mesa pedir informações por escrito, a recusa, o **não atendimento em 30 dias** ou a informação falsa é crime de responsabilidade.[^5]
+- **Qualquer cidadão, partido, associação ou sindicato** pode denunciar crimes de responsabilidade à ALEPA.[^5]
 
-## Deputados (arts. 95 a 98)
+> [!SIMPLES]
+> A Assembleia **fiscaliza o governo**. Ela pode chamar um Secretário para dar explicações, e ele **é obrigado a ir**. Se a Assembleia pedir informações por escrito, ele tem **30 dias** para responder. E qualquer pessoa pode levar uma denúncia à Assembleia.
 
-### Imunidades (art. 95)
+## Imunidades dos Deputados (art. 95)
 
-| Regra | Detalhe |
-|---|---|
-| Imunidade material | **Invioláveis civil e penalmente** por opiniões, palavras e votos |
-| Foro | Julgados pelo **Tribunal de Justiça**, desde a diplomação |
-| Prisão | Só em **flagrante de crime inafiançável**. Autos à ALEPA em **24 horas**; a **maioria dos membros** resolve sobre a prisão |
-| Sustação do processo | Crime após a diplomação: por iniciativa de **partido** e voto da **maioria**, a ALEPA pode **sustar a ação** até a decisão final |
-| Prazo da sustação | Pedido apreciado em **45 dias improrrogáveis** |
-| Prescrição | A sustação **suspende a prescrição** enquanto durar o mandato |
-| Estado de sítio | Imunidades só suspensas por **2/3** dos membros |
+**1. Imunidade material**
 
-Fonte: art. 95, com a redação da EC 19/2003.[^6]
+Os Deputados são **invioláveis, civil e penalmente**, por quaisquer de suas **opiniões, palavras e votos**.[^6]
+
+> [!SIMPLES]
+> O Deputado **não pode ser processado** pelo que fala ou vota no exercício do mandato. Isso protege a liberdade de defender ideias sem medo.
+
+**2. Foro**
+
+Desde a **expedição do diploma**, os Deputados são julgados pelo **Tribunal de Justiça**.[^6]
+
+> [!SIMPLES]
+> Depois de eleito e diplomado, se o Deputado for processado, quem julga é o **TJ**, e não um juiz comum.
+
+**3. Prisão**
+
+Desde a diplomação, só podem ser presos em **flagrante de crime inafiançável**. Os autos vão à Assembleia em **24 horas**, e a **maioria dos membros** decide sobre a prisão.[^6]
+
+> [!SIMPLES]
+> O Deputado só pode ser preso se for **pego no ato** cometendo um crime **grave** (que não admite fiança). Mesmo assim, em até 24 horas a Assembleia decide se ele continua preso.
+
+**4. Sustação do processo**
+
+Recebida denúncia por crime cometido **após a diplomação**, a ALEPA, por iniciativa de **partido político** e voto da **maioria** de seus membros, pode **sustar o andamento da ação** até a decisão final. O pedido é apreciado em **45 dias improrrogáveis**, e a sustação **suspende a prescrição** enquanto durar o mandato.[^6]
+
+> [!SIMPLES]
+> O processo contra o Deputado **começa normalmente**, sem pedir licença a ninguém. Mas a Assembleia pode **"pausar"** o processo. Enquanto ele estiver pausado, o prazo para punir o Deputado também para de correr, então ele não escapa por demora.
+
+**5. Estado de sítio**
+
+As imunidades continuam valendo no estado de sítio e só podem ser suspensas pelo voto de **2/3** dos membros.[^6]
 
 > [!PEGADINHA]
-> Desde a EC 19/2003 **não há mais licença prévia** para processar Deputado. O processo corre e a ALEPA pode **sustá-lo**.[^6] (O inciso VII do art. 92 ainda fala em "prévia licença", mas a regra aplicada é a do art. 95.)
+> Desde a EC 19/2003 **não existe mais licença prévia** para processar Deputado. O que existe é a **sustação** do processo.[^6] O inciso VII do art. 92 ainda fala em "prévia licença", mas a regra que vale é a do art. 95.
 
-### Proibições (art. 96)
+## Proibições e perda do mandato (arts. 96 a 98)
 
-- **Desde a diplomação**: firmar contrato com o poder público (salvo cláusulas uniformes) e aceitar cargo remunerado nessas entidades.[^7]
-- **Desde a posse**: ser dono ou diretor de empresa com favor do poder público, ocupar cargo demissível *ad nutum*, patrocinar causa dessas entidades, ter **mais de um mandato eletivo**.[^7]
+### O que o Deputado não pode fazer (art. 96)
 
-### Perda do mandato (arts. 97 e 98)
+- **Desde a diplomação**: firmar contrato com o poder público (salvo contrato de cláusulas uniformes) e aceitar cargo remunerado nessas entidades.[^7]
+- **Desde a posse**: ser dono ou diretor de empresa que tenha contrato favorecido com o poder público, ocupar cargo de livre exoneração nessas entidades, advogar contra elas e ter **mais de um mandato eletivo**.[^7]
+
+> [!SIMPLES]
+> O Deputado não pode **misturar o mandato com negócios** com o governo. Algumas proibições começam já na **diplomação** e outras só na **posse**. "Cláusulas uniformes" é o contrato igual para todo mundo, como a conta de luz.
+
+### Quando perde o mandato (art. 97)
 
 | Motivo | Quem decide |
 |---|---|
-| Violar proibições, falta de decoro, condenação criminal transitada em julgado | **Plenário**, por **voto secreto e maioria absoluta**, provocado pela Mesa ou por partido |
-| Faltar a **1/3 das reuniões ordinárias** da sessão legislativa, perda dos direitos políticos, decisão da Justiça Eleitoral | **Mesa declara**, de ofício ou por provocação |
+| Descumprir as proibições, falta de **decoro**, **condenação criminal** definitiva | O **Plenário**, por **voto secreto e maioria absoluta** |
+| Faltar a **1/3 das reuniões ordinárias** do ano, perder os direitos políticos, decisão da **Justiça Eleitoral** | A **Mesa** declara |
 
 Fonte: art. 97.[^7]
 
-**Não perde o mandato** o Deputado que vira Ministro, Secretário de Estado ou chefe de missão diplomática temporária, ou que se licencia por doença ou por interesse particular (sem remuneração, até **120 dias** por sessão legislativa).[^8]
+> [!SIMPLES]
+> Nos casos que dependem de **julgamento** (como falta de decoro), **todos os Deputados votam**. Nos casos **automáticos** (como faltas demais), a **Mesa só declara** a perda.
 
-- **Suplente**: convocado em caso de vaga, investidura nesses cargos ou licença por doença **acima de 120 dias**.[^8]
-- **Vaga sem suplente**: há eleição se faltarem **mais de 15 meses** para o fim do mandato.[^8]
+### Quando não perde o mandato (art. 98)
+
+Não perde o mandato o Deputado que vira **Ministro**, **Secretário de Estado** ou chefe de missão diplomática temporária, nem o licenciado por **doença** ou por **interesse particular** (sem salário, até **120 dias** por sessão legislativa).[^8]
+
+- **Suplente**: assume em caso de vaga, quando o Deputado vira Secretário ou Ministro, ou em licença por doença **acima de 120 dias**.[^8]
+- **Vaga sem suplente**: há nova eleição se faltarem **mais de 15 meses** para o fim do mandato.[^8]
+
+> [!SIMPLES]
+> O Deputado pode virar Secretário e **depois voltar** para a Assembleia. Enquanto isso, o suplente ocupa a vaga.
 
 ## Reuniões (arts. 99 e 100)
 
-- **Sessão legislativa**: de **2 de fevereiro a 30 de junho** e de **1º de agosto a 20 de dezembro**, na Capital.[^11]
-- A sessão **não é interrompida** sem aprovar a **LDO**. Pode ser **prorrogada por maioria absoluta**.[^11]
+- **Sessão legislativa**: de **2 de fevereiro a 30 de junho** e de **1º de agosto a 20 de dezembro**.[^11]
+- A sessão **não para** sem a aprovação da **LDO**. Pode ser **prorrogada por maioria absoluta**.[^11]
 - **Sessões preparatórias**: a partir de **1º de fevereiro** do 1º ano da legislatura, para posse e eleição da **Mesa (mandato de 2 anos)**.[^11]
-- Reunião em **outra localidade** do Estado: por **maioria absoluta**.[^11]
-- **Convocação extraordinária**: pelo **Governador**, pelo **Presidente da ALEPA** ou a requerimento da **maioria dos membros**. Só se delibera a matéria da convocação.[^11]
+- Reunião em **outra cidade** do Estado: por **maioria absoluta**.[^11]
+- **Convocação extraordinária**: pelo **Governador**, pelo **Presidente da ALEPA** ou pela **maioria dos membros**. Só se vota o assunto da convocação.[^11]
 - Sessões **públicas**, com pelo menos **1/4 dos membros**. Só **uma sessão ordinária por dia**.[^11]
-- Em **períodos excepcionais** (calamidade, emergência, estado de sítio ou de defesa), as sessões podem ser **remotas**, regulamentadas por Ato da Mesa.[^12]
-- O **Plenário é soberano**: pode **avocar**, por **maioria** de seus membros, qualquer matéria da Mesa, da Presidência ou das comissões.[^13]
+- Em **situações excepcionais** (calamidade, emergência, estado de sítio), as sessões podem ser **remotas**.[^12]
+- O **Plenário é soberano** e pode **avocar**, por **maioria**, qualquer assunto da Mesa, da Presidência ou das comissões.[^13]
+
+> [!SIMPLES]
+> - O "ano de trabalho" da Assembleia tem **duas partes**, com **recesso em julho** e no **fim do ano**.
+> - Antes de sair de férias no meio do ano, ela tem que aprovar a **LDO**, a lei que orienta o orçamento.
+> - Fora desse período, pode ser chamada às pressas (**convocação extraordinária**), mas só para tratar daquele assunto.
+> - O **Plenário** (todos os Deputados juntos) manda mais que a Mesa e as comissões, e pode "puxar" qualquer assunto para ele decidir.
 
 ## Comissões (art. 101)
 
 - Comissões **permanentes e temporárias**, com **representação proporcional** dos partidos.[^14]
 - Na Mesa e em cada comissão há **pelo menos um Deputado da oposição**.[^14]
-- **CPI**: criada a requerimento de **1/3 dos membros**, sem votação em plenário, para **fato determinado e prazo certo**. Tem poderes de investigação de autoridade judicial e envia conclusões ao **Ministério Público**.[^14]
-- No **recesso** há uma **Comissão representativa**, que **não pode deliberar** sobre emendas à Constituição e projetos de lei.[^14]
+- **CPI**: criada a requerimento de **1/3 dos membros**, **sem votação em plenário**, para apurar **fato determinado** por **prazo certo**. As conclusões vão ao **Ministério Público**.[^14]
+- No **recesso** funciona uma **Comissão representativa**, que **não pode votar** emendas à Constituição nem projetos de lei.[^14]
+
+> [!SIMPLES]
+> - Comissões são **grupos menores de Deputados** que estudam os assuntos antes do Plenário.
+> - A **CPI** investiga um fato específico. Basta **1/3 dos Deputados assinar** e ela é criada, sem depender da maioria. Mas a CPI **não condena ninguém**: manda o resultado para o Ministério Público.
+> - No **recesso**, um grupo menor fica "de plantão", mas sem poder votar leis.
 
 > [!PEGADINHA]
-> A CPI exige **1/3**. Até 2006 a Constituição do Pará exigia **1/5**, e a EC 34/2006 mudou.[^14]
+> A CPI exige **1/3**. Até 2006 a Constituição do Pará exigia **1/5**.[^14]
 
 ## Processo legislativo (arts. 102 a 104)
 
-**Espécies** (art. 102): emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, decretos legislativos e resoluções.[^15]
+O processo legislativo compreende a elaboração de: **emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, decretos legislativos e resoluções**.[^15]
 
-> [!PEGADINHA]
-> A Constituição do Pará **não prevê medida provisória** entre as espécies do art. 102.[^15]
+> [!SIMPLES]
+> São os **6 tipos de norma** que a Assembleia pode produzir. Repare que **não existe medida provisória** nessa lista.
 
 ### Emenda à Constituição (art. 103)
 
-| Ponto | Regra |
+| O que diz a lei | Em palavras simples |
 |---|---|
-| Quem propõe | **1/3 dos Deputados**; **Governador**; **TJ** (aprovação da maioria dos Desembargadores); **mais da metade das Câmaras Municipais** (cada uma pela maioria relativa); **iniciativa popular** |
-| Votação | **2 turnos**, aprovada com **3/5** dos membros em cada um |
-| Promulgação | Pela **Mesa da ALEPA**, com número de ordem |
-| Não pode emendar | Durante **intervenção federal, estado de defesa ou de sítio** |
-| Cláusulas pétreas | Forma federativa; voto direto, secreto, universal e periódico; separação dos Poderes; direitos e garantias individuais |
-| Proposta rejeitada | Não pode ser reapresentada na **mesma sessão legislativa** |
+| Propõem: **1/3 dos Deputados**; **Governador**; **TJ** (maioria dos Desembargadores); **mais da metade das Câmaras Municipais**; **iniciativa popular** | Quem pode pedir para mudar a Constituição do Estado |
+| **2 turnos**, aprovada com **3/5** dos membros em cada um | Vota-se **duas vezes**, e nas duas precisa de 3 em cada 5 Deputados |
+| Promulgada pela **Mesa da ALEPA** | O Governador **não sanciona** emenda à Constituição |
+| Proibida durante **intervenção federal, estado de defesa ou de sítio** | Em crise, não se mexe na Constituição |
+| Não pode abolir: forma federativa; voto direto, secreto, universal e periódico; separação dos Poderes; direitos individuais | São as **cláusulas pétreas**: nem emenda pode acabar com elas |
+| Proposta rejeitada não volta na **mesma sessão legislativa** | Se perdeu, só pode tentar de novo **no ano seguinte** |
 
 Fonte: art. 103.[^16]
 
-### Iniciativa das leis (art. 104)
+### Quem pode propor leis (art. 104)
 
-- Leis complementares e ordinárias: **qualquer Deputado ou Comissão**, **Governador**, **TJ** e demais órgãos previstos na Constituição.[^17]
-- **Iniciativa popular**: projeto subscrito por, no mínimo, **0,5% do eleitorado estadual**.[^17]
+- Leis complementares e ordinárias: **qualquer Deputado ou Comissão**, o **Governador**, o **TJ** e outros órgãos previstos na Constituição.[^17]
+- **Iniciativa popular**: projeto assinado por, no mínimo, **0,5% do eleitorado estadual**.[^17]
+
+> [!SIMPLES]
+> O **cidadão comum** também pode propor uma lei: basta juntar assinaturas de **meio por cento** dos eleitores do Pará.
 
 > [!DICA]
-> A iniciativa privativa do Governador (art. 105) e o restante do processo legislativo ficam para o próximo encontro com a Constituição do Pará (Ter 13/10).
+> A iniciativa privativa do Governador (art. 105) e o resto do processo legislativo ficam para a próxima aula de Constituição do Pará (Ter 13/10).
 
 ## Revisão rápida {- .colunas}
 
 - Legislatura: 4 anos; Mesa: 2 anos, reeleição permitida.
-- Art. 92: competência exclusiva, sem sanção.
-- Ausência do Governador da Capital: mais de 15 dias.
-- Tomada de contas: 60 dias após a abertura da sessão.
-- Processo contra o Governador: autorização de 2/3.
-- Crime de responsabilidade: preside o Presidente do TJ; condena com 2/3; inabilitação de 8 anos.
+- Art. 92: a Assembleia decide sozinha, sem sanção.
+- Governador fora da Capital: autorização se passar de 15 dias.
+- Contas do Governador: 60 dias, senão tomada de contas.
+- Processo contra o Governador: 2/3 autorizam.
+- Crime de responsabilidade: preside o Presidente do TJ; 2/3 condenam; 8 anos de inabilitação.
 - Informações pedidas pela Mesa: 30 dias.
+- Deputado: não responde por opiniões, palavras e votos.
 - Prisão de Deputado: só flagrante de crime inafiançável; 24 h.
-- Sustação: partido + maioria; 45 dias.
-- Faltas: perde o mandato quem falta a 1/3 das reuniões ordinárias.
-- Licença por interesse particular: até 120 dias.
+- Processo contra Deputado: sem licença; Assembleia pode sustar em 45 dias.
+- Faltar a 1/3 das reuniões ordinárias: perde o mandato.
 - Sessão: 2/2 a 30/6 e 1/8 a 20/12.
-- Quórum mínimo das sessões: 1/4.
-- CPI: 1/3; comissão representativa não vota PEC nem PL.
+- CPI: 1/3 assinam; resultado vai ao MP.
 - PEC: 1/3 dos Deputados; 2 turnos; 3/5.
 - Iniciativa popular: 0,5% do eleitorado.
 

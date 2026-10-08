@@ -17,6 +17,10 @@ lead: Responsabilização de empresas por atos contra a administração pública
 > [!PEGADINHA]
 > **Objetiva para a empresa, subjetiva para as pessoas físicas.** A lei também protege a **administração pública estrangeira**.[^1]
 
+> [!SIMPLES]
+> A Lei Anticorrupção pune **empresas** que corrompem o governo. A empresa responde **mesmo sem provar culpa**: se o ato ilegal foi feito no interesse dela, ela paga. Já os **diretores** só respondem se tiverem **culpa**.
+
+
 ## Atos lesivos (art. 5º)
 
 - **Prometer, oferecer ou dar** vantagem indevida a agente público.[^4]
@@ -24,6 +28,10 @@ lead: Responsabilização de empresas por atos contra a administração pública
 - Usar **interposta pessoa** ("laranja") para ocultar interesses.
 - **Licitações e contratos**: fraudar o caráter competitivo, afastar licitante, criar empresa de fachada, manipular o equilíbrio econômico-financeiro.
 - **Dificultar investigação ou fiscalização** de órgãos públicos.
+
+> [!SIMPLES]
+> São coisas como **pagar propina**, usar **"laranja"**, **combinar preço em licitação** ou **atrapalhar uma fiscalização**.
+
 
 ## Sanções administrativas (art. 6º)
 
@@ -35,12 +43,20 @@ lead: Responsabilização de empresas por atos contra a administração pública
 
 As sanções **não excluem a reparação integral do dano**.[^5]
 
+> [!SIMPLES]
+> A empresa paga **multa calculada sobre o faturamento** (de 0,1% a 20%) e ainda tem que **publicar a condenação** no jornal, pagando do próprio bolso. E continua devendo o **prejuízo** que causou.
+
+
 ## Processo Administrativo de Responsabilização (PAR)
 
 - Instaurado e julgado pela **autoridade máxima** de cada órgão ou entidade dos **três Poderes**, de ofício ou por provocação.[^6]
 - Pode ser **delegado**, sendo **vedada a subdelegação**.[^6]
 - No Executivo federal, a **CGU** tem competência **concorrente** e pode avocar processos.[^6]
 - Comissão de **2 ou mais servidores estáveis**, com **180 dias** para concluir, prorrogáveis.[^7]
+
+> [!SIMPLES]
+> O **PAR** é o processo interno do órgão público para punir a empresa. Quem abre é o **chefe máximo** do órgão, e quem conduz é uma **comissão de servidores estáveis**.
+
 
 ## Acordo de leniência (art. 16)
 
@@ -60,6 +76,10 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 > - Quem descumpre o acordo fica **3 anos** impedido de celebrar outro.[^8]
 > - A **CGU** celebra os acordos no Executivo federal e nos casos de atos contra a administração estrangeira.[^8]
 
+> [!SIMPLES]
+> É uma espécie de **"delação premiada" da empresa**: ela **confessa**, **para** com o esquema e **ajuda a investigar**. Em troca, a multa cai até **2/3**. Mas o **prejuízo continua tendo que ser pago**.
+
+
 ## Sanções judiciais (art. 19)
 
 - **Perdimento** de bens, direitos e valores obtidos com a infração.[^9]
@@ -67,10 +87,18 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 - **Dissolução compulsória** da empresa, quando usada habitualmente para ilícitos ou criada para ocultá-los.
 - **Proibição de receber incentivos**, subsídios e empréstimos públicos por **1 a 5 anos**.
 
+> [!SIMPLES]
+> Na Justiça a punição pode ser bem mais pesada: a empresa pode **perder o que ganhou**, ter as **atividades suspensas** ou até ser **fechada**.
+
+
 ## Prescrição e cadastros
 
 - Prescreve em **5 anos**, contados da **ciência** da infração ou do dia em que cessou a infração permanente.[^11]
 - **CNEP** (Cadastro Nacional de Empresas Punidas) reúne as sanções desta lei. **CEIS** (Cadastro Nacional de Empresas Inidôneas e Suspensas) reúne as sanções que restringem licitar e contratar.[^10]
+
+> [!SIMPLES]
+> Depois de **5 anos** da descoberta, a infração não pode mais ser punida. As empresas punidas vão para **listas públicas** (CNEP e CEIS), consultadas por quem vai contratar.
+
 
 ## Revisão rápida {- .colunas}
 

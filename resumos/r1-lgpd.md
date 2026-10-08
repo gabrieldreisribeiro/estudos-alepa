@@ -16,6 +16,10 @@ lead: O que mais cai: conceitos, princípios, bases legais, dados sensíveis, di
 > [!PEGADINHA]
 > A LGPD **não se aplica** ao tratamento feito: por pessoa física para fins **particulares e não econômicos**; para fins **exclusivamente jornalísticos ou artísticos**; para fins **acadêmicos** (aqui valem os arts. 7º e 11); ou para **segurança pública, defesa nacional, segurança do Estado e investigação penal**, que terão lei própria.[^3]
 
+> [!SIMPLES]
+> A LGPD é a lei que diz **como empresas e governo podem usar seus dados** (nome, CPF, endereço, foto...). Vale para qualquer um que trate dados de pessoas no Brasil, no papel ou no computador. Não vale, por exemplo, para a sua agenda pessoal de contatos nem para uma reportagem de jornal.
+
+
 ## Conceitos (art. 5º)
 
 | Termo | Significado |
@@ -32,6 +36,14 @@ lead: O que mais cai: conceitos, princípios, bases legais, dados sensíveis, di
 > [!PEGADINHA]
 > O **encarregado não é agente de tratamento**. Agentes são só controlador e operador.[^4] E a LGPD protege apenas **pessoa natural**, nunca dados de empresa.
 
+> [!SIMPLES]
+> - **Titular** é você, dono dos dados.
+> - **Controlador** é quem manda: a loja que decide pedir seu CPF.
+> - **Operador** é quem executa: a empresa contratada pela loja para guardar os dados.
+> - **Encarregado** é o "atendente" da proteção de dados: recebe reclamações e fala com a ANPD.
+> - **Dado sensível** é o que pode gerar discriminação (religião, saúde, raça...), por isso tem regras mais duras.
+
+
 ## Princípios (art. 6º)
 
 Além da **boa-fé**, são 10:[^6] **finalidade, adequação, necessidade, livre acesso, qualidade dos dados, transparência, segurança, prevenção, não discriminação e responsabilização e prestação de contas**.
@@ -40,6 +52,10 @@ Além da **boa-fé**, são 10:[^6] **finalidade, adequação, necessidade, livre
 > - **Necessidade** = usar o **mínimo** de dados necessário.
 > - **Finalidade** = propósito legítimo, específico e informado; proibido usar depois para fim incompatível.
 > - **Livre acesso** = consulta **facilitada e gratuita** pelo titular.
+
+> [!SIMPLES]
+> São as "regras de bom comportamento" de quem usa dados: pedir **só o necessário**, usar **só para o que avisou**, deixar o titular **consultar de graça**, manter os dados **seguros** e conseguir **provar** que cumpre a lei.
+
 
 ## Bases legais (art. 7º)
 
@@ -59,23 +75,38 @@ O tratamento só pode ocorrer em uma destas **10 hipóteses**:[^7]
 > [!CAI]
 > **Consentimento** é a manifestação **livre, informada e inequívoca** para uma **finalidade determinada**.[^4] É só **uma** das bases legais, não a única.
 
+> [!SIMPLES]
+> Ninguém pode usar seus dados "porque sim". Precisa de um **motivo previsto na lei**. O seu **consentimento** é um desses motivos, mas não o único. Por exemplo, o empregador usa seus dados para pagar o salário porque existe um **contrato**, mesmo sem você assinar um "aceito".
+
 ### Dados sensíveis (art. 11) e de crianças (art. 14)
 
 - Sensível: consentimento **específico e destacado**. Sem consentimento, só nas hipóteses do art. 11.[^8]
 - Criança: consentimento **específico e em destaque de pelo menos um dos pais** ou do responsável.[^9]
 
+> [!SIMPLES]
+> Dados sensíveis e de crianças exigem **mais cuidado**: o "sim" tem que ser **claro e separado** do resto, e menos motivos são aceitos para usá-los sem esse "sim".
+
 > [!PEGADINHA]
 > Para dados **sensíveis não existem** as bases **"legítimo interesse"** e **"proteção do crédito"**.[^8]
+
 
 ## Direitos do titular (art. 18)
 
 A qualquer momento, **sem custo**, mediante requisição:[^10] confirmação da existência de tratamento; acesso; correção; anonimização, bloqueio ou eliminação de dados desnecessários; portabilidade; eliminação dos dados tratados com consentimento; informação sobre compartilhamento; informação sobre a possibilidade de não consentir; revogação do consentimento.
+
+> [!SIMPLES]
+> Você pode perguntar a qualquer empresa **se ela tem seus dados**, **ver** quais são, **corrigir**, pedir para **apagar** os desnecessários e **levar para outra empresa**. Tudo **de graça**.
+
 
 ## Segurança e incidentes
 
 - Agentes devem adotar medidas de segurança **desde a concepção** do produto ou serviço.[^11]
 - O **controlador** comunica à **ANPD e ao titular** o incidente que possa gerar **risco ou dano relevante**.[^12]
 - A ANPD fixou o prazo dessa comunicação em **3 dias úteis**.[^15]
+
+> [!SIMPLES]
+> Se houver um **vazamento** que possa prejudicar as pessoas, o controlador tem que **avisar a ANPD e os titulares** atingidos.
+
 
 ## Sanções (art. 52) e ANPD
 
@@ -91,6 +122,10 @@ Aplicadas pela **ANPD**, após processo com ampla defesa, de forma gradativa:[^1
 
 > [!PEGADINHA]
 > **Órgãos públicos não recebem multa.** Podem sofrer as demais sanções.[^13] E a ANPD hoje é a **Agência Nacional de Proteção de Dados**, autarquia de natureza especial vinculada ao Ministério da Justiça e Segurança Pública. Material antigo chama de "Autoridade".[^14]
+
+> [!SIMPLES]
+> Quem descumpre a LGPD pode levar de uma **advertência** até **multa** e **proibição** de tratar dados. Quem aplica é a **ANPD**, o órgão que fiscaliza a lei. Órgãos públicos são punidos, mas **sem multa**.
+
 
 ## Revisão rápida {- .colunas}
 
