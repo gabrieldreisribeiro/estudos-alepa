@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop'
 $raiz = Split-Path -Parent $PSScriptRoot
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
-$itens = @(foreach ($sub in 'capitulos', 'resumos', 'leis') {
+$itens = @(foreach ($sub in 'capitulos', 'resumos', 'leis', 'edital') {
   $pasta = Join-Path $raiz $sub
   if (Test-Path $pasta) {
     Get-ChildItem -Path $pasta -Filter '*.md' |
