@@ -223,6 +223,24 @@ Fonte: art. 103.[^16]
 - PEC: 1/3 dos Deputados; 2 turnos; 3/5.
 - Iniciativa popular: 0,5% do eleitorado.
 
+## Flashcards {- .flashcards}
+
+- Duração da legislatura :: **4 anos**.
+- Mandato da Mesa Diretora. Pode ser reeleita? :: **2 anos**. Pode ser reeleita na mesma legislatura (EC 67/2015).
+- Quando o Governador precisa de autorização da ALEPA para viajar? :: Para sair da Capital por **mais de 15 dias** e, sempre, para sair do **País**.
+- Prazo para o Governador apresentar as contas :: **60 dias** após a abertura da sessão legislativa; senão, a ALEPA faz a tomada de contas.
+- Quórum para autorizar processo contra o Governador :: **2/3** dos membros.
+- Crime de responsabilidade: quem preside, quórum e pena :: Preside o **Presidente do TJ**; condenação por **2/3**; perda do cargo e inabilitação por **8 anos**.
+- Prazo para responder pedido escrito de informação da Mesa :: **30 dias**.
+- Quando o Deputado Estadual pode ser preso? :: Só em **flagrante de crime inafiançável**. Os autos vão à ALEPA em **24 horas**.
+- Sustação de processo contra Deputado :: Por iniciativa de **partido** e voto da **maioria**; apreciada em **45 dias improrrogáveis**.
+- Faltas que levam à perda do mandato :: **1/3 das reuniões ordinárias** da sessão legislativa.
+- Sessão legislativa da ALEPA :: **2/2 a 30/6** e **1/8 a 20/12**.
+- Quórum para criar CPI na ALEPA :: **1/3** dos membros, sem votação em plenário.
+- Emenda à Constituição do Pará: proposta por Deputados e votação :: **1/3** dos Deputados; **2 turnos**; **3/5** em cada.
+- Iniciativa popular de lei estadual :: **0,5%** do eleitorado estadual.
+- Licença do Deputado por interesse particular :: Até **120 dias** por sessão legislativa, sem remuneração.
+
 ## Questões de fixação {-}
 
 ::: questao

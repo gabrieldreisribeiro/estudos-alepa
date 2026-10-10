@@ -231,6 +231,28 @@ section.referencias li.flash{background:var(--sel);border-radius:4px}
 .eg-nota{font-family:var(--sans)!important;font-size:12.5px!important;color:var(--muted);margin:4px 0 0!important}
 .contagem{font-weight:700;color:var(--primary)}
 
+/* flashcards */
+.inner ul.fcs{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;max-width:none;margin:14px 0}
+.inner ul.fcs>li{margin:0;font-family:var(--sans)}
+.fc{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:8px;width:100%;height:100%;min-height:118px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);cursor:pointer;transition:border-color .15s,background .15s}
+.fc:hover{border-color:var(--primary)}
+.fc:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.fc-f{font:600 15px/1.45 var(--sans);color:var(--navy)}
+.fc-dica{margin-top:auto;font-size:12px;color:var(--muted)}
+.fc-v{display:none;font:15px/1.5 var(--sans);color:var(--ink);padding-top:10px;border-top:1px dashed var(--line);margin-top:auto}
+.fc.virado{background:var(--sel);border-color:var(--primary)}
+.fc.virado .fc-dica{display:none}
+.fc.virado .fc-v{display:block}
+.anki-box{padding:20px 22px;gap:12px;max-width:600px;font-size:15px}
+.anki-box p{margin:0;color:var(--ink)}
+.anki-cab{display:flex;align-items:center;justify-content:space-between}
+.anki-cab h2{font-size:20px}
+.anki-btns{display:flex;flex-wrap:wrap;gap:10px}
+.anki-btns .btn{cursor:pointer;font-size:14px}
+.anki-btns .btn[hidden]{display:none}
+.anki-passos{margin:4px 0 0;padding-left:20px;color:var(--muted);font-size:14px;line-height:1.55}
+.anki-passos li{margin:4px 0}
+
 /* barra inferior */
 .navbar{height:var(--bottom);flex:none;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;padding:0 24px;background:var(--surface);border-top:1px solid var(--line)}
 .btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:9px;font:500 13px var(--sans);text-decoration:none;border:1px solid var(--line);background:var(--surface);color:var(--navy);transition:background .15s,border-color .15s}
@@ -302,6 +324,7 @@ section.referencias li.flash{background:var(--sel);border-radius:4px}
     <nav class="crumbs" aria-label="Você está em"><ol id="crumbs"></ol></nav>
     <div class="tools">
       <button class="icon-btn" id="btnTema" type="button" aria-label="Alternar tema claro ou escuro"></button>
+      <button class="icon-btn" id="btnAnki" type="button" aria-label="Exportar flashcards para o Anki"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="7" width="13" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"/></svg></button>
       <button class="icon-btn" id="btnBusca" type="button" aria-label="Buscar no livro (atalho: /)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>
       <button class="icon-btn" id="btnMenu" type="button" aria-label="Mostrar ou ocultar o sumário" aria-controls="sumario"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
@@ -339,6 +362,20 @@ section.referencias li.flash{background:var(--sel);border-radius:4px}
   <div class="busca-box">
     <label class="busca-in"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span class="sr">Termo de busca</span><input id="q" type="search" placeholder="Buscar em capítulos, resumos e leis…" autocomplete="off"></label>
     <ul class="busca-res" id="res"></ul>
+  </div>
+</div>
+
+<div class="busca" id="ankiDlg" hidden role="dialog" aria-modal="true" aria-labelledby="ankiTit">
+  <div class="busca-box anki-box">
+    <div class="anki-cab"><h2 id="ankiTit">Exportar para o Anki</h2><button class="icon-btn" id="ankiFechar" type="button" aria-label="Fechar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+    <p>Gera um arquivo com os <b>flashcards</b> e as <b>questões de fixação</b>, separados em baralhos por capítulo.</p>
+    <div class="anki-btns"><button class="btn" id="ankiCap" type="button"></button><button class="btn prox" id="ankiTudo" type="button"></button></div>
+    <ol class="anki-passos">
+      <li>Abra o <b>Anki no computador</b> e vá em <b>Arquivo → Importar</b>.</li>
+      <li>Escolha o arquivo <code>.txt</code> baixado. Os campos, o baralho e as etiquetas já vêm configurados.</li>
+      <li>Em <b>Notas existentes</b>, escolha <b>Atualizar</b>. Assim, ao importar de novo depois de novos capítulos, nada fica duplicado.</li>
+      <li>Clique em <b>Importar</b>. Depois sincronize para ter os cartões no celular (AnkiDroid ou AnkiMobile).</li>
+    </ol>
   </div>
 </div>
 
@@ -441,6 +478,13 @@ function render(cap){
     else out.appendChild(node);
   });
   out.querySelectorAll("section.referencias ol > li").forEach((li,i)=>li.id="ref-"+(i+1));
+  out.querySelectorAll("section.flashcards ul").forEach(ul=>{
+    ul.classList.add("fcs");
+    ul.querySelectorAll(":scope > li").forEach(li=>{
+      const h=li.innerHTML,i=h.indexOf(" :: ");if(i<0)return;
+      li.innerHTML=`<button type="button" class="fc" aria-expanded="false"><span class="fc-f">${h.slice(0,i)}</span><span class="fc-dica">Toque para ver a resposta</span><span class="fc-v">${h.slice(i+4)}</span></button>`;
+    });
+  });
   return out;
 }
 
@@ -582,6 +626,48 @@ function contagens(page){
   });
 }
 
+/* flashcards */
+document.addEventListener("click",e=>{const b=e.target.closest("button.fc");if(!b)return;const v=b.classList.toggle("virado");b.setAttribute("aria-expanded",String(v))});
+
+/* exportação para o Anki (arquivo de texto com cabeçalhos do Anki) */
+function inlineAnki(t){return marked.parseInline(t.replace(/\[\^\d+\]/g,"")).replace(/\t/g," ").trim()}
+function cartoesDe(c){
+  const corpo=c.body.replace(/\r\n/g,"\n"),lista=[];
+  const pad=n=>String(n).padStart(2,"0");
+  const nomeDeck="ALEPA 2026::"+(c.resumo?"Resumos::"+rotulo(c)+" - "+c.meta.titulo:"Cap "+pad(c.num)+" - "+c.meta.titulo).replace(/::(?=[^:]*$)/,"::").replace(/[\t"]/g,"");
+  const ref=c.resumo?rotulo(c):"Cap. "+c.num;
+  const tagBase="alepa "+(c.resumo?"resumo_"+rotulo(c):"cap"+pad(c.num));
+  const m=corpo.match(/^## Flashcards[^\n]*\n([\s\S]*?)(?=^## |\s*$(?![\s\S]))/m);
+  if(m) m[1].split("\n").forEach(l=>{const x=l.match(/^-\s+(.*?)\s+::\s+(.*)$/);if(x)lista.push([inlineAnki(x[1]),inlineAnki(x[2]),nomeDeck,tagBase+" flashcard"])});
+  let n=0;
+  corpo.replace(/^:::\s*questao\s*\n([\s\S]*?)\n:::\s*$/gm,(_,q)=>{
+    n++;const en=[],al=[];let r="",ex="";
+    q.split("\n").forEach(l=>{let y;if((y=l.match(/^\s*([A-E])\)\s+(.*)$/)))al.push(y[1]+") "+inlineAnki(y[2]));else if((y=l.match(/^\s*=\s*([A-E])\s*\|\s*(.*)$/))){r=y[1];ex=inlineAnki(y[2])}else if(l.trim())en.push(inlineAnki(l))});
+    lista.push([`<b>${ref} · Questão ${n}</b><br>${en.join("<br>")}<br><br>${al.join("<br>")}`,`<b>Gabarito: ${r}</b><br>${ex}`,nomeDeck,tagBase+" questao"]);
+  });
+  return lista;
+}
+const fontesAnki=()=>[...estudo,...resumos];
+function baixarAnki(docs,nome){
+  const q=v=>'"'+String(v).replace(/"/g,'""')+'"';
+  const linhas=["#separator:tab","#html:true","#deck column:3","#tags column:4"];
+  docs.forEach(c=>cartoesDe(c).forEach(r=>linhas.push(r.map(q).join("\t"))));
+  const blob=new Blob([linhas.join("\n")+"\n"],{type:"text/plain;charset=utf-8"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=nome;document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);
+}
+function abrirAnki(){
+  const c=capAtual(),temCap=!c.lei&&!c.edital,nCap=temCap?cartoesDe(c).length:0,nTudo=fontesAnki().reduce((t,d)=>t+cartoesDe(d).length,0);
+  const bc=$("#ankiCap");bc.hidden=!temCap;bc.textContent=temCap?`Só este ${c.resumo?"resumo":"capítulo"} (${nCap} cartões)`:"";
+  $("#ankiTudo").textContent=`Tudo: capítulos e resumos (${nTudo} cartões)`;
+  $("#ankiDlg").hidden=false;$("#ankiTudo").focus();
+}
+$("#btnAnki").addEventListener("click",abrirAnki);
+$("#ankiFechar").addEventListener("click",()=>{$("#ankiDlg").hidden=true;$("#btnAnki").focus()});
+$("#ankiDlg").addEventListener("click",e=>{if(e.target.id==="ankiDlg")$("#ankiDlg").hidden=true});
+$("#ankiCap").addEventListener("click",()=>{const c=capAtual();baixarAnki([c],"alepa-anki-"+(c.resumo?rotulo(c):"cap"+String(c.num).padStart(2,"0"))+".txt")});
+$("#ankiTudo").addEventListener("click",()=>baixarAnki(fontesAnki(),"alepa-anki-completo.txt"));
+
 /* destaca a seção visível no sumário */
 let obs;
 function observar(secs,cap){
@@ -669,7 +755,7 @@ $("#q").addEventListener("input",e=>buscar(e.target.value));
 $("#busca").addEventListener("click",e=>{if(e.target.id==="busca")fecharBusca();if(e.target.closest("#res a"))$("#busca").hidden=true});
 $("#q").addEventListener("keydown",e=>{if(e.key==="Enter"){const a=$("#res a");if(a){a.click()}}});
 document.addEventListener("keydown",e=>{
-  if(e.key==="Escape"){if(!$("#busca").hidden)fecharBusca();else app.classList.remove("menu-aberto")}
+  if(e.key==="Escape"){if(!$("#ankiDlg").hidden){$("#ankiDlg").hidden=true;return}if(!$("#busca").hidden)fecharBusca();else app.classList.remove("menu-aberto")}
   if(e.key==="/"&&$("#busca").hidden&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();abrirBusca()}
 });
 

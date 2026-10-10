@@ -144,6 +144,16 @@ Aplicadas pela **ANPD**, após processo com ampla defesa, de forma gradativa:[^1
 - Órgão público não leva multa.
 - ANPD = Agência Nacional de Proteção de Dados.
 
+## Flashcards {- .flashcards}
+
+- LGPD: quem são os agentes de tratamento? :: **Controlador e operador**. O encarregado não é agente.
+- LGPD: controlador x operador :: **Controlador** decide sobre o tratamento; **operador** executa em nome dele.
+- LGPD: quantas bases legais tem o art. 7º? :: **10**. O consentimento é só uma delas.
+- LGPD: bases que NÃO existem para dados sensíveis :: **Legítimo interesse** e **proteção do crédito**.
+- LGPD: multa simples :: Até **2% do faturamento** no Brasil, limitada a **R$ 50 milhões por infração**.
+- LGPD: órgão público pode levar multa? :: **Não.** Sofre as demais sanções.
+- LGPD: dados de criança :: Consentimento específico e em destaque de **pelo menos um dos pais** ou do responsável.
+
 ## Questões de fixação {-}
 
 ::: questao

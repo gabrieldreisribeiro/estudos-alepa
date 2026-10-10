@@ -85,6 +85,19 @@ Palavras e expressões que costumam marcar **pressupostos**:[^4]
 - Subentendido = insinuação; pode ser negado.
 - Ideia central = o que o texto afirma sobre o tema.
 
+## Flashcards {- .flashcards}
+
+- Compreensão x interpretação :: **Compreensão**: o que está escrito. **Interpretação**: o que se pode concluir do texto.
+- "De acordo com o texto…" cobra o quê? :: **Compreensão**: a resposta está explícita no texto.
+- "Infere-se", "depreende-se" cobram o quê? :: **Interpretação**: uma conclusão que o texto autoriza.
+- Erro de **extrapolação** :: A alternativa **vai além** do texto.
+- Erro de **redução** :: A alternativa **toma a parte pelo todo**.
+- Erro de **contradição** :: A alternativa diz **o contrário** do texto.
+- O que é **pressuposto**? :: Informação implícita **marcada em palavras**. Continua valendo mesmo se a frase for negada.
+- O que é **subentendido**? :: **Insinuação** que depende do contexto; o falante pode negar.
+- "João parou de fumar" pressupõe… :: Que João **fumava** antes.
+- Palavras que acendem o alerta nas alternativas :: **Sempre, nunca, todos, nenhum, apenas, somente**.
+
 ## Questões de fixação {-}
 
 As questões de 1 a 6 se referem ao texto a seguir (texto escrito para este material).

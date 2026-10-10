@@ -142,6 +142,22 @@ São implementados de forma parecida com os de tempo compartilhado; a diferença
 - Real time não tem fatia de tempo; vale a prioridade.
 - Hard = falha grave; soft = perde qualidade.
 
+## Flashcards {- .flashcards}
+
+- O que é hardware? :: A parte **física** do computador: tudo o que é tangível.
+- O que é software? :: A parte **lógica**: programas, ou seja, conjuntos de instruções.
+- O que é firmware? Dê um exemplo. :: Software gravado num chip do hardware (ROM/flash). Ex.: **BIOS/UEFI**.
+- O que a BIOS/UEFI faz ao ligar o computador? :: Executa o **POST** (teste dos componentes) e carrega o sistema operacional (**boot**).
+- Driver é firmware? :: **Não.** Driver é software instalado no sistema operacional para ele conversar com um dispositivo.
+- Antivírus é software de que tipo? :: **Utilitário**.
+- Palavra-chave do processamento **batch** :: **Sem interação** do usuário; trabalhos executados em lote.
+- Palavra-chave do **time sharing** :: **Fatia de tempo** (quantum); interativo, também chamado de sistema **on-line**.
+- Palavra-chave do **real time** :: **Prazo rígido** (deadline): a resposta só é correta se vier dentro do tempo.
+- Time sharing precisa de mais de uma CPU? :: **Não.** Funciona com uma única CPU.
+- Tempo real significa "muito rápido"? :: **Não.** Significa ser **previsível** e cumprir sempre o prazo.
+- Hard real time x soft real time :: **Hard**: perder o prazo é falha grave (airbag). **Soft**: só perde qualidade (streaming).
+- Ponto fraco do processamento batch :: **Tempo de resposta longo**.
+
 ## Questões de fixação {-}
 
 Clique na alternativa que você acha correta.

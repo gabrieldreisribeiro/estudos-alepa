@@ -115,6 +115,15 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 - Prescrição: 5 anos da ciência.
 - CNEP = punidas pela 12.846; CEIS = inidôneas e suspensas.
 
+## Flashcards {- .flashcards}
+
+- Lei Anticorrupção: responsabilidade da empresa :: **Objetiva**, nas esferas administrativa e civil.
+- Lei Anticorrupção: responsabilidade dos dirigentes :: Na **medida da sua culpabilidade** (subjetiva).
+- Lei Anticorrupção: multa administrativa :: **0,1% a 20%** do faturamento bruto; sem faturamento, **R$ 6 mil a R$ 60 milhões**.
+- Lei Anticorrupção: efeitos da leniência :: Reduz a multa em até **2/3**; isenta da publicação extraordinária e da proibição de incentivos; **não exime o dano**.
+- Lei Anticorrupção: prescrição :: **5 anos** da ciência da infração.
+- Lei Anticorrupção: prazo da proibição judicial de receber incentivos :: **1 a 5 anos**.
+
 ## Questões de fixação {-}
 
 ::: questao

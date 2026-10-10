@@ -101,6 +101,21 @@ Uma dízima periódica sempre vira fração:[^1]
 - Dividir decimais: iguala as casas.
 - Dízima: 9 para cada algarismo do período.
 
+## Flashcards {- .flashcards}
+
+- Ordem de inclusão dos conjuntos numéricos :: **ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ**.
+- O que é um número racional? :: Pode ser escrito como **fração a/b**, com b ≠ 0.
+- O que é um número irracional? :: Decimal **infinito e não periódico** (√2, π).
+- √4 é racional ou irracional? :: **Racional** (√4 = 2).
+- Como somar frações? :: Iguale os denominadores (**MMC**) e some os numeradores.
+- Como dividir frações? :: Multiplique a primeira pelo **inverso** da segunda.
+- "1/4 do restante" significa… :: 1/4 vezes **o que sobrou**, não o total.
+- Fração geratriz de 0,777… :: **7/9**
+- Fração geratriz de 0,2555… :: (25 − 2)/90 = **23/90**
+- Como multiplicar decimais? :: Multiplique sem vírgula; o resultado tem a **soma das casas** decimais dos fatores.
+- Como dividir decimais? :: **Iguale as casas** (×10, ×100…) e divida normalmente.
+- 0,999… é igual a quanto? :: **1**
+
 ## Questões de fixação {-}
 
 ::: questao

@@ -108,6 +108,15 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 - Leniência: suspende a prescrição por até 360 dias.
 - Negociação da leniência: 180 dias.
 
+## Flashcards {- .flashcards}
+
+- Decreto 11.129: investigação preliminar :: **Sigilosa e não punitiva**; até **180 dias**, prorrogáveis.
+- Decreto 11.129: comissão do PAR :: **2 ou mais servidores estáveis**; **180 dias**, prorrogáveis.
+- Decreto 11.129: prazo de defesa no PAR :: **30 dias**.
+- Decreto 11.129: atenuante do programa de integridade :: Até **5%** (máximo só se o programa for anterior ao ato lesivo).
+- Decreto 11.129: natureza do acordo de leniência :: **Ato administrativo negocial**.
+- Decreto 11.129: a negociação da leniência suspende a prescrição por até… :: **360 dias**.
+
 ## Questões de fixação {-}
 
 ::: questao

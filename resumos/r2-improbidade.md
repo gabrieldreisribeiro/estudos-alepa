@@ -108,6 +108,15 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 - Prescrição: 8 anos do fato; interrompida, 4 anos.
 - Indisponibilidade não atinge até 40 salários mínimos.
 
+## Flashcards {- .flashcards}
+
+- Improbidade: existe modalidade culposa? :: **Não**, desde a Lei 14.230/2021. Só **dolosa**.
+- Improbidade: as três espécies :: Art. 9º **enriquecimento ilícito**; art. 10 **lesão ao erário**; art. 11 **violação de princípios**.
+- Improbidade: suspensão dos direitos políticos :: Até **14 anos** (art. 9º) e até **12 anos** (art. 10). O art. 11 não tem.
+- Improbidade: sanções do art. 11 :: Multa de até **24x** a remuneração e proibição de contratar por até **4 anos**.
+- Improbidade: prescrição :: **8 anos** do fato; interrompida, recomeça pela **metade (4 anos)**.
+- Improbidade: quando as sanções são executadas? :: Só após o **trânsito em julgado**.
+
 ## Questões de fixação {-}
 
 ::: questao

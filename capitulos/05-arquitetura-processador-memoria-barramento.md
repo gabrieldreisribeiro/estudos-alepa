@@ -163,6 +163,23 @@ Fonte: Stallings, cap. 3.[^1]
 - n bits de endereço = 2ⁿ endereços.
 - RISC: poucas instruções simples; CISC: muitas e complexas.
 
+## Flashcards {- .flashcards}
+
+- Função da Unidade de Controle :: **Busca, decodifica e coordena** a execução das instruções.
+- Função da ULA :: Operações **aritméticas e lógicas**.
+- Ciclo de instrução :: **Busca → decodificação → execução**.
+- Registrador **PC** :: Guarda o **endereço da próxima instrução**.
+- Registrador **IR** :: Guarda a **instrução em execução**.
+- MAR x MBR :: **MAR**: endereço a acessar na memória. **MBR**: dado lido ou a escrever.
+- Hierarquia de memória, da mais rápida para a mais lenta :: **Registradores → cache → RAM → memória secundária**.
+- SRAM x DRAM :: **SRAM**: rápida e cara, usada na **cache**. **DRAM**: barata, precisa de refresh, usada na **RAM**.
+- Princípio que justifica a memória cache :: **Localidade** (temporal e espacial).
+- Os três barramentos do sistema :: **Dados** (bidirecional), **endereços** (unidirecional) e **controle**.
+- Quanta memória endereçam 32 bits de endereço? :: 2³² bytes = **4 GB**.
+- RISC x CISC :: **RISC**: poucas instruções simples, tamanho fixo, muitos registradores. **CISC**: muitas instruções complexas, tamanho variável.
+- Von Neumann x Harvard :: **Von Neumann**: dados e instruções na mesma memória. **Harvard**: memórias separadas.
+- EEPROM / Flash :: **Não volátil**, apagável **eletricamente** (BIOS, pendrive, SSD).
+
 ## Questões de fixação {-}
 
 ::: questao

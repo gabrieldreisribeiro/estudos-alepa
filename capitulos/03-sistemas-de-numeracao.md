@@ -131,6 +131,20 @@ Para converter a parte depois da vírgula de decimal para binário, **multipliqu
 - Octal ↔ hexa: passe pelo binário.
 - Fração: multiplicações por 2, lidas de cima para baixo.
 
+## Flashcards {- .flashcards}
+
+- Valores de A a F no hexadecimal :: A=10, B=11, C=12, D=13, E=14, **F=15**.
+- Maior dígito de uma base :: **Base − 1** (ex.: 7 no octal).
+- Decimal → base n :: **Divisões sucessivas** pela base; restos lidos **de baixo para cima**.
+- Base n → decimal :: Soma de cada dígito × **potência da base** da sua posição.
+- Binário → octal :: Grupos de **3 bits**, a partir da direita.
+- Binário → hexadecimal :: Grupos de **4 bits**, a partir da direita.
+- Quantos valores cabem em n bits? :: **2ⁿ** valores, de 0 até 2ⁿ − 1.
+- (1011)₂ em decimal :: **11**
+- (FF)₁₆ em decimal :: **255**
+- 0,625 em binário :: **0,101**
+- Como converter octal ↔ hexadecimal? :: Passando pelo **binário**.
+
 ## Questões de fixação {-}
 
 ::: questao
