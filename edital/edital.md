@@ -65,8 +65,8 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 ### 2 Arquitetura de Computadores
 
 - [ ] Componentes de hardware, memória, processador, registradores e barramento → [Cap. 5](#5)
-- [ ] Dispositivos e mídias de armazenamento de dados
-- [ ] Interfaces USB, SATA e NVMe; interfaces de entrada/saída
+- [ ] Dispositivos e mídias de armazenamento de dados → [Cap. 7](#7)
+- [ ] Interfaces USB, SATA e NVMe; interfaces de entrada/saída → [Cap. 7](#7)
 
 ### 3 Sistemas Operacionais
 
@@ -83,7 +83,7 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 ### 5 Sistemas de Arquivamento e Proteção
 
 - [ ] Arquivo, registro, métodos de acesso, organização de diretórios, proteção de arquivos
-- [ ] Proteção de sistemas e equipamentos: proteção lógica e física, backup, estabilizadores, no-breaks
+- [ ] Proteção de sistemas e equipamentos: proteção lógica e física, backup, estabilizadores, no-breaks → [Cap. 9](#9)
 
 ### 6 Algoritmos e Linguagens de Programação
 
@@ -157,8 +157,8 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 
 - [ ] Compreensão e interpretação de textos → [Cap. 2](#2)
 - [ ] Argumentação e persuasão
-- [ ] Ortografia
-- [ ] Acentuação gráfica
+- [ ] Ortografia → [Cap. 8](#8)
+- [ ] Acentuação gráfica → [Cap. 8](#8)
 - [ ] Comunicação assertiva: linguagem simples, concisa e objetiva
 - [ ] Emprego do sinal indicativo de crase
 - [ ] Uso dos porquês
@@ -182,10 +182,10 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 - [ ] LGPD (Lei nº 13.709/2018) → [Resumo R1](#r-lgpd) · [texto](#lgpd)
 - [ ] Lei Anticorrupção (Lei nº 12.846/2013) → [Resumo R3](#r-l12846) · [texto](#l12846)
 - [ ] Decreto nº 11.129/2022 → [Resumo R4](#r-d11129) · [texto](#d11129)
-- [ ] Ética e moral; ética, princípios, valores e a lei
+- [ ] Ética e moral; ética, princípios, valores e a lei → [Cap. 10](#10)
 - [ ] Ética e democracia: exercício da cidadania
 - [ ] Conduta ética; ética profissional; ética e responsabilidade social
-- [ ] Ética e função pública; ética no setor público
+- [ ] Ética e função pública; ética no setor público → [Cap. 10](#10)
 - [ ] Improbidade (Lei nº 8.429/1992, com a Lei nº 14.230/2021) → [Resumo R2](#r-l8429) · [texto](#l8429)
 
 ### Constituição do Pará e técnica legislativa
@@ -213,7 +213,7 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 ## Noções de Informática (5 questões) {-}
 
 - [ ] Windows 10 e Windows 11
-- [ ] Conceitos básicos de hardware e periféricos → [Cap. 1](#1) · [Cap. 5](#5)
+- [ ] Conceitos básicos de hardware e periféricos → [Cap. 1](#1) · [Cap. 5](#5) · [Cap. 9](#9)
 - [ ] Word, Excel e PowerPoint (2013 até O365) e LibreOffice 7 ou superior
 - [ ] Segurança da informação: controle de USB, hardening, antimalware e firewall pessoal
 - [ ] Organização e gerenciamento de informações, arquivos, pastas e programas
