@@ -95,6 +95,7 @@ A administração pública obedece aos princípios de **Legalidade, Impessoalida
 ## Flashcards {- .flashcards}
 
 - Ética x moral :: **Ética**: reflexão teórica (ethos). **Moral**: normas e costumes praticados (mores).
+- "Ética é…" (definição de prova) :: Um **sistema de conhecimentos racionais e objetivos** sobre o comportamento humano. "Conjunto de bom comportamento" é **moral**.
 - Qual muda conforme a época e a cultura? :: A **moral**.
 - O que é legal é sempre ético? :: **Não**. A lei é o mínimo; a ética pede mais.
 - Princípios da Administração (art. 37 da CF) :: **LIMPE**: legalidade, impessoalidade, moralidade, publicidade e eficiência.
@@ -215,9 +216,22 @@ E) de eficiência.
 = D | Gabarito **oficial definitivo** da CETAP. **LIMPE** (CF, art. 37): legalidade, impessoalidade, moralidade, **publicidade** e eficiência. "Obscuridade" é o contrário de publicidade.
 :::
 
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Publicitário · Questão 41**[^5] · [ver prova](https://www.estudegratis.com.br/images/provas/15564-cetap-2010-al-rr-publicitario-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15564-cetap-2010-al-rr-publicitario-gabarito.pdf)
+
+Ética é:
+A) algo utópico que apenas sedimenta o que se deseja.
+B) uma filosofia moderna que surgiu após a Segunda Guerra Mundial.
+C) um sistema de conhecimentos racionais e objetivos a respeito do comportamento humano.
+D) um conjunto assistemático de bom comportamento.
+E) jamais mentir, apenas.
+= C | Gabarito **oficial definitivo** da CETAP. Ética é **reflexão sistemática** (teórica, racional) sobre a conduta humana. "Conjunto de bom comportamento" descreve a **moral**, e "assistemático" está errado.
+:::
+
 ## Referências {- .referencias}
 
 1. CHAUI, Marilena. *Convite à Filosofia*. São Paulo: Ática, 2000. Unidade 8 — O mundo da prática (a existência ética).
 2. BRASIL. Constituição da República Federativa do Brasil de 1988, art. 37, caput. Disponível em: <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>.
 3. BRASIL. Decreto nº 1.171, de 22 de junho de 1994. Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (incisos I a XV, XVI, XXII e XXIV; alguns incisos revogados pelo Decreto nº 6.029/2007). Disponível em: <https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm>. Acesso em: 10 out. 2026.
 4. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Assistente Legislativo, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15595-cetap-2010-al-rr-assistente-legislativo-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15595-cetap-2010-al-rr-assistente-legislativo-gabarito.pdf>. Acesso em: 11 out. 2026.
+5. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Publicitário, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15564-cetap-2010-al-rr-publicitario-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15564-cetap-2010-al-rr-publicitario-gabarito.pdf>. Acesso em: 11 out. 2026.

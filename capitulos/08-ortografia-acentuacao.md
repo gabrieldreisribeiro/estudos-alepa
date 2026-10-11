@@ -260,9 +260,22 @@ E) "Há muito tempo estive no México..."
 = A | Gabarito **oficial definitivo** da CETAP. **têm** leva o acento circunflexo porque é **plural** (concorda com "os bichos"). No singular: o bicho **tem**. As outras são regras de oxítona (pegá, três), monossílabo tônico (é, há) e proparoxítona (México).
 :::
 
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Revisor de Texto · Questão 34**[^5] · [ver prova](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-gabarito.pdf)
+
+Considere a palavra "relíquia". A mesma razão gramatical da palavra "relíquia" justifica o acento gráfico em:
+A) funcionário.
+B) público.
+C) até.
+D) constituía.
+E) única.
+= A | Gabarito **oficial definitivo** da CETAP. **Relíquia** e **funcionário** são **paroxítonas terminadas em ditongo** (re-lí-**quia**, fun-cio-ná-**rio**). Público e única são proparoxítonas; até é oxítona; constituía é hiato.
+:::
+
 ## Referências {- .referencias}
 
 1. BRASIL. Decreto nº 6.583, de 29 de setembro de 2008. Promulga o Acordo Ortográfico da Língua Portuguesa (Anexo, Bases I, VIII a XI, XIV e XVI). Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm>.
 2. BRASIL. Decreto nº 7.875, de 27 de dezembro de 2012. Prazo de transição do Acordo Ortográfico até 31 de dezembro de 2015. Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7875.htm>.
 3. BECHARA, Evanildo. *Moderna Gramática Portuguesa*. 38. ed. Rio de Janeiro: Nova Fronteira, 2015. Parte sobre ortografia.
 4. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Analista Técnico I – Analista de Sistemas, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-gabarito.pdf>. Acesso em: 11 out. 2026.
+5. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Revisor de Texto, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-gabarito.pdf>. Acesso em: 11 out. 2026.

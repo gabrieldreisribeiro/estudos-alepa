@@ -116,6 +116,30 @@ Para converter a parte depois da vírgula de decimal para binário, **multipliqu
 > [!PEGADINHA]
 > Na parte inteira os restos são lidos **de baixo para cima**. Na parte fracionária, os bits são lidos **de cima para baixo**.
 
+## Números negativos em binário
+
+A CETAP cobrou este assunto nas três questões de numeração das provas de 2010 (veja as questões da banca no fim do capítulo). Nas três formas, o **bit mais à esquerda** (o mais significativo) indica o **sinal**: **0 = positivo**, **1 = negativo**.[^2]
+
+| Representação | Como obter o negativo | −6 com 5 bits (+6 = 00110) |
+|---|---|---|
+| **Sinal e magnitude** | Troca só o bit do sinal | **1**0110 |
+| **Complemento de 1** | **Inverte todos** os bits | 11001 |
+| **Complemento de 2** | Inverte todos os bits e **soma 1** | 11001 + 1 = **11010** |
+
+Fonte: Tanenbaum e Austin, apêndice A.[^2]
+
+> [!SIMPLES]
+> - **Sinal e magnitude** é o jeito "humano": um bit diz se é + ou −, o resto é o número.
+> - **Complemento de 1**: troque cada 0 por 1 e cada 1 por 0.
+> - **Complemento de 2**: faça o complemento de 1 e **some 1**. É o que os computadores usam de verdade, porque assim a soma de positivos e negativos funciona sem regra especial.
+
+> [!EXEMPLO]
+> Em complemento de 2 com 5 bits: A = 11010 (−6) e B = 01010 (+10).
+> A + B = 11010 + 01010 = **1**00100 → descarta o "vai um" que passou dos 5 bits → **00100 = 4**. Conferindo: −6 + 10 = 4.
+
+> [!PEGADINHA]
+> Para saber quanto vale um número negativo em complemento de 2, faça o caminho de volta: **inverta e some 1**. 11010 → 00101 + 1 = 00110 = 6, então 11010 = **−6**. Lido "sem sinal", o mesmo 11010 valeria 26: a banca coloca esse valor como alternativa errada.
+
 ## Revisão rápida {- .colunas}
 
 - Posicional: cada posição vale uma potência da base.
@@ -130,6 +154,8 @@ Para converter a parte depois da vírgula de decimal para binário, **multipliqu
 - Grupos a partir da direita; zeros à esquerda.
 - Octal ↔ hexa: passe pelo binário.
 - Fração: multiplicações por 2, lidas de cima para baixo.
+- Bit mais à esquerda = sinal (1 = negativo).
+- Complemento de 1: inverte; complemento de 2: inverte e soma 1.
 
 ## Flashcards {- .flashcards}
 
@@ -144,6 +170,11 @@ Para converter a parte depois da vírgula de decimal para binário, **multipliqu
 - (FF)₁₆ em decimal :: **255**
 - 0,625 em binário :: **0,101**
 - Como converter octal ↔ hexadecimal? :: Passando pelo **binário**.
+- Símbolos do hexadecimal :: **0 a 9 e A a F** (16 símbolos). "10, 11… 15" não são dígitos.
+- Bit que indica o sinal :: O **mais significativo** (mais à esquerda): **0 = +**, **1 = −**.
+- Complemento de 1 de 00110 :: **11001** (inverte todos os bits).
+- Complemento de 2 de 00110 :: **11010** (inverte e **soma 1**) = −6.
+- Qual representação de negativos o computador usa? :: **Complemento de 2**.
 
 ## Questões de fixação {-}
 
@@ -273,8 +304,31 @@ E) Nenhuma das afirmativas está correta.
 = D | Gabarito **oficial definitivo** da CETAP. I está errada: os símbolos do hexadecimal são **0–9 e A–F** (não "12, 13…"). II está errada: bit é **0 ou 1**. III está certa: 9 = 1001 e 2 = 0010. IV e V tratam de **complemento**: complemento de um = **inverter todos os bits** (00110 → 11001); complemento de dois = complemento de um **+ 1** (11001 + 1 = 11010), que representa o negativo (−6).
 :::
 
+::: questao
+**CETAP · 2010 · DETRAN-RR · Programador de Computador · Questão 31**[^4] · [ver prova](https://www.estudegratis.com.br/images/provas/15588-cetap-2010-detran-rr-programador-de-computador-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15588-cetap-2010-detran-rr-programador-de-computador-gabarito.pdf)
+
+O sistema de numeração dominante nos sistemas computacionais usa a representação numérica em base 2 (dois). Na nossa sociedade utilizamos com muita freqüência a representação decimal. Com relação aos sistemas de numeração em sistemas digitais, analise as afirmativas a seguir a assinale a alternativa CORRETA.
+
+I - O número decimal 49 pode ser representado, usando 8 dígitos e base 2, pelo número 00110001;
+
+II - No sistema binário não é possível a representação e a aritmética de ponto flutuante;
+
+III - Nos computadores que operam no sistema binário, as operações aritméticas de inteiros são realizadas usando a representação decimal;
+
+IV - Um dos métodos para representar inteiros negativos em sistemas digitais usa o bit mais significativo do número para representar o sinal (positivo ou negativo);
+
+V - Um número representado em uma base não pode ser convertido para uma representação em base diferente.
+A) Somente a afirmativa I está correta.
+B) Somente as afirmativas I e IV estão corretas.
+C) Somente as afirmativas I, II e IV estão corretas.
+D) Somente as afirmativas II, III e IV estão corretas.
+E) Todas as afirmativas estão corretas.
+= B | Gabarito **oficial definitivo** da CETAP. I: 49 = 32 + 16 + 1 = **00110001**. IV: é a representação **sinal e magnitude** (bit da esquerda = sinal). II, III e V são falsas: o binário representa ponto flutuante, o computador faz as contas **em binário** e qualquer base pode ser convertida em outra.
+:::
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Cap. 9 — Sistemas numéricos.
 2. TANENBAUM, Andrew S.; AUSTIN, Todd. *Organização Estruturada de Computadores*. 6. ed. São Paulo: Pearson, 2013. Apêndice A — Números binários.
 3. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Técnico em Atividade Administrativa – Técnico em Rede de Computador, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.
+4. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Técnico em Atividade Administrativa – Programador de Computador, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15588-cetap-2010-detran-rr-programador-de-computador-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15588-cetap-2010-detran-rr-programador-de-computador-gabarito.pdf>. Acesso em: 11 out. 2026.

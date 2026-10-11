@@ -47,6 +47,13 @@ lead: Só o que o tema pede: conceito e características de hardware e software,
 > [!PEGADINHA]
 > **Driver** não é firmware: driver é software instalado no sistema operacional para que ele saiba conversar com um dispositivo.
 
+### Software embarcado
+
+É o software de um **sistema embarcado**: um computador **dentro de outro equipamento**, que não é um computador de uso geral e faz **uma função específica**. Exemplos: micro-ondas, injeção eletrônica do carro, roteador, catraca. Normalmente fica gravado como firmware.[^6]
+
+> [!SIMPLES]
+> Seu micro-ondas tem um "computadorzinho" que só sabe fazer uma coisa: controlar o micro-ondas. O programa dele é o **software embarcado**. A CETAP já perguntou exatamente essa definição (veja as questões da banca no fim do capítulo).
+
 ## Hardware x Software
 
 | | Hardware | Software |
@@ -134,6 +141,7 @@ São implementados de forma parecida com os de tempo compartilhado; a diferença
 - Hardware sozinho não funciona; software depende do hardware.
 - Hardware falha por desgaste; software, por bug.
 - Firmware = software gravado no hardware (BIOS/UEFI).
+- Software embarcado: dentro de um equipamento que não é computador de uso geral, com função específica.
 - SO e drivers = software básico; antivírus = utilitário.
 - Batch = sem interação, alta vazão, resposta lenta.
 - Time sharing = fatia de tempo, interativo, on-line.
@@ -150,6 +158,7 @@ São implementados de forma parecida com os de tempo compartilhado; a diferença
 - O que a BIOS/UEFI faz ao ligar o computador? :: Executa o **POST** (teste dos componentes) e carrega o sistema operacional (**boot**).
 - Driver é firmware? :: **Não.** Driver é software instalado no sistema operacional para ele conversar com um dispositivo.
 - Antivírus é software de que tipo? :: **Utilitário**.
+- O que é software embarcado? :: Software de um equipamento que **não é computador de uso geral**, com **função específica** (micro-ondas, carro, roteador).
 - Palavra-chave do processamento **batch** :: **Sem interação** do usuário; trabalhos executados em lote.
 - Palavra-chave do **time sharing** :: **Fatia de tempo** (quantum); interativo, também chamado de sistema **on-line**.
 - Palavra-chave do **real time** :: **Prazo rígido** (deadline): a resposta só é correta se vier dentro do tempo.

@@ -97,6 +97,8 @@ Palavras e expressões que costumam marcar **pressupostos**:[^4]
 - O que é **subentendido**? :: **Insinuação** que depende do contexto; o falante pode negar.
 - "João parou de fumar" pressupõe… :: Que João **fumava** antes.
 - Palavras que acendem o alerta nas alternativas :: **Sempre, nunca, todos, nenhum, apenas, somente**.
+- "Era a **única** virtude do chefe" pressupõe… :: Que ele **não tinha outras** virtudes. **Único, só, apenas** marcam pressuposto.
+- Texto: "existem políticos honestos". Alternativa: "todos são corruptos". Qual o erro? :: **Generalização** que contradiz o texto (extrapolação). Questão real da CETAP.
 
 ## Questões de fixação {-}
 
@@ -199,9 +201,60 @@ E) a identificação de erros gramaticais.
 = B | "Depreende-se" pede interpretação (inferência), sempre com base no texto. C e D são extrapolação.
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Revisor de Texto · Questão 32**[^5] · [ver prova](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-gabarito.pdf)
+
+> **TEXTO** (trecho de uma circular de 1794 aos funcionários públicos da França)
+>
+> O funcionário público, acima de tudo, deve desfazer-se da roupagem antiga e abandonar a polidez forçada, tão inconsistente com a postura dos homens livres, e que é uma relíquia do tempo em que alguns homens eram ministros e outros, seus escravos. Sabemos que as velhas formas de governo já desapareceram: devemos até esquecer como eram. As maneiras simples e naturais devem substituir a dignidade artificial que frequentemente constituía a única virtude de um chefe de departamento ou outro funcionário graduado. Decência e genuína seriedade são os requisitos exigidos de homens dedicados à coisa pública. A qualidade essencial do Homem na Natureza consiste em ficar de pé. O jargão ininteligível dos velhos ministérios deve dar lugar ao estilo claro, conciso, isento de expressões de servilismo, de formas obsequiosas, indiretas e pedantes, ou de qualquer insinuação no sentido de que existe autoridade superior à razão e à ordem estabelecida pelas leis - um estilo que adote atitude natural em relação às autoridades subalternas. Não deve haver frases convencionais, nem desperdício de palavras.
+>
+> *Apud* LASSWELL, Harold e KAPLAN, Abraham. *A linguagem da política*. Brasília: EUB, 1979. p. 43.
+
+Ao dizer que "A qualidade essencial do Homem na Natureza consiste em ficar de pé", estabeleceu-se uma argumentação oposta à (a):
+A) decência.
+B) obsequiosa.
+C) coisa pública.
+D) servilismo.
+E) conciso.
+= D | Gabarito **oficial definitivo** da CETAP. **Ficar de pé** é a imagem de quem não se curva. O oposto disso, no texto, é o **servilismo** (agir como servo). A questão pede para ligar a imagem à ideia que ela combate: é interpretação, não gramática.
+:::
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Revisor de Texto · Questão 37**[^5] · [ver prova](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-gabarito.pdf)
+
+(Mesmo texto da questão anterior.)
+
+"As maneira simples e naturais devem substituir a dignidade artificial que frequentemente constituía a única virtude de um chefe de departamento ou outro funcionário graduado". A análise do fragmento leva-se a afirmar:
+A) que a forma verbal "devem substituir" subentende que houve outra forma de governo.
+B) que o vocábulo "única" pressupõe exclusão de outras qualidades.
+C) que a oração adjetiva presente não serve de pressuposto negativo.
+D) que o advérbio "frequentemente" atenua a visão negativa dos funcionários graduados.
+E) que se subentende haver vários tipos de funcionários graduados.
+= B | Gabarito **oficial definitivo** da CETAP. É uma questão de **pressuposto**: dizer que a dignidade artificial era a **única** virtude pressupõe que eles **não tinham outras**. A palavra "única" é o marcador.
+:::
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Revisor de Texto · Questão 44**[^5] · [ver prova](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-gabarito.pdf)
+
+Leia o fragmento e assinale a alternativa que NÃO está coerente com o conteúdo textual
+
+> "Embora existam políticos competentes e honestos, preocupados com as legítimas causas populares, os jornais, na semana passada, noticiaram casos de corrupção comprovada, praticados por um político eleito pelo povo. Isso demonstra que o povo não sabe escolher seus governantes." (Para Entender o Texto, 269)
+A) A conclusão do texto é incoerente com os pressupostos nele colocados.
+B) Casos de corrupção comprovados se referem a um político que foi eleito pelo povo.
+C) Entre os governantes se incluem também políticos honestos.
+D) Conclui-se que o povo sabe escolher seus governantes.
+E) O povo escolhe seus governantes e todos são corruptos.
+= E | Gabarito **oficial definitivo** da CETAP. O próprio texto diz que **existem políticos honestos**; "todos são corruptos" contradiz isso. É a **extrapolação**: generalizar além do que foi dito.
+:::
+
 ## Referências {- .referencias}
 
 1. KOCH, Ingedore Villaça; ELIAS, Vanda Maria. *Ler e compreender: os sentidos do texto*. São Paulo: Contexto, 2006. Cap. 1 — Leitura, texto e sentido.
 2. MARCUSCHI, Luiz Antônio. *Produção textual, análise de gêneros e compreensão*. São Paulo: Parábola, 2008. Parte III — Compreensão textual.
 3. DUCROT, Oswald. *Princípios de semântica linguística: dizer e não dizer*. São Paulo: Cultrix, 1977.
 4. FIORIN, José Luiz; SAVIOLI, Francisco Platão. *Para entender o texto: leitura e redação*. São Paulo: Ática, 2007. Lição sobre implícitos: pressupostos e subentendidos.
+5. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Revisor de Texto, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15546-cetap-2010-al-rr-revisor-de-texto-gabarito.pdf>. Acesso em: 11 out. 2026.

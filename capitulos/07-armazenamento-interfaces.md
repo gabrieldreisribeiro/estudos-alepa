@@ -73,6 +73,11 @@ Gravadas e lidas por **laser**.[^1]
 - Versões: **SATA I = 1,5 Gb/s**, **SATA II = 3 Gb/s**, **SATA III = 6 Gb/s** (cerca de 600 MB/s na prática).[^3]
 - Permite **hot-plug** (conectar com o computador ligado) quando o controlador trabalha em modo AHCI.[^3]
 - **eSATA** é a versão para discos **externos**.
+- O cabo SATA é **estreito**; o do IDE era uma fita **larga** (flat). Em PCs antigos sem SATA, dá para instalar uma **controladora SATA num slot PCI**. A mesma controladora liga HDs e drives de CD/DVD.
+- **SCSI**: interface antiga, usada principalmente em **servidores**.
+
+> [!PEGADINHA]
+> **HD externo** se liga por **USB** (ou eSATA), e não por IDE. A CETAP já usou "discos externos são conectados através de controladoras IDE" como alternativa **errada**.
 
 ### NVMe (NVM Express)
 
@@ -169,6 +174,8 @@ Fonte: Stallings, cap. 7.[^1]
 - CD-R x CD-RW :: **-R** grava uma vez; **-RW** é regravável.
 - Velocidade do SATA III :: **6 Gb/s** (cerca de 600 MB/s).
 - SATA substituiu qual interface? :: **IDE/PATA** (paralela).
+- HD externo se conecta por… :: **USB** (ou eSATA). IDE é interno e antigo.
+- USB é serial ou paralelo? :: **Serial** (o S de USB) e não depende do sistema operacional.
 - O que é NVMe? :: **Protocolo** para SSD que usa o barramento **PCIe**, com muitas filas de comandos.
 - M.2 é velocidade ou formato? :: **Formato** físico; pode ser SATA ou NVMe.
 - Velocidade do USB 2.0 e do USB 3.0 :: USB 2.0 **480 Mb/s**; USB 3.0 **5 Gb/s**.

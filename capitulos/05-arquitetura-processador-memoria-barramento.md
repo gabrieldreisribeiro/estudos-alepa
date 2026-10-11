@@ -28,6 +28,9 @@ Fonte: Stallings, cap. 14.[^1]
 > [!SIMPLES]
 > A **UC** é o **gerente**: lê a ordem e diz quem faz o quê. A **ULA** é a **calculadora**. Os **registradores** são o **rascunho** do processador, onde ele anota o que está usando naquele instante.
 
+> [!PEGADINHA]
+> A **memória principal não faz parte da CPU**. A CPU é formada por **UC, ULA e registradores**. A memória principal fica **fora** dela e se liga à CPU pelo barramento. A CETAP já considerou **errada** a frase "a CPU possui 4 componentes: registradores, ULA, UC e memória principal".[^1]
+
 ### Ciclo de instrução
 
 Toda instrução passa por: **busca** (*fetch*) → **decodificação** (*decode*) → **execução** (*execute*). Depois o processador busca a próxima.[^1]
@@ -40,6 +43,7 @@ Toda instrução passa por: **busca** (*fetch*) → **decodificação** (*decode
 - **Clock**: frequência do processador, medida em **hertz** (GHz = bilhões de ciclos por segundo).[^1]
 - **Multicore**: vários **núcleos** num mesmo chip, que executam tarefas **em paralelo**.[^1]
 - **Pipeline**: sobrepõe as etapas de várias instruções, como uma **linha de montagem**.[^1]
+- **Bits do processador** (16, 32, 64): quantos bits ele processa **de uma vez** (o tamanho da **palavra**). Um sistema operacional de 32 bits **não aproveita** os recursos de um processador de 64 bits. E 64 bits não é exclusividade da Intel: AMD e ARM também têm.[^1]
 
 > [!SIMPLES]
 > O **clock** é o "ritmo" do processador. Ter **mais núcleos** é como ter **mais cozinheiros** trabalhando ao mesmo tempo. O **pipeline** é começar a ler a próxima receita enquanto a anterior ainda está no forno.
@@ -58,6 +62,9 @@ Fonte: Stallings, cap. 15.[^1]
 
 > [!SIMPLES]
 > **RISC** usa poucas ordens simples e rápidas, e combina várias para fazer algo complexo. **CISC** tem ordens "prontas" para tarefas complexas, mas cada uma demora mais.
+
+> [!PEGADINHA]
+> Os processadores **x86 atuais são híbridos**: por fora aceitam instruções **CISC**, mas por dentro as quebram em **micro-operações simples**, no estilo RISC. Por isso é **falso** dizer que "não é possível juntar as duas tecnologias no mesmo processador". O CISC usa **microcódigo** para decodificar as instruções.[^1]
 
 ## Registradores
 
@@ -145,6 +152,15 @@ Fonte: Stallings, cap. 3.[^1]
 > Exemplo: **32 bits** de endereço → 2³² = **4 GB** (endereçando byte a byte).
 > A **largura do barramento de dados** define quantos bits são transferidos **de uma vez**.
 
+> [!CAI]
+> - **Barramento síncrono**: tudo acontece no ritmo de um **clock** comum, que serve de referência de tempo.
+> - **Barramento assíncrono**: **sem clock** comum; os dispositivos se coordenam por sinais de confirmação (*handshake*).
+> - **Arbitragem**: decide **quem usa o barramento** quando dois dispositivos querem usá-lo ao mesmo tempo.
+> - O barramento de **controle** leva **sinais de comando**, não energia. A energia vem pelas linhas de **alimentação**.[^1]
+
+> [!SIMPLES]
+> Síncrono é uma banda tocando no ritmo do **mesmo baterista** (o clock). Assíncrono é uma conversa em que cada um espera o outro dizer **"recebi"**. A arbitragem é o **semáforo** do barramento.
+
 ## Revisão rápida {- .colunas}
 
 - Von Neumann: dados e instruções na mesma memória.
@@ -162,6 +178,9 @@ Fonte: Stallings, cap. 3.[^1]
 - Barramento de endereço é unidirecional.
 - n bits de endereço = 2ⁿ endereços.
 - RISC: poucas instruções simples; CISC: muitas e complexas.
+- CPU = UC + ULA + registradores (memória principal fica fora).
+- x86 atual: híbrido (CISC por fora, RISC por dentro).
+- Barramento síncrono usa clock; assíncrono, handshake; arbitragem resolve conflitos.
 
 ## Flashcards {- .flashcards}
 
@@ -179,6 +198,12 @@ Fonte: Stallings, cap. 3.[^1]
 - RISC x CISC :: **RISC**: poucas instruções simples, tamanho fixo, muitos registradores. **CISC**: muitas instruções complexas, tamanho variável.
 - Von Neumann x Harvard :: **Von Neumann**: dados e instruções na mesma memória. **Harvard**: memórias separadas.
 - EEPROM / Flash :: **Não volátil**, apagável **eletricamente** (BIOS, pendrive, SSD).
+- A memória principal faz parte da CPU? :: **Não.** CPU = **UC + ULA + registradores**.
+- x86 atual é RISC ou CISC? :: **CISC por fora, RISC por dentro** (híbrido, com micro-operações).
+- Dual-core :: **Dois núcleos** no mesmo chip: dois processos executando ao mesmo tempo.
+- Barramento síncrono x assíncrono :: **Síncrono**: segue um **clock**. **Assíncrono**: sem clock, usa **handshake**.
+- Arbitragem do barramento :: Resolve **conflitos** quando dois dispositivos querem usar o barramento ao mesmo tempo.
+- O que o barramento de controle transporta? :: **Sinais de comando** (ler, escrever, interrupção, clock), **não** energia.
 
 ## Questões de fixação {-}
 

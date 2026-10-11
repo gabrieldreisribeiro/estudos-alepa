@@ -104,6 +104,11 @@ Fonte: Tanenbaum e Austin, cap. 2.[^5]
 - Teclado **ABNT2**: padrão brasileiro, com a tecla **Ç**.
 - **Plug and play**: o sistema reconhece e configura o periférico sozinho; o **driver** é o programa que permite ao sistema usar o dispositivo.[^5]
 - Conexões comuns: **USB**, **HDMI** e **DisplayPort** (vídeo), **Bluetooth** (sem fio).
+- Teclado digitando caracteres trocados (o Ç não sai, acentos errados): é o **layout/idioma** errado (ABNT2 x US), que se ajusta **no sistema operacional**, não na BIOS.[^7]
+- **Impressoras**: um computador pode ter **várias** instaladas, e uma é a **padrão**. A **fila de impressão** mostra os documentos que esperam ou deram erro. Algumas se ligam **direto à rede**, por cabo de rede.[^7]
+
+> [!SIMPLES]
+> A CETAP gosta de instalação e configuração do dia a dia: "o Ç não sai" é configuração do **teclado no Windows**; "dá para ter mais de uma impressora?" **Sim**. Desconfie de alternativas com **"somente"** e **"sempre"**.
 
 ## Revisão rápida {- .colunas}
 
@@ -136,6 +141,8 @@ Fonte: Tanenbaum e Austin, cap. 2.[^5]
 - Impressora de impacto que imprime várias vias :: **Matricial**.
 - Unidade de resolução de impressora e scanner :: **dpi** (pontos por polegada).
 - O que é plug and play? :: O sistema **reconhece e configura** o dispositivo sozinho ao conectar.
+- Teclado com caracteres trocados: onde corrigir? :: No **layout/idioma do teclado** no sistema operacional (ABNT2), **não na BIOS**.
+- Um computador pode ter mais de uma impressora? :: **Sim**; uma fica como **padrão**. A **fila** mostra o que espera ou deu erro.
 
 ## Questões de fixação {-}
 
@@ -265,3 +272,4 @@ E) Somente se pode configurar uma impressora por computador.
 4. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. *NBR ISO/IEC 27002: Segurança da informação, segurança cibernética e proteção à privacidade — Controles de segurança da informação*. Rio de Janeiro: ABNT, 2022. Controles físicos.
 5. TANENBAUM, Andrew S.; AUSTIN, Todd. *Organização Estruturada de Computadores*. 6. ed. São Paulo: Pearson, 2013. Cap. 2 — Entrada/saída.
 6. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Técnico em Informática, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.
+7. MICROSOFT. *Suporte do Windows*: gerenciar as configurações de idioma e layout do teclado; adicionar uma impressora e definir a impressora padrão. Disponível em: <https://support.microsoft.com/windows>. Acesso em: 11 out. 2026.
