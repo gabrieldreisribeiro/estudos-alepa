@@ -10,6 +10,34 @@ lead: Mapa feito a partir das questões reais da CETAP no TEC Concursos (provas 
 > [!DICA]
 > **Como usar:** comece pelos temas com mais questões. Depois de estudar o capítulo, abra os códigos no TEC e resolva as questões. O gabarito e os comentários ficam lá. O caderno completo, com 4.724 questões da CETAP só nas matérias do seu cargo, é o [ALEPA Programação – CETAP foco](https://www.tecconcursos.com.br/questoes/cadernos/105592229).
 
+## Cobertura: cada página do livro tem questão da CETAP?
+
+Conferido em 11/10/2026. **Abertas** são as questões transcritas no próprio livro, de provas e gabaritos públicos. **No TEC** é quantas questões a CETAP tem sobre o tema no caderno. **Mapeado** quer dizer que eu já li e listei os códigos aqui.
+
+| Página | Abertas no livro | CETAP no TEC (assunto) | Mapeado? |
+|---|---|---|---|
+| [Cap. 1](#1) Hardware, software e processamento | 1 | ~8 (conceitos, tipos de computador) | Sim |
+| [Cap. 2](#2) Interpretação de textos | 3 | **335** (Interpretação de Textos) | Não |
+| [Cap. 3](#3) Sistemas de numeração | 2 | 14 (+3 de unidades) | Sim |
+| [Cap. 4](#4) Constituição do Pará: Poder Legislativo | **0** | **0** da CE-PA nesse título (5 da CE de Roraima) | Sim |
+| [Cap. 5](#5) Arquitetura | 5 | ~30 | Sim |
+| [Cap. 6](#6) Conjuntos numéricos, frações e decimais | **0** | 46 frações e dízimas · 22 decimais · 6 conjuntos | Não |
+| [Cap. 7](#7) Armazenamento e interfaces | 3 | ~14 | Sim |
+| [Cap. 8](#8) Ortografia e acentuação | 2 | 62 acentuação · 24 ortografia · 2 hífen | Não |
+| [Cap. 9](#9) Proteção física e periféricos | 2 | 9 | Sim |
+| [Cap. 10](#10) Ética e moral | 2 | 14 (5 ética e moral · 2 Decreto 1.171 · 7 outras) | Não |
+| [R1](#r-lgpd) LGPD | **0** | 34 | Não |
+| [R2](#r-l8429) Improbidade | **0** | 19 | Não |
+| [R3](#r-l12846) Anticorrupção | **0** | 27 | Não |
+| [R4](#r-d11129) Decreto 11.129/2022 | **0** | 15 | Não |
+| [R5](#r-lcp95) LC 95/1998 | **0** | **nenhuma** no caderno | — |
+
+> [!SIMPLES]
+> - **Por que os resumos das leis não têm questões abertas?** As provas abertas da CETAP (estudegratis) são de **2010 a 2015**. A LGPD é de 2018 e o Decreto 11.129 é de 2022, e não havia questão de Improbidade nem de Anticorrupção nessas provas. **No TEC existem**: são de concursos mais recentes, que não têm caderno público.
+> - **Por que o cap. 4 não tem?** A CETAP **nunca** cobrou o Poder Legislativo da Constituição do Pará (veja a seção abaixo).
+> - **Por que o cap. 6 não tem?** As provas abertas não traziam frações nem decimais. **No TEC há 74**.
+> - **LC 95/1998:** não aparece no caderno. Técnica legislativa quase não é cobrada pela CETAP; o treino é a lei seca.
+
 ## Hardware e arquitetura
 
 Lidas em 11/10/2026: 78 questões (Informática › Hardware e TI › Organização e Arquitetura dos Computadores).
