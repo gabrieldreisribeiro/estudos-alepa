@@ -22,7 +22,7 @@ try{const t=localStorage.getItem("livro-tema");if(t)document.documentElement.dat
   --ok-bg:#EAF6EF; --ok:#2C7A4B;
   --tip-bg:#FFF6E5; --tip:#8A5A00;
   --soft:#F1F5FB;
-  --side:364px; --top:72px; --bottom:70px;
+  --side:364px; --top:72px; --tabs:46px; --bottom:70px;
   --sans:"Inter","Segoe UI",system-ui,sans-serif;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --mono:"JetBrains Mono",Consolas,ui-monospace,monospace;
@@ -64,7 +64,7 @@ svg{display:block;flex:none}
 ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
 ::-webkit-scrollbar-track{background:transparent}
 
-.app{height:100%;display:grid;grid-template-rows:var(--top) minmax(0,1fr);grid-template-columns:var(--side) minmax(0,1fr);transition:grid-template-columns .2s}
+.app{height:100%;display:grid;grid-template-rows:var(--top) var(--tabs) minmax(0,1fr);grid-template-columns:var(--side) minmax(0,1fr);transition:grid-template-columns .2s}
 .app.recolhido{--side:0px}
 
 /* ================= barra superior ================= */
@@ -82,8 +82,16 @@ svg{display:block;flex:none}
 .icon-btn{width:42px;height:42px;border:0;background:transparent;border-radius:10px;display:grid;place-items:center;color:var(--navy);cursor:pointer;transition:background .15s}
 .icon-btn:hover{background:var(--sel)}
 
+/* ================= estante (abas dos livros) ================= */
+.shelf{grid-column:1/-1;grid-row:2;display:flex;align-items:stretch;gap:4px;padding:0 18px;background:var(--surface);border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.shelf::-webkit-scrollbar{display:none}
+.tab{display:flex;align-items:center;gap:8px;padding:0 14px;white-space:nowrap;text-decoration:none;color:var(--muted);font:600 14px var(--sans);border-bottom:3px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
+.tab:hover{color:var(--navy)}
+.tab.on{color:var(--primary);border-bottom-color:var(--primary)}
+.tab .tab-ico{font-size:17px;line-height:1}
+
 /* ================= menu lateral ================= */
-.side{grid-row:2;background:var(--surface);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.side{grid-row:3;background:var(--surface);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;overflow:hidden}
 .side-scroll{flex:1;overflow-y:auto;overflow-x:hidden;padding:22px 16px 18px}
 .side-lbl{font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);padding:0 10px;margin:0 0 10px}
 .side hr{border:0;border-top:1px solid var(--line);margin:18px 6px}
@@ -115,7 +123,7 @@ svg{display:block;flex:none}
 .bar i{display:block;height:100%;width:0;background:var(--primary);border-radius:99px;transition:width .2s}
 
 /* ================= área de leitura ================= */
-.col{grid-row:2;display:flex;flex-direction:column;min-height:0;min-width:0}
+.col{grid-row:3;display:flex;flex-direction:column;min-height:0;min-width:0}
 .reader{flex:1;overflow-y:auto;overflow-x:hidden;padding:22px 24px;scroll-behavior:smooth}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;min-height:100%}
 .inner{max-width:1000px;margin:0 auto;padding:24px clamp(18px,5vw,72px) 64px}
@@ -288,6 +296,67 @@ button.dia{cursor:pointer}button.dia:focus-visible{outline:2px solid var(--prima
 #syncStatus{font:13px var(--sans);color:var(--muted)}
 .eg-linha .nm{font-weight:500}
 
+/* ================= livro de Inglês ================= */
+.box-macete{background:var(--tip-bg)} .box-macete .ico{background:var(--tip)} .box-macete .t{color:var(--tip)}
+.box-erro{background:var(--warn-bg)} .box-erro .ico{background:var(--warn)} .box-erro .t{color:var(--warn)}
+.som{all:unset;box-sizing:border-box;flex:none;width:30px;height:30px;border-radius:50%;display:inline-grid;place-items:center;color:var(--primary);background:var(--sel);cursor:pointer;vertical-align:middle;transition:filter .15s}
+.som:hover{filter:brightness(.95)}
+.som:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.som.falando{background:var(--primary);color:var(--primary-ink)}
+.sem-voz .som,.sem-voz .ouvir,.sem-voz .dlg-play,.sem-voz .voz{display:none!important}
+.voz{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font:13px var(--sans);color:var(--muted);margin:0 0 18px}
+.voz button{all:unset;cursor:pointer;padding:5px 12px;border-radius:99px;border:1px solid var(--line);font:600 12.5px var(--sans);color:var(--ink)}
+.voz button[aria-pressed="true"]{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+/* cartões de palavra */
+.pals{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin:18px 0}
+.pal{display:grid;grid-template-columns:64px 1fr;gap:4px 14px;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface);font-family:var(--sans)}
+.pal-emo{font-size:44px;line-height:1.1;text-align:center;grid-row:span 2}
+.pal-w{display:flex;align-items:center;gap:10px;font:800 22px/1.2 var(--sans);color:var(--navy);letter-spacing:-.01em}
+.pal-ipa{font:14px var(--sans);color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.rank{font:700 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--ok);background:var(--ok-bg);padding:3px 8px;border-radius:99px}
+.pal-def{grid-column:1/-1;margin:8px 0 2px!important;font:15.5px/1.5 var(--sans)!important;color:var(--ink);max-width:none!important}
+.pal-ex{grid-column:1/-1;list-style:none;margin:2px 0 0!important;padding:0!important;display:flex;flex-direction:column;gap:4px}
+.inner .pal-ex li{display:flex;align-items:center;gap:8px;margin:0;font:italic 15px/1.45 var(--serif);color:var(--muted)}
+.pal-ex .som{width:26px;height:26px}
+.pal-onde{grid-column:1/-1;font:12px var(--sans);margin-top:4px}
+/* diálogo */
+.dlg{border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:18px 0;max-width:72ch;display:flex;flex-direction:column;gap:10px;background:var(--soft)}
+.dlg-play{all:unset;align-self:flex-start;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:99px;background:var(--primary);color:var(--primary-ink);font:600 13.5px var(--sans)}
+.fala{display:flex;gap:10px;align-items:flex-end;max-width:88%}
+.fala.dir{align-self:flex-end;flex-direction:row-reverse}
+.fala .quem{font:700 12px var(--sans);color:var(--muted);margin-bottom:2px}
+.fala.dir .quem{text-align:right}
+.balao{background:var(--surface);border:1px solid var(--line);border-radius:14px 14px 14px 4px;padding:9px 14px;font:16.5px/1.45 var(--serif);color:var(--ink)}
+.fala.dir .balao{border-radius:14px 14px 4px 14px;background:var(--sel)}
+.fala.ativa .balao{border-color:var(--primary);box-shadow:0 0 0 2px var(--primary)}
+/* atividades */
+.q .ouvir{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:99px;background:var(--primary);color:var(--primary-ink);font:600 14px var(--sans);margin:4px 0}
+.atv{border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0;max-width:72ch}
+.atv .qn{font:700 12px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--primary)}
+.atv .instr{font:14px var(--sans);color:var(--muted);margin:4px 0 10px}
+.cmp{list-style:none;margin:0!important;padding:0!important;display:flex;flex-direction:column;gap:12px}
+.inner .cmp>li{margin:0;font:17px/1.9 var(--serif)}
+.cmp input{font:600 16px var(--sans);color:var(--navy);width:8.5em;max-width:60vw;padding:2px 8px;border:0;border-bottom:2px solid var(--primary);background:var(--sel);border-radius:6px 6px 0 0;outline:none}
+.cmp input.certo{border-color:var(--ok);background:var(--ok-bg)}
+.cmp input.errado{border-color:var(--warn);background:var(--warn-bg)}
+.mini{all:unset;cursor:pointer;margin-left:8px;padding:3px 12px;border-radius:7px;border:1px solid var(--line);font:600 12.5px var(--sans);color:var(--primary);background:var(--surface);vertical-align:middle}
+.mini.forte{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.fb{display:block;font:14px/1.5 var(--sans);margin-top:4px}
+.fb b.ok{color:var(--ok)}.fb b.no{color:var(--warn)}
+.mnt{display:flex;flex-direction:column;gap:10px;padding:12px 0;border-top:1px dashed var(--line)}
+.mnt:first-of-type{border-top:0}
+.mnt-resp{min-height:46px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:6px 8px;border-radius:9px;border:2px dashed var(--line)}
+.mnt-resp.certo{border-color:var(--ok);border-style:solid;background:var(--ok-bg)}
+.mnt-resp.errado{border-color:var(--warn);border-style:solid;background:var(--warn-bg)}
+.mnt-pecas{display:flex;flex-wrap:wrap;gap:6px}
+.peca{all:unset;cursor:pointer;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);font:500 15.5px var(--sans);color:var(--navy)}
+.peca:hover{border-color:var(--primary)}
+.peca:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.mnt-acoes{display:flex;gap:6px;flex-wrap:wrap}
+.mnt-acoes .mini{margin:0}
+.fc-f.emo{font-size:52px;line-height:1.1;text-align:center}
+.filtro{width:100%;max-width:420px;height:42px;border:1px solid var(--line);border-radius:10px;padding:0 14px;font:15px var(--sans);background:var(--surface);color:var(--ink);margin:6px 0 4px}
+
 /* barra inferior */
 .navbar{height:var(--bottom);flex:none;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;padding:0 24px;background:var(--surface);border-top:1px solid var(--line)}
 .btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:9px;font:500 13px var(--sans);text-decoration:none;border:1px solid var(--line);background:var(--surface);color:var(--navy);transition:background .15s,border-color .15s}
@@ -324,14 +393,18 @@ button.dia{cursor:pointer}button.dia:focus-visible{outline:2px solid var(--prima
   .brand{border-right:0;padding:0 14px}
   .brand small{display:none}
   .crumbs{padding:0 6px}
-  .side{position:fixed;top:var(--top);bottom:0;left:0;width:var(--side);z-index:40;transform:translateX(-100%);transition:transform .22s;box-shadow:0 0 40px rgba(16,38,75,.2)}
+  .side{position:fixed;top:calc(var(--top) + var(--tabs));bottom:0;left:0;width:var(--side);z-index:40;transform:translateX(-100%);transition:transform .22s;box-shadow:0 0 40px rgba(16,38,75,.2)}
   .app.menu-aberto .side{transform:none}
-  .app.menu-aberto .veu{display:block;position:fixed;inset:var(--top) 0 0 0;background:rgba(16,38,75,.28);z-index:30}
+  .app.menu-aberto .veu{display:block;position:fixed;inset:calc(var(--top) + var(--tabs)) 0 0 0;background:rgba(16,38,75,.28);z-index:30}
   .col{grid-column:1}
   .reader{padding:12px}
 }
 @media (max-width:600px){
   .crumbs{display:none}
+  .shelf{padding:0 8px}
+  .tab{padding:0 10px}
+  .pal{grid-template-columns:52px 1fr;padding:14px}
+  .pal-emo{font-size:36px}
   .brand-ico{width:34px;height:34px}
   .tools{padding:0 8px}
   .icon-btn{width:40px;height:40px}
@@ -354,7 +427,7 @@ button.dia{cursor:pointer}button.dia:focus-visible{outline:2px solid var(--prima
   <header class="topbar">
     <a class="brand" href="#">
       <span class="brand-ico" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5Z"/><path d="M12 6.5v13"/></svg></span>
-      <span><strong>Biblioteca de Estudos</strong><small>ALEPA 2026 · Analista Legislativo</small></span>
+      <span><strong>Biblioteca de Estudos</strong><small id="brandSub">ALEPA 2026 · Analista Legislativo</small></span>
     </a>
     <nav class="crumbs" aria-label="Você está em"><ol id="crumbs"></ol></nav>
     <div class="tools">
@@ -364,18 +437,20 @@ button.dia{cursor:pointer}button.dia:focus-visible{outline:2px solid var(--prima
       <button class="icon-btn" id="btnMenu" type="button" aria-label="Mostrar ou ocultar o sumário" aria-controls="sumario"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
   </header>
+  <nav class="shelf" id="shelf" aria-label="Livros"></nav>
 
   <aside class="side" id="sumario" aria-label="Sumário">
     <div class="side-scroll">
       <div id="edBox" hidden><h2 class="side-lbl">Edital</h2><ol class="lista" id="editais"></ol><hr></div>
-      <h2 class="side-lbl">Sumário</h2>
+      <h2 class="side-lbl" id="capsLbl">Sumário</h2>
       <ol class="lista" id="caps"></ol>
       <div id="resBox" hidden><hr><h2 class="side-lbl">Resumos das leis</h2><ol class="lista leve" id="resumos"></ol></div>
       <div id="leisBox" hidden><hr><h2 class="side-lbl">Leis · texto oficial</h2><ol class="lista leve" id="leis"></ol></div>
+      <div id="extBox" hidden><hr><h2 class="side-lbl">Consulta</h2><ol class="lista" id="extras"></ol></div>
     </div>
     <div class="side-prog" aria-live="off">
       <svg class="ring" width="34" height="34" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="15" fill="none" stroke="var(--track)" stroke-width="3.5"/><circle id="ringArc" cx="18" cy="18" r="15" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="94.25" stroke-dashoffset="94.25" transform="rotate(-90 18 18)"/></svg>
-      <span>Progresso do capítulo</span><span class="pct" id="progPct">0%</span>
+      <span id="progLbl">Progresso do capítulo</span><span class="pct" id="progPct">0%</span>
       <div class="bar"><i id="progBar"></i></div>
     </div>
   </aside>
@@ -395,7 +470,7 @@ button.dia{cursor:pointer}button.dia:focus-visible{outline:2px solid var(--prima
 
 <div class="busca" id="busca" hidden role="dialog" aria-modal="true" aria-label="Buscar no livro">
   <div class="busca-box">
-    <label class="busca-in"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span class="sr">Termo de busca</span><input id="q" type="search" placeholder="Buscar em capítulos, resumos e leis…" autocomplete="off"></label>
+    <label class="busca-in"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span class="sr">Termo de busca</span><input id="q" type="search" placeholder="Buscar neste livro…" autocomplete="off"></label>
     <ul class="busca-res" id="res"></ul>
   </div>
 </div>
@@ -416,6 +491,7 @@ button.dia{cursor:pointer}button.dia:focus-visible{outline:2px solid var(--prima
 
 <script src="livro/vendor/marked.min.js"></script>
 <script src="livro/conteudo.js" charset="utf-8"></script>
+<script src="livro/frequencia-en.js" charset="utf-8"></script>
 <script>
 /* ---------- ícones ---------- */
 const I={
@@ -430,7 +506,17 @@ const I={
   EXEMPLO:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16v4Z"/></svg>',
   TEXTO:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>'
 };
-const CALLOUTS={AVISO:"Atenção",CAI:"Cai na prova",PEGADINHA:"Atenção à pegadinha",EXEMPLO:"Exemplo",DICA:"Dica",TEXTO:"Texto",SIMPLES:"Em palavras simples"};
+I.MACETE=I.CAI;I.ERRO='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M7 7l10 10M17 7 7 17"/></svg>';
+I.som='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>';
+I.play='<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l13-7.5z"/></svg>';
+const CALLOUTS={AVISO:"Atenção",CAI:"Cai na prova",PEGADINHA:"Atenção à pegadinha",EXEMPLO:"Exemplo",DICA:"Dica",TEXTO:"Texto",SIMPLES:"Em palavras simples",MACETE:"Macete",ERRO:"Erro comum de brasileiro"};
+
+/* livros da estante: ALEPA usa as pastas da raiz; os outros ficam em livros/<id>/ */
+const LIVROS=[
+  {id:"alepa",nome:"ALEPA 2026",ico:"🏛️",sub:"ALEPA 2026 · Analista Legislativo"},
+  {id:"ingles",nome:"Inglês",ico:"💬",sub:"Inglês · Conversação · Básico",pre:"ingles-"}
+];
+const livroDoArquivo=a=>{const m=String(a).match(/^livros\/([^/]+)\//);return m?m[1]:"alepa"};
 const SEM_NUMERO=/\s*\{([^}]*)\}\s*$/;
 
 /* ---------- leitura dos capítulos ---------- */
@@ -441,17 +527,28 @@ function frontmatter(md){
   m[1].split(/\r?\n/).forEach(l=>{const i=l.indexOf(":");if(i>0)meta[l.slice(0,i).trim()]=l.slice(i+1).trim()});
   return {meta,body:md.slice(m[0].length)};
 }
-const todos=(window.LIVRO||[]).map(c=>{const f=frontmatter(c.md);return {arquivo:c.arquivo,...f,id:String(f.meta.capitulo||c.arquivo),num:Number(f.meta.capitulo)||0,lei:f.meta.tipo==="lei"}});
+const todosLivros=(window.LIVRO||[]).map(c=>{const f=frontmatter(c.md),lv=livroDoArquivo(c.arquivo),pre=(LIVROS.find(l=>l.id===lv)||{}).pre||"";
+  return {arquivo:c.arquivo,...f,livro:lv,id:pre+String(f.meta.capitulo||c.arquivo),num:Number(f.meta.capitulo)||0,lei:f.meta.tipo==="lei"}});
+const todos=todosLivros.filter(c=>c.livro==="alepa");
 const editais=todos.filter(c=>c.meta.tipo==="edital");editais.forEach(c=>c.edital=true);
-const docProgresso={id:"progresso",arquivo:"",body:"",num:0,progresso:true,edital:true,meta:{titulo:"Meu progresso",edital:"Dias de estudo, respostas e capítulos concluídos",lead:"Tudo o que você faz no livro é gravado aqui automaticamente."}};
+const docProgresso={id:"progresso",livro:"alepa",arquivo:"",body:"",num:0,progresso:true,edital:true,meta:{titulo:"Meu progresso",edital:"Dias de estudo, respostas e capítulos concluídos",lead:"Tudo o que você faz no livro é gravado aqui automaticamente."}};
 editais.push(docProgresso);
 const estudo=todos.filter(c=>!c.lei&&!c.edital&&c.meta.tipo!=="resumo").sort((a,b)=>a.num-b.num);
+/* Inglês: lições + páginas de consulta geradas a partir delas */
+const licoes=todosLivros.filter(c=>c.livro==="ingles").sort((a,b)=>a.num-b.num);
+const virt=(id,titulo,tema,lead,tipo)=>({id:"ingles-"+id,livro:"ingles",arquivo:"",body:"",num:0,virtual:tipo,meta:{titulo,tema,lead}});
+const enExtras=[
+  virt("vocabulario","Vocabulário","Todas as palavras das lições","Todas as palavras que você já viu, em ordem de frequência: as primeiras são as que você mais vai ouvir.","vocab"),
+  virt("gramatica","Gramática e macetes","Índice da gramática","Todas as regras e macetes das lições num lugar só.","gram"),
+  Object.assign(virt("progresso","Meu progresso","Lições, palavras e acertos","Tudo o que você faz no livro de Inglês é gravado aqui automaticamente.","prog"),{progresso:true})
+];
 const resumos=todos.filter(c=>c.meta.tipo==="resumo").sort((a,b)=>(+a.meta.ordem||0)-(+b.meta.ordem||0));
 resumos.forEach(c=>c.resumo=true);
 const leis=todos.filter(c=>c.lei).sort((a,b)=>(+a.meta.ordem||0)-(+b.meta.ordem||0));
-const caps=[...estudo,...resumos,...leis,...editais];
-const grupoDe=c=>c.edital?editais:c.lei?leis:c.resumo?resumos:estudo;
-const rotulo=c=>c.progresso?"%":c.edital?"✓":c.lei?"§":c.resumo?"R"+(resumos.indexOf(c)+1):String(c.num);
+const caps=[...estudo,...resumos,...leis,...editais,...licoes,...enExtras];
+const grupoDe=c=>c.livro==="ingles"?(c.virtual?enExtras:licoes):c.edital?editais:c.lei?leis:c.resumo?resumos:estudo;
+const rotulo=c=>c.progresso?"%":c.virtual==="vocab"?"Aa":c.virtual==="gram"?"G":c.edital?"✓":c.lei?"§":c.resumo?"R"+(resumos.indexOf(c)+1):String(c.num);
+const ingles=c=>c.livro==="ingles";
 
 /* seções de cada capítulo, lidas do próprio Markdown (mesma numeração do render) */
 function secoesMd(c){
@@ -466,10 +563,16 @@ function secoesMd(c){
 }
 
 /* ---------- markdown -> html ---------- */
+/* blocos ::: tipo ... ::: (questão, completar, montar, palavras, diálogo) */
+const RE_BLOCO=/^:::\s*(questao|completar|montar|palavras|dialogo)\s*\n([\s\S]*?)\n:::\s*$/gm;
+const linhasDe=corpo=>corpo.split("\n").map(l=>l.trim()).filter(Boolean);
+/* quantas respostas gravadas um documento tem (questão = 1; cada linha de completar/montar = 1) */
+function totalQuestoes(c){let n=0;c.body.replace(/\r\n/g,"\n").replace(RE_BLOCO,(_,t,corpo)=>{n+=t==="questao"?1:t==="completar"||t==="montar"?linhasDe(corpo).length:0});return n}
+
 function render(cap){
-  const questoes=[];
+  const blocos=[];
   let md=cap.body.replace(/\r\n/g,"\n");
-  md=md.replace(/^:::\s*questao\s*\n([\s\S]*?)\n:::\s*$/gm,(_,corpo)=>{questoes.push(corpo);return `\n<div class="q-slot" data-q="${questoes.length-1}"></div>\n`});
+  md=md.replace(RE_BLOCO,(_,tipo,corpo)=>{blocos.push({tipo,corpo});return `\n<div class="q-slot" data-q="${blocos.length-1}"></div>\n`});
   md=md.replace(/\[\^(\d+)\]/g,'<sup class="ref"><a href="#ref-$1" data-ref="$1">$1</a></sup>');
 
   const tmp=document.createElement("div");
@@ -490,8 +593,16 @@ function render(cap){
     bq.replaceWith(div);
   });
   tmp.querySelectorAll("table").forEach(t=>{const w=document.createElement("div");w.className="tw";t.replaceWith(w);w.appendChild(t)});
-  let qn=0;
-  tmp.querySelectorAll(".q-slot").forEach(slot=>{slot.replaceWith(buildQuestao(questoes[+slot.dataset.q],++qn,cap.id))});
+  let qn=0,an=0,cn=0,mn=0;
+  tmp.querySelectorAll(".q-slot").forEach(slot=>{
+    const b=blocos[+slot.dataset.q];let el;
+    if(b.tipo==="questao") el=buildQuestao(b.corpo,++qn,cap.id,++an);
+    else if(b.tipo==="completar"){el=buildCompletar(b.corpo,++cn,cap.id,an);an+=linhasDe(b.corpo).length}
+    else if(b.tipo==="montar"){el=buildMontar(b.corpo,++mn,cap.id,an);an+=linhasDe(b.corpo).length}
+    else if(b.tipo==="palavras") el=buildPalavras(b.corpo);
+    else el=buildDialogo(b.corpo);
+    slot.replaceWith(el);
+  });
 
   // agrupar por h2 em seções
   const out=document.createElement("div");
@@ -519,23 +630,27 @@ function render(cap){
     ul.classList.add("fcs");
     ul.querySelectorAll(":scope > li").forEach(li=>{
       const h=li.innerHTML,i=h.indexOf(" :: ");if(i<0)return;
-      li.innerHTML=`<button type="button" class="fc" aria-expanded="false"><span class="fc-f">${h.slice(0,i)}</span><span class="fc-dica">Toque para ver a resposta</span><span class="fc-v">${h.slice(i+4)}</span></button>`;
+      const frente=h.slice(0,i),soImagem=!/[A-Za-zÀ-ú0-9]/.test(frente.replace(/<[^>]+>/g,""));
+      li.innerHTML=`<button type="button" class="fc" aria-expanded="false"><span class="fc-f${soImagem?" emo":""}">${frente}</span><span class="fc-dica">Toque para ver a resposta</span><span class="fc-v">${h.slice(i+4)}</span></button>`;
     });
   });
   return out;
 }
 
-function buildQuestao(corpo,n,capId){
-  const enun=[],alts=[];let resp=null,expl="";
+function buildQuestao(corpo,n,capId,chave){
+  const enun=[],alts=[];let resp=null,expl="",audio="";
+  if(chave===undefined) chave=n;
   corpo.split("\n").forEach(l=>{
     let m;
     if((m=l.match(/^\s*([A-E])\)\s+(.*)$/))) alts.push([m[1],m[2]]);
     else if((m=l.match(/^\s*=\s*([A-E])\s*\|\s*(.*)$/))){resp=m[1];expl=m[2]}
+    else if((m=l.match(/^\s*🔊\s*(.+)$/))) audio=m[1].trim();
     else if(l.trim()) enun.push(l);
   });
+  if(audio) expl+=` Áudio: *"${audio}"*`;
   const div=document.createElement("div");
   div.className="q";
-  div.innerHTML=`<span class="qn">Questão ${n}</span><div class="enun">${marked.parse(enun.join("\n"))}</div>
+  div.innerHTML=`<span class="qn">${audio?"🎧 Ouça e responda · ":""}Questão ${n}</span><div class="enun">${audio?`<button type="button" class="ouvir" data-say="${esc(audio)}">${I.som} Ouvir</button>`:""}${marked.parse(enun.join("\n"))}</div>
     <div class="alts">${alts.map(([k,t])=>`<button type="button" class="alt" data-k="${k}"><b>${k}</b><span>${marked.parseInline(t)}</span></button>`).join("")}</div>`;
   div.addEventListener("click",e=>{
     const b=e.target.closest("button.alt"); if(!b||div.dataset.done) return;
@@ -548,16 +663,115 @@ function buildQuestao(corpo,n,capId){
     ans.setAttribute("role","status");
     ans.innerHTML=`<b>${acertou?"Correto!":"Errado."}</b> Gabarito: <b>${resp}</b>. ${marked.parseInline(expl)} <button type="button" class="q-refazer">Refazer</button>`;
     div.appendChild(ans);
-    if(capId){registrarResposta(capId,n,b.dataset.k,acertou);histQuestao(div,capId,n)}
+    if(capId){registrarResposta(capId,chave,b.dataset.k,acertou);histQuestao(div,capId,chave)}
   });
   div.addEventListener("click",e=>{
     if(!e.target.closest(".q-refazer")) return;
     delete div.dataset.done;div.querySelectorAll(".alt").forEach(x=>x.classList.remove("certa","errada"));
     const a=div.querySelector(".ans");if(a)a.remove();div.querySelector(".alt").focus();
   });
-  if(capId) histQuestao(div,capId,n);
+  if(capId) histQuestao(div,capId,chave);
   return div;
 }
+
+/* ---------- Inglês: voz, palavras, diálogo e atividades ---------- */
+const temVoz="speechSynthesis" in window&&"SpeechSynthesisUtterance" in window;
+let vozes=[];
+function carregarVozes(){if(!temVoz)return;const v=speechSynthesis.getVoices();vozes=v.filter(x=>/^en[-_]US/i.test(x.lang));if(!vozes.length)vozes=v.filter(x=>/^en/i.test(x.lang))}
+if(temVoz){carregarVozes();speechSynthesis.addEventListener&&speechSynthesis.addEventListener("voiceschanged",carregarVozes)}
+const lento=()=>{try{return localStorage.getItem("livro-voz")==="lenta"}catch(e){return false}};
+function falar(txt,o={}){
+  if(!temVoz)return;
+  const u=new SpeechSynthesisUtterance(txt);u.lang="en-US";u.rate=lento()?.62:.92;
+  if(vozes.length)u.voice=vozes[(o.voz||0)%vozes.length];
+  if(o.inicio)u.onstart=o.inicio;if(o.fim){u.onend=o.fim;u.onerror=o.fim}
+  speechSynthesis.speak(u);
+}
+const btnSom=(txt,rot)=>`<button type="button" class="som" data-say="${esc(txt)}" aria-label="Ouvir: ${esc(rot||txt)}">${I.som}</button>`;
+const normal=s=>String(s).toLowerCase().replace(/[’‘`]/g,"'").replace(/[.!?,;:"]+/g," ").replace(/\s+/g," ").trim();
+function rankDe(w){const f=window.FREQ_EN||{},k=String(w).toLowerCase().trim();return /^[a-z]+$/.test(k)?f[k]||0:0}
+function faixa(r){return r<=100?"Top 100":r<=500?"Top 500":r<=1000?"Top 1.000":r<=3000?"Top 3.000":"Top 5.000"}
+
+/* palavra: emoji | palavra | /fonética/ | definição em inglês | exemplo 1 ; exemplo 2 */
+function palavrasDe(corpo){return linhasDe(corpo).map(l=>{const p=l.split("|").map(x=>x.trim());return {emo:p[0],w:p[1]||"",ipa:p[2]||"",def:p[3]||"",ex:(p[4]||"").split(";").map(x=>x.trim()).filter(Boolean)}}).filter(p=>p.w)}
+function cartaoPalavra(p,extra){
+  const r=rankDe(p.w);
+  return `<div class="pal"><div class="pal-emo" aria-hidden="true">${esc(p.emo)}</div>
+    <div class="pal-w"><span lang="en">${esc(p.w)}</span>${btnSom(p.w)}</div>
+    <div class="pal-ipa"><span>${esc(p.ipa)}</span>${r?`<span class="rank" title="É a ${r}ª palavra mais dita em filmes e séries">${faixa(r)} · nº ${r}</span>`:""}</div>
+    <p class="pal-def" lang="en">${marked.parseInline(p.def)}</p>
+    ${p.ex.length?`<ul class="pal-ex">${p.ex.map(e=>`<li>${btnSom(e.replace(/[*_]/g,""))}<span lang="en">${marked.parseInline(e)}</span></li>`).join("")}</ul>`:""}${extra||""}</div>`;
+}
+function buildPalavras(corpo){const d=document.createElement("div");d.className="pals";d.innerHTML=palavrasDe(corpo).map(p=>cartaoPalavra(p)).join("");return d}
+
+/* diálogo: "Nome: fala" por linha; o primeiro a falar fica à esquerda */
+function buildDialogo(corpo){
+  const falas=linhasDe(corpo).map(l=>{const i=l.indexOf(":");return {quem:l.slice(0,i).trim(),txt:l.slice(i+1).trim()}});
+  const nomes=[...new Set(falas.map(f=>f.quem))];
+  const d=document.createElement("div");d.className="dlg";
+  d.innerHTML=`<button type="button" class="dlg-play">${I.play} Ouvir o diálogo</button>`+falas.map((f,i)=>`<div class="fala${nomes.indexOf(f.quem)%2?" dir":""}" data-i="${i}">${btnSom(f.txt.replace(/[*_]/g,""))}<div><div class="quem">${esc(f.quem)}</div><div class="balao" lang="en">${marked.parseInline(f.txt)}</div></div></div>`).join("");
+  d.querySelector(".dlg-play").onclick=()=>{
+    speechSynthesis.cancel();
+    const els=d.querySelectorAll(".fala");
+    falas.forEach((f,i)=>falar(f.txt.replace(/[*_]/g,""),{voz:nomes.indexOf(f.quem),inicio:()=>{els.forEach(e=>e.classList.remove("ativa"));els[i].classList.add("ativa")},fim:()=>{if(i===falas.length-1)els[i].classList.remove("ativa")}}));
+  };
+  return d;
+}
+
+/* completar: "frase com ___ = resposta / outra aceita | explicação" */
+function buildCompletar(corpo,n,capId,base){
+  const d=document.createElement("div");d.className="atv";
+  const itens=linhasDe(corpo).map(l=>{const m=l.match(/^(.*?)\s+=\s+(.*?)(?:\s+\|\s+(.*))?$/);return m?{frase:m[1],resp:m[2].split("/").map(x=>x.trim()),expl:m[3]||""}:null}).filter(Boolean);
+  d.innerHTML=`<span class="qn">✍️ Complete · Atividade ${n}</span><p class="instr">Escreva a palavra que falta e aperte Enter ou Verificar.</p><ol class="cmp">${itens.map((it,i)=>{
+    const [a,b]=it.frase.split("___");
+    return `<li data-i="${i}" lang="en">${marked.parseInline(a)}<input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Palavra que falta">${marked.parseInline(b||"")}<button type="button" class="mini forte">Verificar</button><span class="fb" role="status"></span></li>`}).join("")}</ol>`;
+  d.querySelectorAll(".cmp>li").forEach(li=>{
+    const it=itens[+li.dataset.i],inp=li.querySelector("input"),fb=li.querySelector(".fb");
+    const conferir=()=>{
+      if(!inp.value.trim()){inp.focus();return}
+      const ok=it.resp.some(r=>normal(r)===normal(inp.value)),inteira=it.frase.replace("___",it.resp[0]).replace(/[*_]/g,"");
+      inp.classList.toggle("certo",ok);inp.classList.toggle("errado",!ok);
+      fb.innerHTML=`<b class="${ok?"ok":"no"}">${ok?"✔ Correto!":"✘ Resposta: "+esc(it.resp[0])}</b> ${btnSom(inteira)} ${it.expl?marked.parseInline(it.expl):""}`;
+      if(capId)registrarResposta(capId,base+1+(+li.dataset.i),inp.value.trim(),ok);
+    };
+    li.querySelector("button.mini").onclick=conferir;
+    inp.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();conferir()}});
+    inp.addEventListener("input",()=>{inp.classList.remove("certo","errado");fb.innerHTML=""});
+  });
+  return d;
+}
+
+/* montar: "frase na ordem certa | explicação"; as palavras aparecem embaralhadas */
+function embaralhar(arr,semente){const a=arr.slice();let s=semente||1;for(let i=a.length-1;i>0;i--){s=(s*9301+49297)%233280;const j=Math.floor(s/233280*(i+1));[a[i],a[j]]=[a[j],a[i]]}
+  if(a.length>1&&a.join(" ")===arr.join(" "))a.push(a.shift());return a}
+function buildMontar(corpo,n,capId,base){
+  const d=document.createElement("div");d.className="atv";
+  const itens=linhasDe(corpo).map(l=>{const [f,ex]=l.split(/\s+\|\s+/);const pont=(f.match(/[.!?]$/)||[""])[0];return {frase:f,pont,pal:f.replace(/[.!?]$/,"").split(/\s+/),expl:ex||""}});
+  d.innerHTML=`<span class="qn">🧩 Monte a frase · Atividade ${n}</span><p class="instr">Toque nas palavras na ordem certa. Toque de novo numa palavra da resposta para devolvê-la.</p>`+itens.map((it,i)=>`<div class="mnt" data-i="${i}"><div class="mnt-resp" lang="en" aria-label="Sua frase"></div><div class="mnt-pecas" lang="en">${embaralhar(it.pal,i*7+it.frase.length).map(w=>`<button type="button" class="peca">${esc(w)}</button>`).join("")}</div><div class="mnt-acoes"><button type="button" class="mini forte" data-a="ver">Verificar</button><button type="button" class="mini" data-a="limpar">Limpar</button></div><span class="fb" role="status"></span></div>`).join("");
+  d.querySelectorAll(".mnt").forEach(m=>{
+    const it=itens[+m.dataset.i],resp=m.querySelector(".mnt-resp"),pecas=m.querySelector(".mnt-pecas"),fb=m.querySelector(".fb");
+    const limparFb=()=>{resp.classList.remove("certo","errado");fb.innerHTML=""};
+    m.addEventListener("click",e=>{
+      const p=e.target.closest(".peca");
+      if(p){(p.parentElement===pecas?resp:pecas).appendChild(p);limparFb();return}
+      const a=e.target.closest("[data-a]");if(!a)return;
+      if(a.dataset.a==="limpar"){[...resp.children].forEach(x=>pecas.appendChild(x));limparFb();return}
+      const feita=[...resp.children].map(x=>x.textContent);
+      if(!feita.length)return;
+      const ok=normal(feita.join(" "))===normal(it.pal.join(" "))&&!pecas.children.length;
+      resp.classList.toggle("certo",ok);resp.classList.toggle("errado",!ok);
+      fb.innerHTML=`<b class="${ok?"ok":"no"}">${ok?"✔ Correto!":"✘ Certo seria:"}</b> <span lang="en">${esc(it.frase)}</span> ${btnSom(it.frase)} ${it.expl?marked.parseInline(it.expl):""}`;
+      if(capId)registrarResposta(capId,base+1+(+m.dataset.i),feita.join(" "),ok);
+    });
+  });
+  return d;
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-say]");if(!b||!temVoz)return;
+  speechSynthesis.cancel();b.classList.add("falando");
+  falar(b.dataset.say,{fim:()=>b.classList.remove("falando")});
+});
+if(!temVoz)document.documentElement.classList.add("sem-voz");
 
 /* ---------- interface ---------- */
 const $=s=>document.querySelector(s);
@@ -577,17 +791,31 @@ function itemHTML(c,cur){
   </li>`;
 }
 function montarSumario(cur){
-  $("#caps").innerHTML=estudo.map(c=>itemHTML(c,cur)).join("");
-  $("#edBox").hidden=!editais.length;$("#editais").innerHTML=editais.map(c=>itemHTML(c,cur)).join("");
-  $("#resBox").hidden=!resumos.length;$("#resumos").innerHTML=resumos.map(c=>itemHTML(c,cur)).join("");
-  $("#leisBox").hidden=!leis.length;$("#leis").innerHTML=leis.map(c=>itemHTML(c,cur)).join("");
+  const en=ingles(cur);
+  $("#capsLbl").textContent=en?"Lições":"Sumário";
+  $("#caps").innerHTML=(en?licoes:estudo).map(c=>itemHTML(c,cur)).join("");
+  $("#edBox").hidden=en||!editais.length;$("#editais").innerHTML=en?"":editais.map(c=>itemHTML(c,cur)).join("");
+  $("#resBox").hidden=en||!resumos.length;$("#resumos").innerHTML=en?"":resumos.map(c=>itemHTML(c,cur)).join("");
+  $("#leisBox").hidden=en||!leis.length;$("#leis").innerHTML=en?"":leis.map(c=>itemHTML(c,cur)).join("");
+  $("#extBox").hidden=!en;$("#extras").innerHTML=en?enExtras.map(c=>itemHTML(c,cur)).join(""):"";
+  $("#progLbl").textContent=en?"Progresso da página":"Progresso do capítulo";
+  montarEstante(cur);
   const on=document.querySelector(".item.on");
   if(on){const sc=$(".side-scroll"),r=on.getBoundingClientRect(),b=sc.getBoundingClientRect();if(r.top<b.top||r.top>b.bottom-60)sc.scrollTop+=r.top-b.top-80}
+}
+/* estante: abas dos livros; cada aba volta para a última página aberta naquele livro */
+function ultimaDe(id){try{const u=localStorage.getItem("livro-ultima-"+id);if(u&&caps.some(c=>c.id===u))return u}catch(e){}
+  const g=id==="ingles"?licoes:estudo;return g.length?g[0].id:(caps.find(c=>c.livro===id)||{}).id}
+function montarEstante(cur){
+  try{localStorage.setItem("livro-ultima-"+cur.livro,cur.id)}catch(e){}
+  $("#brandSub").textContent=(LIVROS.find(l=>l.id===cur.livro)||LIVROS[0]).sub;
+  $("#shelf").innerHTML=LIVROS.filter(l=>caps.some(c=>c.livro===l.id)).map(l=>`<a class="tab${l.id===cur.livro?" on":""}" href="#${esc(ultimaDe(l.id)||"")}"${l.id===cur.livro?' aria-current="true"':""}><span class="tab-ico" aria-hidden="true">${l.ico}</span>${esc(l.nome)}</a>`).join("");
 }
 function migalhas(cap){
   const ed=cap.meta.edital||"";
   let partes=["ALEPA 2026","Analista Legislativo","Programação"];
-  if(cap.progresso) partes.push("Meu progresso");
+  if(ingles(cap)){partes=["Inglês","Conversação · básico",cap.virtual?cap.meta.titulo:"Lição "+cap.num];if(!cap.virtual)partes.push(cap.meta.titulo)}
+  else if(cap.progresso) partes.push("Meu progresso");
   else if(cap.edital) partes.push("Edital oficial");
   else if(cap.lei) partes.push("Leis · texto oficial",cap.meta.titulo);
   else if(cap.resumo) partes.push("Resumos das leis",cap.meta.titulo);
@@ -601,24 +829,30 @@ function mostrar(){
   if(!caps.length){page.innerHTML='<div class="erro"><h2>Nenhum capítulo encontrado</h2><p>Coloque os arquivos <code>.md</code> na pasta <code>capitulos</code> e dê dois cliques em <code>atualizar-livro.bat</code>.</p></div>';return}
   const cap=capAtual(),grupo=grupoDe(cap),idx=grupo.indexOf(cap);
   abertos.add(cap.id);
-  document.title=((cap.lei||cap.resumo||cap.edital)?cap.meta.titulo:`Cap. ${cap.num} · ${cap.meta.titulo||""}`)+" · Biblioteca de Estudos";
+  const en=ingles(cap),licao=en&&!cap.virtual;
+  document.title=((cap.lei||cap.resumo||cap.edital||cap.virtual)?cap.meta.titulo:`${licao?"Lição":"Cap."} ${cap.num} · ${cap.meta.titulo||""}`)+" · Biblioteca de Estudos";
+  if(temVoz)speechSynthesis.cancel();
   montarSumario(cap);migalhas(cap);
 
-  const chip=cap.progresso?"Meu progresso":cap.edital?"Edital · acompanhamento":cap.lei?"Lei · texto oficial":cap.resumo?"Resumo "+rotulo(cap):"Capítulo "+cap.num;
+  const chip=en?(cap.virtual?cap.meta.titulo:"Lição "+cap.num):cap.progresso?"Meu progresso":cap.edital?"Edital · acompanhamento":cap.lei?"Lei · texto oficial":cap.resumo?"Resumo "+rotulo(cap):"Capítulo "+cap.num;
+  const linhaMeta=en?"Inglês · Conversação · Nível básico"+(cap.meta.tema?" · "+esc(cap.meta.tema):""):"ALEPA 2026 · Analista Legislativo · Programação"+(cap.meta.edital?" · "+esc(cap.meta.edital):"");
   page.innerHTML=`<span class="chip">${esc(chip)}</span>
-    <div class="meta">ALEPA 2026 · Analista Legislativo · Programação${cap.meta.edital?" · "+esc(cap.meta.edital):""}</div>
-    <h1>${(cap.lei||cap.resumo||cap.edital)?esc(cap.meta.titulo):`Capítulo ${cap.num} — ${esc(cap.meta.titulo||"")}`}</h1>
+    <div class="meta">${linhaMeta}</div>
+    <h1>${(cap.lei||cap.resumo||cap.edital||cap.virtual)?esc(cap.meta.titulo):`${licao?"Lição":"Capítulo"} ${cap.num} — ${esc(cap.meta.titulo||"")}`}</h1>
     ${cap.meta.lead?`<p class="lead">${marked.parseInline(cap.meta.lead)}</p>`:""}${cap.meta.fonte?`<p class="fonte">Fonte oficial: <a href="${esc(cap.meta.fonte)}" target="_blank" rel="noopener">${esc(cap.meta.fonte)}</a></p>`:""}
+    ${en&&cap.virtual!=="prog"&&cap.virtual!=="gram"?controleVoz():""}
     <hr class="sep">`;
   if(cap.progresso) page.insertAdjacentHTML("beforeend",'<div id="progPage"></div>');
+  else if(cap.virtual==="vocab") paginaVocab(page);
+  else if(cap.virtual==="gram") paginaGram(page);
   else page.append(...render(cap).childNodes);
   checklist(page,cap);contagens(page);
-  if(cap.progresso) montarProgresso();
-  else if(!cap.lei&&!cap.edital) blocoConcluir(page,cap);
+  if(cap.progresso) (en?montarProgressoEn:montarProgresso)();
+  else if(!cap.lei&&!cap.edital&&!cap.virtual) blocoConcluir(page,cap);
 
   const prev=grupo[idx-1],next=grupo[idx+1];
   ligar($("#prev"),prev);ligar($("#next"),next);
-  const nome=cap.edital||cap.progresso?"Página":cap.lei?"Lei":cap.resumo?"Resumo":"Capítulo";
+  const nome=cap.edital||cap.progresso||cap.virtual?"Página":cap.lei?"Lei":cap.resumo?"Resumo":licao?"Lição":"Capítulo";
   $("#posTxt").textContent=`${nome} ${idx+1} de ${grupo.length}`;
   $("#posBar").style.width=((idx+1)/grupo.length*100)+"%";
 
@@ -675,13 +909,14 @@ function mesclar(a,b){
 let ultimaAtividade=agora();
 ["click","keydown","scroll","touchstart"].forEach(ev=>document.addEventListener(ev,()=>{ultimaAtividade=agora()},{passive:true,capture:true}));
 reader.addEventListener("scroll",()=>{ultimaAtividade=agora()},{passive:true});
-setInterval(()=>{if(document.visibilityState==="visible"&&agora()-ultimaAtividade<120000){marcarDia(.5);salvar();if(capAtual().progresso)montarProgresso()}},30000);
+setInterval(()=>{if(document.visibilityState==="visible"&&agora()-ultimaAtividade<120000){marcarDia(.5);salvar();const c=capAtual();if(c.progresso)(ingles(c)?montarProgressoEn:montarProgresso)()}},30000);
 
 /* capítulo concluído */
 function blocoConcluir(page,cap){
   const b=document.createElement("div");b.className="concluir";page.appendChild(b);
+  const tipo=ingles(cap)?"lição":cap.resumo?"resumo":"capítulo",esta=ingles(cap)?"esta lição":cap.resumo?"este resumo":"este capítulo";
   const pinta=()=>{const f=DADOS.concl[cap.id]&&DADOS.concl[cap.id].v;
-    b.innerHTML=`<div><b>${f?"Você concluiu este "+(cap.resumo?"resumo":"capítulo")+".":"Terminou de estudar?"}</b><span>${f?"Concluído em "+new Date(DADOS.concl[cap.id].t).toLocaleDateString("pt-BR")+".":"Marque para acompanhar seu avanço em Meu progresso."}</span></div><button type="button" class="btn ${f?"":"prox"}">${f?"Desmarcar":"✓ Concluí "+(cap.resumo?"este resumo":"este capítulo")}</button>`;
+    b.innerHTML=`<div><b>${f?"Você concluiu "+esta+".":"Terminou de estudar?"}</b><span>${f?"Concluído em "+new Date(DADOS.concl[cap.id].t).toLocaleDateString("pt-BR")+".":"Marque para acompanhar seu avanço em Meu progresso."}</span></div><button type="button" class="btn ${f?"":"prox"}">${f?"Desmarcar":"✓ Concluí "+esta}</button>`;
     b.querySelector("button").onclick=()=>{DADOS.concl[cap.id]={v:!f,t:agora()};if(!f)marcarDia(0);salvar();pinta();montarSumario(cap)}};
   pinta();
 }
@@ -712,7 +947,7 @@ async function sincronizar(){
     DADOS=mesclar(DADOS,remoto);try{localStorage.setItem(CHAVE_DADOS,JSON.stringify(DADOS))}catch(e){}
     await api(cfg,"PATCH","/gists/"+cfg.gist,{files:{[ARQ_GIST]:{content:JSON.stringify(DADOS)}}});
     cfg.ultima=agora();gravarSync(cfg);syncMsg="Sincronizado às "+new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})+".";
-    const c=capAtual();if(c.progresso)montarProgresso();
+    const c=capAtual();if(c.progresso)(ingles(c)?montarProgressoEn:montarProgresso)();
   }catch(e){syncMsg="Não sincronizou: "+e.message}
   pintaSync();
 }
@@ -721,7 +956,6 @@ function pintaSync(){const el=document.getElementById("syncStatus");if(el)el.tex
 /* página "Meu progresso" */
 function discDe(c){if(c.resumo)return "Legislação e Ética";const e=c.meta.edital||"";
   if(/Portuguesa/i.test(e))return "Língua Portuguesa";if(/Legisla/i.test(e))return "Legislação e Ética";if(/Racioc/i.test(e))return "Raciocínio Lógico";if(/Inform[aá]tica/i.test(e)&&!/Item/.test(e))return "Noções de Informática";return "Conhecimentos Específicos"}
-function totalQuestoes(c){return (c.body.match(/^:::\s*questao/gm)||[]).length}
 function statsDoc(c){let resp=0,ac=0,ultAc=0;const n=totalQuestoes(c);
   for(let i=1;i<=n;i++){const t=DADOS.resp[c.id+":"+i]||[];if(!t.length)continue;resp++;ac+=t.filter(x=>x.ok).length;if(t[t.length-1].ok)ultAc++}
   const tent=Object.keys(DADOS.resp).filter(k=>k.startsWith(c.id+":")).reduce((s,k)=>s+DADOS.resp[k].length,0);
@@ -807,6 +1041,62 @@ function montarProgresso(){
   pintaSync();
 }
 
+/* ================= páginas do livro de Inglês ================= */
+function controleVoz(){
+  if(!temVoz)return "";
+  const l=lento();
+  return `<div class="voz" role="group" aria-label="Velocidade da voz"><span>🔊 Voz:</span><button type="button" data-voz="normal" aria-pressed="${!l}">Normal</button><button type="button" data-voz="lenta" aria-pressed="${l}">Devagar 🐢</button></div>`;
+}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-voz]");if(!b)return;try{localStorage.setItem("livro-voz",b.dataset.voz)}catch(x){}
+  b.parentElement.querySelectorAll("[data-voz]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));falar(b.dataset.voz==="lenta"?"This is the slow voice.":"This is the normal voice.")});
+
+/* todas as palavras das lições, sem repetir, em ordem de frequência */
+function todasPalavras(){
+  const vistas=new Map();
+  licoes.forEach(c=>c.body.replace(/\r\n/g,"\n").replace(RE_BLOCO,(_,t,corpo)=>{if(t==="palavras")palavrasDe(corpo).forEach(p=>{const k=p.w.toLowerCase();if(!vistas.has(k))vistas.set(k,{...p,c})})}));
+  return [...vistas.values()].sort((a,b)=>(rankDe(a.w)||9e9)-(rankDe(b.w)||9e9));
+}
+function paginaVocab(page){
+  const ps=todasPalavras();
+  page.insertAdjacentHTML("beforeend",`<p class="nota-p">${ps.length} palavras e expressões. O selo verde mostra a posição da palavra entre as mais ditas em filmes e séries.</p>
+    <label class="sr" for="filtroVoc">Filtrar palavras</label><input class="filtro" id="filtroVoc" type="search" placeholder="Filtrar (ex.: coffee)" autocomplete="off">
+    <div class="pals" id="vocLista">${ps.map(p=>cartaoPalavra(p,`<div class="pal-onde"><a href="#${esc(p.c.id)}">Lição ${p.c.num} · ${esc(p.c.meta.titulo)}</a></div>`).replace('<div class="pal"',`<div class="pal" data-w="${esc((p.w+" "+p.def).toLowerCase())}"`)).join("")}</div>`);
+  page.querySelector("#filtroVoc").addEventListener("input",e=>{const t=e.target.value.toLowerCase().trim();page.querySelectorAll("#vocLista .pal").forEach(x=>x.hidden=!!t&&!x.dataset.w.includes(t))});
+}
+function paginaGram(page){
+  const blocos=licoes.map(c=>{const secs=secoesMd(c).filter(s=>/^(Gramática|Macetes|Pronúncia)/i.test(s.title));
+    return secs.length?`<h3>Lição ${c.num} · ${esc(c.meta.titulo)}</h3><ul>${secs.map(s=>`<li><a href="#${esc(c.id)}/${s.id}">${esc(s.title)}</a></li>`).join("")}</ul>`:""}).join("");
+  page.insertAdjacentHTML("beforeend",blocos||'<p class="nota-p">Nenhuma lição ainda.</p>');
+}
+function montarProgressoEn(){
+  const box=document.getElementById("progPage");if(!box)return;
+  const st=licoes.map(c=>({c,...statsDoc(c)}));
+  const tTent=st.reduce((s,x)=>s+x.tent,0),tAc=st.reduce((s,x)=>s+x.ac,0),tResp=st.reduce((s,x)=>s+x.resp,0),tN=st.reduce((s,x)=>s+x.n,0);
+  const feita=c=>DADOS.concl[c.id]&&DADOS.concl[c.id].v;
+  const concl=licoes.filter(feita).length;
+  const ps=todasPalavras(),aprend=ps.filter(p=>feita(p.c)).length;
+  const linhas=st.map(x=>`<tr><td><a href="#${esc(x.c.id)}">${x.c.num} · ${esc(x.c.meta.titulo)}</a></td><td>${x.resp}/${x.n}</td><td>${x.tent?pct(x.ac,x.tent)+"%":"–"}</td><td>${x.tent?x.err:"–"}</td><td>${feita(x.c)?"✓":""}</td></tr>`).join("");
+  box.innerHTML=`<div class="kpis">
+    <div class="kpi"><b>${concl}/${licoes.length}</b><span>lições<br>concluídas</span></div>
+    <div class="kpi"><b>${aprend}/${ps.length}</b><span>palavras de lições<br>concluídas</span></div>
+    <div class="kpi"><b>${tResp}/${tN}</b><span>atividades<br>respondidas</span></div>
+    <div class="kpi"><b>${tTent?pct(tAc,tTent)+"%":"–"}</b><span>de acertos<br>${tAc} de ${tTent} respostas</span></div>
+  </div>
+  <section><h2><span>Por lição</span></h2>
+  <div class="tw"><table><thead><tr><th>Lição</th><th>Respondidas</th><th>Acertos</th><th>Erros</th><th>Concluída</th></tr></thead><tbody>${linhas}</tbody></table></div>
+  <p class="nota-p">Os dias em que você estuda Inglês também contam no calendário de <a href="#progresso">Meu progresso do ALEPA</a>. O backup e a sincronização de lá guardam os dois livros.</p></section>`;
+}
+function cartoesIngles(c){
+  const corpo=c.body.replace(/\r\n/g,"\n"),lista=[],pad=String(c.num).padStart(2,"0");
+  const deck=("Inglês::Lição "+pad+" - "+c.meta.titulo).replace(/[\t"]/g,""),tag="ingles licao"+pad;
+  corpo.replace(RE_BLOCO,(_,t,b)=>{if(t==="palavras")palavrasDe(b).forEach(p=>{
+    const tampa=s=>inlineAnki(s).replace(new RegExp("\\b"+p.w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\b","gi"),"____");
+    lista.push([`<div style="font-size:64px">${p.emo}</div>${inlineAnki(p.def)}${p.ex[0]?"<br><br><i>"+tampa(p.ex[0])+"</i>":""}`,`<b>${esc(p.w)}</b> ${esc(p.ipa)}${p.ex.length?"<br><br><i>"+p.ex.map(inlineAnki).join("<br>")+"</i>":""}`,deck,tag+" palavra"])})});
+  const m=corpo.match(/^## Flashcards[^\n]*\n([\s\S]*?)(?=^## |\s*$(?![\s\S]))/m);
+  if(m) m[1].split("\n").forEach(l=>{const x=l.match(/^-\s+(.*?)\s+::\s+(.*)$/);if(x)lista.push([inlineAnki(x[1]),inlineAnki(x[2]),deck,tag+" flashcard"])});
+  return lista;
+}
+
 /* checklist do edital: itens "- [ ]" viram caixas marcáveis, salvas neste navegador */
 const CHAVE_CK="livro-checklist";
 function lerCk(){const o={};for(const k in DADOS.ck)if(DADOS.ck[k].v)o[k]=true;return o}
@@ -853,6 +1143,7 @@ function inlineAnki(t){return marked.parseInline(t.replace(/\[\^\d+\]/g,"")).rep
 function cartoesDe(c){
   const corpo=c.body.replace(/\r\n/g,"\n"),lista=[];
   const pad=n=>String(n).padStart(2,"0");
+  if(ingles(c))return cartoesIngles(c);
   const nomeDeck="ALEPA 2026::"+(c.resumo?"Resumos::"+rotulo(c)+" - "+c.meta.titulo:"Cap "+pad(c.num)+" - "+c.meta.titulo).replace(/::(?=[^:]*$)/,"::").replace(/[\t"]/g,"");
   const ref=c.resumo?rotulo(c):"Cap. "+c.num;
   const tagBase="alepa "+(c.resumo?"resumo_"+rotulo(c):"cap"+pad(c.num));
@@ -866,7 +1157,7 @@ function cartoesDe(c){
   });
   return lista;
 }
-const fontesAnki=()=>[...estudo,...resumos];
+const fontesAnki=()=>ingles(capAtual())?licoes:[...estudo,...resumos];
 function baixarAnki(docs,nome){
   const q=v=>'"'+String(v).replace(/"/g,'""')+'"';
   const linhas=["#separator:tab","#html:true","#deck column:3","#tags column:4"];
@@ -876,16 +1167,16 @@ function baixarAnki(docs,nome){
   setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);
 }
 function abrirAnki(){
-  const c=capAtual(),temCap=!c.lei&&!c.edital,nCap=temCap?cartoesDe(c).length:0,nTudo=fontesAnki().reduce((t,d)=>t+cartoesDe(d).length,0);
-  const bc=$("#ankiCap");bc.hidden=!temCap;bc.textContent=temCap?`Só este ${c.resumo?"resumo":"capítulo"} (${nCap} cartões)`:"";
-  $("#ankiTudo").textContent=`Tudo: capítulos e resumos (${nTudo} cartões)`;
+  const c=capAtual(),temCap=!c.lei&&!c.edital&&!c.virtual,nCap=temCap?cartoesDe(c).length:0,nTudo=fontesAnki().reduce((t,d)=>t+cartoesDe(d).length,0);
+  const bc=$("#ankiCap");bc.hidden=!temCap;bc.textContent=temCap?`Só ${ingles(c)?"esta lição":c.resumo?"este resumo":"este capítulo"} (${nCap} cartões)`:"";
+  $("#ankiTudo").textContent=ingles(c)?`Todas as lições de Inglês (${nTudo} cartões)`:`Tudo: capítulos e resumos (${nTudo} cartões)`;
   $("#ankiDlg").hidden=false;$("#ankiTudo").focus();
 }
 $("#btnAnki").addEventListener("click",abrirAnki);
 $("#ankiFechar").addEventListener("click",()=>{$("#ankiDlg").hidden=true;$("#btnAnki").focus()});
 $("#ankiDlg").addEventListener("click",e=>{if(e.target.id==="ankiDlg")$("#ankiDlg").hidden=true});
-$("#ankiCap").addEventListener("click",()=>{const c=capAtual();baixarAnki([c],"alepa-anki-"+(c.resumo?rotulo(c):"cap"+String(c.num).padStart(2,"0"))+".txt")});
-$("#ankiTudo").addEventListener("click",()=>baixarAnki(fontesAnki(),"alepa-anki-completo.txt"));
+$("#ankiCap").addEventListener("click",()=>{const c=capAtual();baixarAnki([c],ingles(c)?"ingles-anki-licao"+String(c.num).padStart(2,"0")+".txt":"alepa-anki-"+(c.resumo?rotulo(c):"cap"+String(c.num).padStart(2,"0"))+".txt")});
+$("#ankiTudo").addEventListener("click",()=>baixarAnki(fontesAnki(),ingles(capAtual())?"ingles-anki-completo.txt":"alepa-anki-completo.txt"));
 
 /* destaca a seção visível no sumário */
 let obs;
@@ -957,7 +1248,9 @@ function buscar(q){
   if(t.length<2){ul.innerHTML='<li class="busca-vazio">Digite pelo menos 2 letras.</li>';return}
   if(!indice) montarIndice();
   const achados=[];const vistos=new Set();
+  const lv=capAtual().livro;
   for(const r of indice){
+    if(r.c.livro!==lv)continue;
     const i=r.norm.indexOf(t);if(i<0)continue;
     const chave=r.c.id+"|"+(r.s?r.s.id:"")+"|"+r.txt.slice(0,40);if(vistos.has(chave))continue;vistos.add(chave);
     const ini=Math.max(0,i-50),fim=Math.min(r.txt.length,i+t.length+70);
