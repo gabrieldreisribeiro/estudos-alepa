@@ -242,6 +242,20 @@ E) operador e ANPD
 = C | Art. 5º, IX. O encarregado não é agente de tratamento.
 :::
 
+## Questões da CETAP no TEC Concursos {-}
+
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Fundamentos, aplicação e conceitos | [#1862439](https://www.tecconcursos.com.br/questoes/1862439) PGE-PA 2021 · [#1938053](https://www.tecconcursos.com.br/questoes/1938053) SEPLAD-PA 2021 · [#1862562](https://www.tecconcursos.com.br/questoes/1862562) PGE-PA 2021 |
+| Princípios, bases legais e consentimento | [#1862550](https://www.tecconcursos.com.br/questoes/1862550) PGE-PA 2021 · [#1991048](https://www.tecconcursos.com.br/questoes/1991048) JUCEPA 2021 · [#1991027](https://www.tecconcursos.com.br/questoes/1991027) JUCEPA 2021 |
+| Dados anonimizados, direitos do titular e decisões automatizadas | [#1938061](https://www.tecconcursos.com.br/questoes/1938061) SEPLAD-PA 2021 · [#3334408](https://www.tecconcursos.com.br/questoes/3334408) BANPARÁ 2025 · [#2408943](https://www.tecconcursos.com.br/questoes/2408943) SEMAS-PA 2023 |
+| Poder Público, transferência internacional e responsabilidade | [#1862430](https://www.tecconcursos.com.br/questoes/1862430) PGE-PA 2021 · [#1905690](https://www.tecconcursos.com.br/questoes/1905690) AGE-PA 2022 · [#1905672](https://www.tecconcursos.com.br/questoes/1905672) AGE-PA 2022 |
+| Sanções e CNPD | [#2410128](https://www.tecconcursos.com.br/questoes/2410128) SEMAS-PA 2023 · [#3168368](https://www.tecconcursos.com.br/questoes/3168368) SEOP-PA 2024 |
+
 ## Referências {- .referencias}
 
 1. BRASIL. Lei nº 13.709, de 14 de agosto de 2018 (LGPD), art. 1º. Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm>. Acesso em: 5 out. 2026.

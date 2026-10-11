@@ -272,6 +272,15 @@ E) Somente se pode configurar uma impressora por computador.
 = E | Gabarito **oficial definitivo** da CETAP. Um computador pode ter **várias impressoras** instaladas, uma delas marcada como padrão. Mais um "somente" errado.
 :::
 
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Periféricos e drivers | [#3334402](https://www.tecconcursos.com.br/questoes/3334402) BANPARÁ 2025 · [#2045131](https://www.tecconcursos.com.br/questoes/2045131) CRF-PA 2021 · [#1905761](https://www.tecconcursos.com.br/questoes/1905761) AGE-PA 2022 · [#793742](https://www.tecconcursos.com.br/questoes/793742) Ourém 2017 · [#599667](https://www.tecconcursos.com.br/questoes/599667) ALERR 2010 · [#2409174](https://www.tecconcursos.com.br/questoes/2409174) SEMAS-PA 2023 · [#3102908](https://www.tecconcursos.com.br/questoes/3102908) Castanhal 2024 |
+| No-break | [#1905767](https://www.tecconcursos.com.br/questoes/1905767) AGE-PA 2022 |
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017.

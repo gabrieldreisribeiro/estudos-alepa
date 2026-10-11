@@ -193,6 +193,17 @@ E) gestão adequada de riscos
 = D | O volume de contratos é critério de agravamento da multa (art. 22), não parâmetro do programa (art. 57).
 :::
 
+## Questões da CETAP no TEC Concursos {-}
+
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Decreto 11.129 (atual) | [#3168104](https://www.tecconcursos.com.br/questoes/3168104) SEOP-PA 2024 · [#3168392](https://www.tecconcursos.com.br/questoes/3168392) SEOP-PA 2024 |
+| Decreto 8.420/2015 (revogado; confira se a regra mudou) | [#1862434](https://www.tecconcursos.com.br/questoes/1862434) PGE-PA 2021 · [#1924165](https://www.tecconcursos.com.br/questoes/1924165) SEPLAD-PA 2021 · [#1938045](https://www.tecconcursos.com.br/questoes/1938045) SEPLAD-PA 2021 · [#1991022](https://www.tecconcursos.com.br/questoes/1991022) JUCEPA 2021 · [#1992009](https://www.tecconcursos.com.br/questoes/1992009) JUCEPA 2021 |
+
 ## Referências {- .referencias}
 
 1. BRASIL. Decreto nº 11.129, de 11 de julho de 2022, art. 1º. Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11129.htm>. Acesso em: 5 out. 2026.

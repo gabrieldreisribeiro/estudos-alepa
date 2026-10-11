@@ -344,6 +344,15 @@ E) Os discos rígidos externos são conectados através de controladoras IDE.
 = E | Gabarito **oficial definitivo** da CETAP. Discos externos usam **USB** (ou eSATA/Thunderbolt), não IDE. A B confirma: SATA é **serial**, com cabo fino; o IDE era **paralelo**, com cabo largo (flat).
 :::
 
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Armazenamento (SSD, M.2, NVMe, IDE x SATA, SCSI) | [#3332105](https://www.tecconcursos.com.br/questoes/3332105) BANPARÁ 2025 · [#2062099](https://www.tecconcursos.com.br/questoes/2062099) CRF-PA 2021 · [#2409165](https://www.tecconcursos.com.br/questoes/2409165) SEMAS-PA 2023 · [#777551](https://www.tecconcursos.com.br/questoes/777551) S. J. Pirabas 2016 · [#3102957](https://www.tecconcursos.com.br/questoes/3102957) Castanhal 2024 · [#2409162](https://www.tecconcursos.com.br/questoes/2409162) SEMAS-PA 2023 |
+| Entrada e saída (DMA, buffer, USB, plug and play) | [#1863827](https://www.tecconcursos.com.br/questoes/1863827) PGE-PA 2021 · [#775043](https://www.tecconcursos.com.br/questoes/775043) MPCM-PA 2015 · [#2409161](https://www.tecconcursos.com.br/questoes/2409161) SEMAS-PA 2023 · [#750992](https://www.tecconcursos.com.br/questoes/750992) DETRAN-RR 2010 · [#602202](https://www.tecconcursos.com.br/questoes/602202) ALERR 2010 |
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Caps. 6 (memória externa) e 7 (entrada/saída).

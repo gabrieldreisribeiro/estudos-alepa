@@ -232,6 +232,15 @@ E) jamais mentir, apenas.
 = C | Gabarito **oficial definitivo** da CETAP. Ética é **reflexão sistemática** (teórica, racional) sobre a conduta humana. "Conjunto de bom comportamento" descreve a **moral**, e "assistemático" está errado.
 :::
 
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Ética e moral | [#1938067](https://www.tecconcursos.com.br/questoes/1938067) SEPLAD-PA 2021 · [#1862456](https://www.tecconcursos.com.br/questoes/1862456) PGE-PA 2021 · [#1862452](https://www.tecconcursos.com.br/questoes/1862452) PGE-PA 2021 |
+| Decreto 1.171/1994 | [#2188893](https://www.tecconcursos.com.br/questoes/2188893) Maracanã 2019 · [#1258645](https://www.tecconcursos.com.br/questoes/1258645) Abaetetuba 2016 |
+
 ## Referências {- .referencias}
 
 1. CHAUI, Marilena. *Convite à Filosofia*. São Paulo: Ática, 2000. Unidade 8 — O mundo da prática (a existência ética).

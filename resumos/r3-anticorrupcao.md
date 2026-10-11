@@ -209,6 +209,19 @@ E) são imprescritíveis.
 = B | Art. 25. Não confunda com os 8 anos da improbidade.
 :::
 
+## Questões da CETAP no TEC Concursos {-}
+
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Aplicação, responsabilidade objetiva e atos lesivos | [#3168093](https://www.tecconcursos.com.br/questoes/3168093) SEOP-PA 2024 · [#1876856](https://www.tecconcursos.com.br/questoes/1876856) SEAP-PA 2021 · [#1877496](https://www.tecconcursos.com.br/questoes/1877496) SEAP-PA 2021 |
+| Sanções e dosimetria (arts. 6º e 7º) | [#1863706](https://www.tecconcursos.com.br/questoes/1863706) PGE-PA 2021 · [#1877501](https://www.tecconcursos.com.br/questoes/1877501) SEAP-PA 2021 |
+| PAR e leniência | [#2408940](https://www.tecconcursos.com.br/questoes/2408940) SEMAS-PA 2023 · [#1877504](https://www.tecconcursos.com.br/questoes/1877504) SEAP-PA 2021 · [#2410125](https://www.tecconcursos.com.br/questoes/2410125) SEMAS-PA 2023 · [#1876857](https://www.tecconcursos.com.br/questoes/1876857) SEAP-PA 2021 |
+| Sanções judiciais, CNEP e prescrição | [#1924164](https://www.tecconcursos.com.br/questoes/1924164) SEPLAD-PA 2021 · [#3168386](https://www.tecconcursos.com.br/questoes/3168386) SEOP-PA 2024 · [#1992017](https://www.tecconcursos.com.br/questoes/1992017) JUCEPA 2021 |
+
 ## Referências {- .referencias}
 
 1. BRASIL. Lei nº 12.846, de 1º de agosto de 2013, art. 1º e parágrafo único. Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm>. Acesso em: 5 out. 2026.

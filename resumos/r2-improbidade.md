@@ -190,6 +190,18 @@ E) Apenas o próprio agente pode representar à autoridade administrativa.
 = C | Art. 20 e art. 12, § 9º. A aprovação de contas não impede (art. 21); qualquer pessoa pode representar (art. 14).
 :::
 
+## Questões da CETAP no TEC Concursos {-}
+
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Dolo, quem responde e sucessão | [#3168097](https://www.tecconcursos.com.br/questoes/3168097) SEOP-PA 2024 · [#3990463](https://www.tecconcursos.com.br/questoes/3990463) Mãe do Rio 2026 · [#1862448](https://www.tecconcursos.com.br/questoes/1862448) PGE-PA 2021 · [#3168415](https://www.tecconcursos.com.br/questoes/3168415) SEOP-PA 2024 |
+| Espécies (arts. 10 e 11) e declaração de bens | [#3772715](https://www.tecconcursos.com.br/questoes/3772715) Viseu 2026 · [#2410127](https://www.tecconcursos.com.br/questoes/2410127) SEMAS-PA 2023 · [#2408941](https://www.tecconcursos.com.br/questoes/2408941) SEMAS-PA 2023 |
+| Procedimento e processo (arts. 7º, 14, 15, 16 e 21) | [#3034720](https://www.tecconcursos.com.br/questoes/3034720) Castanhal 2024 · [#1924158](https://www.tecconcursos.com.br/questoes/1924158) SEPLAD-PA 2021 · [#1924159](https://www.tecconcursos.com.br/questoes/1924159) SEPLAD-PA 2021 · [#3772685](https://www.tecconcursos.com.br/questoes/3772685) Viseu 2026 · [#1904168](https://www.tecconcursos.com.br/questoes/1904168) AGE-PA 2022 |
+
 ## Referências {- .referencias}
 
 1. BRASIL. Lei nº 8.429, de 2 de junho de 1992, art. 1º, §§ 1º a 3º e 8º (redação da Lei nº 14.230/2021). Disponível em: <https://www.planalto.gov.br/ccivil_03/leis/l8429.htm>. Acesso em: 5 out. 2026.

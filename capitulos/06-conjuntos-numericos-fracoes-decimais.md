@@ -245,6 +245,18 @@ E) 7/12
 = B | Primeiro a multiplicação: 1/3 × 3/4 = 1/4; depois 1/2 + 1/4 = 3/4.
 :::
 
+## Questões da CETAP no TEC Concursos {-}
+
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Problemas com frações | [#3335595](https://www.tecconcursos.com.br/questoes/3335595) BANPARÁ 2025 · [#3036198](https://www.tecconcursos.com.br/questoes/3036198) Castanhal 2024 · [#3036204](https://www.tecconcursos.com.br/questoes/3036204) Castanhal 2024 · [#3100499](https://www.tecconcursos.com.br/questoes/3100499) Castanhal 2024 · [#1452839](https://www.tecconcursos.com.br/questoes/1452839) Maracanã 2019 · [#1601089](https://www.tecconcursos.com.br/questoes/1601089) Tailândia 2019 · [#738054](https://www.tecconcursos.com.br/questoes/738054) CM Belém 2012 · [#809280](https://www.tecconcursos.com.br/questoes/809280) CM Ananindeua 2012 · [#809305](https://www.tecconcursos.com.br/questoes/809305) CM Ananindeua 2012 |
+| Dízima periódica | [#3050514](https://www.tecconcursos.com.br/questoes/3050514) Castanhal 2024 |
+| Contas com decimais | [#3050493](https://www.tecconcursos.com.br/questoes/3050493) Castanhal 2024 · [#3050525](https://www.tecconcursos.com.br/questoes/3050525) Castanhal 2024 · [#737955](https://www.tecconcursos.com.br/questoes/737955) CM Belém 2012 |
+
 ## Referências {- .referencias}
 
 1. IEZZI, Gelson; MURAKAMI, Carlos. *Fundamentos de Matemática Elementar, 1: conjuntos, funções*. 9. ed. São Paulo: Atual, 2013. Cap. 2 — Conjuntos numéricos.

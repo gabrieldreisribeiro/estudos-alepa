@@ -317,6 +317,16 @@ E) única.
 = A | Gabarito **oficial definitivo** da CETAP. **Relíquia** e **funcionário** são **paroxítonas terminadas em ditongo** (re-lí-**quia**, fun-cio-ná-**rio**). Público e única são proparoxítonas; até é oxítona; constituía é hiato.
 :::
 
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Acentuação (mesma regra, hiato, têm/vêm, acento que muda a classe) | [#3168075](https://www.tecconcursos.com.br/questoes/3168075) SEOP-PA 2024 · [#2408904](https://www.tecconcursos.com.br/questoes/2408904) SEMAS-PA 2023 · [#2410118](https://www.tecconcursos.com.br/questoes/2410118) SEMAS-PA 2023 · [#1876395](https://www.tecconcursos.com.br/questoes/1876395) SEAP-PA 2021 · [#3048270](https://www.tecconcursos.com.br/questoes/3048270) Castanhal 2024 · [#3772557](https://www.tecconcursos.com.br/questoes/3772557) Viseu 2026 · [#1902858](https://www.tecconcursos.com.br/questoes/1902858) AGE-PA 2022 · [#2175371](https://www.tecconcursos.com.br/questoes/2175371) Maracanã 2019 |
+| Emprego de letras | [#3772901](https://www.tecconcursos.com.br/questoes/3772901) Viseu 2026 · [#2970111](https://www.tecconcursos.com.br/questoes/2970111) Cametá 2024 · [#3040068](https://www.tecconcursos.com.br/questoes/3040068) Castanhal 2024 · [#3101402](https://www.tecconcursos.com.br/questoes/3101402) Castanhal 2024 |
+| Hífen | [#3036071](https://www.tecconcursos.com.br/questoes/3036071) Castanhal 2024 |
+
 ## Referências {- .referencias}
 
 1. BRASIL. Decreto nº 6.583, de 29 de setembro de 2008. Promulga o Acordo Ortográfico da Língua Portuguesa (Anexo, Bases I, VIII a XI, XIV e XVI). Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm>.

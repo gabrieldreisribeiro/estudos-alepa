@@ -412,6 +412,17 @@ E) USB, PCI e AGP são exemplos de barramentos.
 = D | Gabarito **oficial definitivo** da CETAP. O barramento de **controle** leva **sinais de comando** (leitura, escrita, interrupção, clock), e não energia. Quem leva a energia são as **linhas de alimentação**.
 :::
 
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Memórias (volátil, RAM, ROM, cache, DDR) | [#2409170](https://www.tecconcursos.com.br/questoes/2409170) SEMAS-PA 2023 · [#1863826](https://www.tecconcursos.com.br/questoes/1863826) PGE-PA 2021 · [#2409169](https://www.tecconcursos.com.br/questoes/2409169) SEMAS-PA 2023 · [#777542](https://www.tecconcursos.com.br/questoes/777542) S. J. Pirabas 2016 · [#1298649](https://www.tecconcursos.com.br/questoes/1298649) Abaetetuba 2016 · [#791174](https://www.tecconcursos.com.br/questoes/791174) Ourém 2017 · [#1178414](https://www.tecconcursos.com.br/questoes/1178414) Ananindeua 2019 |
+| Processador (32 x 64 bits, núcleos, famílias) | [#2409164](https://www.tecconcursos.com.br/questoes/2409164) SEMAS-PA 2023 · [#1905763](https://www.tecconcursos.com.br/questoes/1905763) AGE-PA 2022 · [#751236](https://www.tecconcursos.com.br/questoes/751236) DETRAN-RR 2010 · [#762126](https://www.tecconcursos.com.br/questoes/762126) Tailândia 2015 · [#3102901](https://www.tecconcursos.com.br/questoes/3102901) Castanhal 2024 |
+| Von Neumann, CISC/RISC, barramentos | [#751224](https://www.tecconcursos.com.br/questoes/751224) DETRAN-RR 2010 · [#751161](https://www.tecconcursos.com.br/questoes/751161) DETRAN-RR 2010 · [#2409160](https://www.tecconcursos.com.br/questoes/2409160) SEMAS-PA 2023 · [#602471](https://www.tecconcursos.com.br/questoes/602471) ALERR 2010 |
+| Placa-mãe (rede on-board, boot, fonte) | [#2409166](https://www.tecconcursos.com.br/questoes/2409166) SEMAS-PA 2023 · [#2409167](https://www.tecconcursos.com.br/questoes/2409167) SEMAS-PA 2023 · [#2409168](https://www.tecconcursos.com.br/questoes/2409168) SEMAS-PA 2023 |
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Caps. 3 (barramentos), 4 (cache), 5 (memória interna), 14 (estrutura do processador) e 15 (RISC).

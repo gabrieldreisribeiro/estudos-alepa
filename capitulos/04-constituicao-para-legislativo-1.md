@@ -351,6 +351,17 @@ E) leis complementares
 = D | O art. 102 não lista medida provisória.
 :::
 
+## Questões da CETAP no TEC Concursos {-}
+
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Poder Legislativo estadual (Constituição de **Roraima**, mesmo estilo) | [#598853](https://www.tecconcursos.com.br/questoes/598853) CPI · [#602169](https://www.tecconcursos.com.br/questoes/602169) perda do mandato · [#598855](https://www.tecconcursos.com.br/questoes/598855) processo legislativo · [#598451](https://www.tecconcursos.com.br/questoes/598451) iniciativa do Governador · [#602168](https://www.tecconcursos.com.br/questoes/602168) matérias com sanção |
+| Regimento Interno (Assembleia de Roraima) | [#598444](https://www.tecconcursos.com.br/questoes/598444) iniciativa popular · [#598445](https://www.tecconcursos.com.br/questoes/598445) urgência · [#602166](https://www.tecconcursos.com.br/questoes/602166) comissões |
+
 ## Referências {- .referencias}
 
 1. PARÁ. Constituição do Estado do Pará, de 5 de outubro de 1989, art. 11. Texto da Assembleia Legislativa disponível em: <https://www.alepa.pa.gov.br/Content/Docs/constituicao-estado-do-para.pdf>. Acesso em: 6 out. 2026.

@@ -358,6 +358,16 @@ E) Todas as afirmativas estão corretas.
 = B | Gabarito **oficial definitivo** da CETAP. I: 49 = 32 + 16 + 1 = **00110001**. IV: é a representação **sinal e magnitude** (bit da esquerda = sinal). II, III e V são falsas: o binário representa ponto flutuante, o computador faz as contas **em binário** e qualquer base pode ser convertida em outra.
 :::
 
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Conversão de bases (decimal, binário, hexadecimal) | [#2518727](https://www.tecconcursos.com.br/questoes/2518727) SEMAS-PA 2023 · [#1905760](https://www.tecconcursos.com.br/questoes/1905760) AGE-PA 2022 · [#1863828](https://www.tecconcursos.com.br/questoes/1863828) PGE-PA 2021 · [#1938094](https://www.tecconcursos.com.br/questoes/1938094) SEPLAD-PA 2021 · [#1992122](https://www.tecconcursos.com.br/questoes/1992122) JUCEPA 2021 · [#2062115](https://www.tecconcursos.com.br/questoes/2062115) CRF-PA 2021 |
+| Unidades de medida | [#791175](https://www.tecconcursos.com.br/questoes/791175) Ourém 2017 · [#762121](https://www.tecconcursos.com.br/questoes/762121) Tailândia 2015 · [#2149342](https://www.tecconcursos.com.br/questoes/2149342) Maracanã 2019 |
+| Sinal e complemento | [#751163](https://www.tecconcursos.com.br/questoes/751163) DETRAN-RR 2010 · [#751246](https://www.tecconcursos.com.br/questoes/751246) DETRAN-RR 2010 |
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Cap. 9 — Sistemas numéricos.
