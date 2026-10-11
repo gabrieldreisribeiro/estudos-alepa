@@ -304,6 +304,17 @@ E) que é desenvolvido somente em linguagens de programação interpretadas como
 = A | Gabarito **oficial definitivo** da CETAP. Sistema embarcado = computador **dentro de outro equipamento** (micro-ondas, carro, roteador), feito para **uma tarefa específica**. O "somente" da B e da E já denuncia o erro.
 :::
 
+### Mais questões da CETAP sobre este tema (TEC Concursos)
+
+Estas não estão transcritas aqui (os termos do TEC não permitem), mas você pode resolvê-las no TEC, com gabarito e comentários:
+
+| Tema | Questões |
+|---|---|
+| Hardware x software (inclui BIOS como software) | [#791172](https://www.tecconcursos.com.br/questoes/791172) Ourém 2017 · [#752741](https://www.tecconcursos.com.br/questoes/752741) Ananindeua 2015 · [#1863635](https://www.tecconcursos.com.br/questoes/1863635) PGE-PA 2021 |
+| Tipos de computador pelo porte | [#2021073](https://www.tecconcursos.com.br/questoes/2021073) CRF-PA 2021 · [#2045124](https://www.tecconcursos.com.br/questoes/2045124) CRF-PA 2021 |
+| Batch e time sharing (usados como alternativas erradas) | [#1938080](https://www.tecconcursos.com.br/questoes/1938080) SEPLAD-PA 2021 |
+| Fatia de tempo e preempção (time sharing) | [#2062130](https://www.tecconcursos.com.br/questoes/2062130) CRF-PA 2021 |
+
 ## Referências {- .referencias}
 
 1. MACHADO, Francis B.; MAIA, Luiz Paulo. *Arquitetura de Sistemas Operacionais*. 5. ed. Rio de Janeiro: LTC, 2013. Cap. 2 — Tipos de Sistemas Operacionais.
