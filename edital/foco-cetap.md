@@ -10,6 +10,17 @@ lead: Mapa feito a partir das questões reais da CETAP no TEC Concursos (provas 
 > [!DICA]
 > **Como usar:** comece pelos temas com mais questões. Depois de estudar o capítulo, abra os códigos no TEC e resolva as questões. O gabarito e os comentários ficam lá. O caderno completo, com 4.724 questões da CETAP só nas matérias do seu cargo, é o [ALEPA Programação – CETAP foco](https://www.tecconcursos.com.br/questoes/cadernos/105592229).
 
+## Selos de prioridade nos capítulos
+
+Com base neste mapa, as seções dos capítulos e resumos têm selos:
+
+- **★ Cai muito**: o tema aparece com frequência nas questões da CETAP. Estude primeiro e revise sempre. No menu lateral, essas seções têm uma ★.
+- **Pouco cobrado**: está no edital, mas quase não apareceu nas questões lidas. Leia, mas sem gastar muito tempo.
+- **Sem selo**: ainda não há dados suficientes. Os capítulos 2 e 4 e a LC 95 não têm selos (sem questões da CETAP para comparar).
+
+> [!DICA]
+> Na revisão de sábado e na reta final, passe primeiro por todas as seções **★ Cai muito** de todos os capítulos.
+
 ## Cobertura: cada página do livro tem questão da CETAP?
 
 Conferido em 11/10/2026. **Abertas** são as questões transcritas no próprio livro, de provas e gabaritos públicos. **No TEC** é quantas questões a CETAP tem sobre o tema no caderno. **Mapeado** quer dizer que eu já li e listei os códigos aqui.

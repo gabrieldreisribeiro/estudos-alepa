@@ -5,7 +5,7 @@ edital: Sex 09/10 · Legislação B — Ética e moral; princípios e valores; �
 lead: A diferença entre ética e moral, valores e princípios, e as regras de conduta do servidor público.
 ---
 
-## Ética x moral
+## Ética x moral {.cai}
 
 | | Ética | Moral |
 |---|---|---|
@@ -47,7 +47,7 @@ A administração pública obedece aos princípios de **Legalidade, Impessoalida
 | **Publicidade** | Os atos devem ser **transparentes** e divulgados |
 | **Eficiência** | Fazer **bem feito**, com qualidade e sem desperdício |
 
-### Código de Ética do Servidor Público (Decreto nº 1.171/1994)
+### Código de Ética do Servidor Público (Decreto nº 1.171/1994) {.cai}
 
 É o **Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal**, referência usada pelas bancas para "ética no serviço público".[^3]
 

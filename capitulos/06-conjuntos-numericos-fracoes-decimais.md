@@ -5,7 +5,7 @@ edital: Qua 07/10 · Raciocínio Lógico — Conjuntos numéricos: operações c
 lead: Os conjuntos dos números e as contas com frações e decimais que aparecem nos problemas de prova.
 ---
 
-## Os conjuntos numéricos
+## Os conjuntos numéricos {.pouco}
 
 | Conjunto | O que tem | Exemplos |
 |---|---|---|
@@ -25,7 +25,7 @@ Fonte: Iezzi e Murakami.[^1]
 > - **0,333…** é racional, porque é periódica (= 1/3).
 > - **π** é irracional. **3,14** é racional, porque é só uma aproximação.
 
-## Operações com frações
+## Operações com frações {.cai}
 
 | Operação | Regra | Exemplo |
 |---|---|---|
@@ -56,7 +56,7 @@ Primeiro **parênteses**, depois **potências e raízes**, depois **multiplicaç
 > [!PEGADINHA]
 > 1/2 + 1/3 × 3/4 = 1/2 + **1/4** = **3/4**. Quem soma primeiro chega a 5/6 × 3/4 = 5/8, que é a resposta errada que a banca coloca nas alternativas.
 
-## Decimais
+## Decimais {.cai}
 
 ### Fração ↔ decimal
 
@@ -71,7 +71,7 @@ Primeiro **parênteses**, depois **potências e raízes**, depois **multiplicaç
 > [!SIMPLES]
 > Na divisão, o truque é **sumir com a vírgula**: multiplique os dois números por 10, 100 ou 1000 até não ter mais vírgula. O resultado não muda.
 
-### Dízimas periódicas (fração geratriz)
+### Dízimas periódicas (fração geratriz) {.cai}
 
 Uma dízima periódica sempre vira fração:[^1]
 
@@ -86,7 +86,7 @@ Uma dízima periódica sempre vira fração:[^1]
 > [!PEGADINHA]
 > **0,999… = 1**. Pela regra, 9/9 = 1.
 
-## Os problemas de fração que a CETAP mais cobra
+## Os problemas de fração que a CETAP mais cobra {.cai}
 
 Em 74 questões da CETAP no TEC (frações, dízimas e decimais, 2012 a 2025), quase todas são **problemas do dia a dia**, e não contas soltas. São cinco moldes:[^1]
 

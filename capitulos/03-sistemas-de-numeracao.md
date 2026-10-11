@@ -22,7 +22,7 @@ Todos esses sistemas são **posicionais**: o valor de um dígito depende da **po
 > [!PEGADINHA]
 > O maior dígito de uma base é sempre **base − 1**. Por isso, "8" e "9" **não existem** em octal, e "2" não existe em binário. Um número como (1289)₈ é inválido.
 
-### Tabela de 0 a 15 (decore)
+### Tabela de 0 a 15 (decore) {.cai}
 
 | Dec | Bin | Oct | Hex | | Dec | Bin | Oct | Hex |
 |---|---|---|---|---|---|---|---|---|
@@ -35,14 +35,14 @@ Todos esses sistemas são **posicionais**: o valor de um dígito depende da **po
 | 6 | 0110 | 6 | 6 | | 14 | 1110 | 16 | E |
 | 7 | 0111 | 7 | 7 | | 15 | 1111 | 17 | F |
 
-### Potências de 2 (decore)
+### Potências de 2 (decore) {.cai}
 
 `2⁰=1 · 2¹=2 · 2²=4 · 2³=8 · 2⁴=16 · 2⁵=32 · 2⁶=64 · 2⁷=128 · 2⁸=256 · 2⁹=512 · 2¹⁰=1024`
 
 > [!CAI]
 > Com **n bits** dá para representar **2ⁿ valores**, de 0 até **2ⁿ − 1**.[^2] Exemplo: 8 bits = 256 valores (0 a 255).
 
-## Unidades de medida
+## Unidades de medida {.cai}
 
 A CETAP cobra conversão de unidades com frequência (TB em GB, GB em bytes, capacidade de pendrive). A regra é a das **potências de 2**:[^2]
 
@@ -67,7 +67,7 @@ A CETAP cobra conversão de unidades com frequência (TB em GB, GB em bytes, cap
 > [!SIMPLES]
 > Cada degrau (KB → MB → GB → TB) multiplica por **1024**. Para subir de degrau, divida por 1024. Para descer, multiplique.
 
-## Qualquer base → decimal
+## Qualquer base → decimal {.cai}
 
 Multiplique cada dígito pela **potência da base** da sua posição e **some**.[^1]
 
@@ -79,7 +79,7 @@ Multiplique cada dígito pela **potência da base** da sua posição e **some**.
 > [!DICA]
 > Para binário → decimal, escreva as potências em cima dos bits (…16 8 4 2 1) e **some só onde tem 1**. É o método mais rápido na prova.
 
-## Decimal → qualquer base
+## Decimal → qualquer base {.cai}
 
 **Divisões sucessivas** pela base de destino, até o quociente dar 0. A resposta são os **restos lidos de baixo para cima** (do último para o primeiro).[^1][^2]
 
@@ -105,7 +105,7 @@ Multiplique cada dígito pela **potência da base** da sua posição e **some**.
 > [!DICA]
 > Hexadecimal de 4 dígitos (questão comum na CETAP de 2021 a 2023): use as posições **4096 · 256 · 16 · 1**. 4EFF = 4·4096 + 14·256 + 15·16 + 15 = **20223**. Atalho com F no fim: 4FFF = 5000₁₆ − 1 = 5·4096 − 1 = **20479**.
 
-## Binário ↔ octal e binário ↔ hexadecimal
+## Binário ↔ octal e binário ↔ hexadecimal {.cai}
 
 Como 8 = 2³ e 16 = 2⁴, a conversão é direta, **sem passar pelo decimal**:[^1][^2]
 
@@ -126,14 +126,14 @@ Como 8 = 2³ e 16 = 2⁴, a conversão é direta, **sem passar pelo decimal**:[^
 > [!PEGADINHA]
 > Os grupos são formados **a partir da direita**. Se sobrarem bits à esquerda, complete com **zeros à esquerda**. Nunca complete à direita.
 
-### Octal ↔ hexadecimal
+### Octal ↔ hexadecimal {.pouco}
 
 Passe pelo **binário**: octal → binário (3 bits por dígito) → reagrupe em 4 bits → hexadecimal. O caminho inverso funciona igual.[^2]
 
 > [!EXEMPLO]
 > (75)₈ → 111 101 → 111101 → 0011 1101 → **(3D)₁₆**. Conferindo: 7·8 + 5 = 61 = 3·16 + 13.
 
-## Parte fracionária
+## Parte fracionária {.pouco}
 
 Para converter a parte depois da vírgula de decimal para binário, **multiplique por 2** várias vezes. A cada multiplicação, a parte inteira (0 ou 1) é o próximo bit, lido **de cima para baixo**.[^1]
 
@@ -144,7 +144,7 @@ Para converter a parte depois da vírgula de decimal para binário, **multipliqu
 > [!PEGADINHA]
 > Na parte inteira os restos são lidos **de baixo para cima**. Na parte fracionária, os bits são lidos **de cima para baixo**.
 
-## Números negativos em binário
+## Números negativos em binário {.cai}
 
 A CETAP cobrou este assunto nas três questões de numeração das provas de 2010 (veja as questões da banca no fim do capítulo). Nas três formas, o **bit mais à esquerda** (o mais significativo) indica o **sinal**: **0 = positivo**, **1 = negativo**.[^2]
 

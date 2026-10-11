@@ -198,6 +198,14 @@ section.referencias ol{max-width:none}
 section.referencias li{font:14px/1.55 var(--sans);margin:8px 0;scroll-margin-top:20px}
 section.referencias li.flash{background:var(--sel);border-radius:4px}
 
+/* selos de prioridade */
+.selo{display:inline-block;flex:none;font:700 11px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:5px 9px;border-radius:99px;vertical-align:middle;white-space:nowrap}
+section>h2 .selo{margin-left:auto}
+h3 .selo,h4 .selo{margin-left:8px;font-size:10.5px;padding:4px 8px}
+.selo-cai{background:var(--ok-bg);color:var(--ok)}
+.selo-pouco{background:var(--soft);color:var(--muted);border:1px solid var(--line)}
+.sub-star{color:var(--ok);font-size:11px}
+
 /* questões */
 .q{border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0;max-width:72ch}
 .q .qn{font:700 12px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--primary)}
@@ -518,6 +526,9 @@ const LIVROS=[
 ];
 const livroDoArquivo=a=>{const m=String(a).match(/^livros\/([^/]+)\//);return m?m[1]:"alepa"};
 const SEM_NUMERO=/\s*\{([^}]*)\}\s*$/;
+/* selos de prioridade: {.cai} = cai muito na CETAP; {.pouco} = pouco cobrado */
+const SELO={cai:'<span class="selo selo-cai" title="Cai muito nas provas da CETAP">★ Cai muito</span>',pouco:'<span class="selo selo-pouco" title="Pouco cobrado pela CETAP">Pouco cobrado</span>'};
+const seloDe=cls=>cls.includes(".cai")?"cai":cls.includes(".pouco")?"pouco":"";
 
 /* ---------- leitura dos capítulos ---------- */
 function frontmatter(md){
@@ -557,7 +568,7 @@ function secoesMd(c){
   c._secs=c.body.split(/\r?\n/).filter(l=>/^## /.test(l)).map(l=>{
     let t=l.slice(3),numerar=true;const a=t.match(SEM_NUMERO);
     if(a){t=t.replace(SEM_NUMERO,"");if(a[1].split(/\s+/).includes("-"))numerar=false}
-    return {id:"s"+(++si),label:numerar?(c.num?`${c.num}.${++n}`:String(++n)):"",title:t.replace(/[*_`]/g,"").trim()};
+    return {id:"s"+(++si),label:numerar?(c.num?`${c.num}.${++n}`:String(++n)):"",title:t.replace(/[*_`]/g,"").trim(),selo:a?seloDe(a[1]):""};
   });
   return c._secs;
 }
@@ -592,6 +603,7 @@ function render(cap){
     div.innerHTML=`<span class="ico" aria-hidden="true">${I[tipo]||I.DICA}</span><div class="bx"><span class="t">${CALLOUTS[tipo]||tipo}</span>${bq.innerHTML}</div>`;
     bq.replaceWith(div);
   });
+  tmp.querySelectorAll("h3,h4").forEach(h=>{const a=h.innerHTML.match(SEM_NUMERO);if(!a)return;h.innerHTML=h.innerHTML.replace(SEM_NUMERO,"");const k=seloDe(a[1]);if(k)h.insertAdjacentHTML("beforeend"," "+SELO[k])});
   tmp.querySelectorAll("table").forEach(t=>{const w=document.createElement("div");w.className="tw";t.replaceWith(w);w.appendChild(t)});
   let qn=0,an=0,cn=0,mn=0;
   tmp.querySelectorAll(".q-slot").forEach(slot=>{
@@ -621,7 +633,8 @@ function render(cap){
       const label=numerar?(cap.num?`${cap.num}.${++n}`:String(++n)):"";
       sec.dataset.label=label;
       sec.dataset.title=txt.replace(/<[^>]+>/g,"");
-      node.innerHTML=(label?`<span class="n">${label}</span>`:"")+`<span>${txt}</span>`;
+      const sk=sec.classList.contains("cai")?"cai":sec.classList.contains("pouco")?"pouco":"";
+      node.innerHTML=(label?`<span class="n">${label}</span>`:"")+`<span>${txt}</span>`+(sk?SELO[sk]:"");
       sec.appendChild(node);out.appendChild(sec);
     }else if(sec){sec.appendChild(node)}
     else out.appendChild(node);
@@ -789,7 +802,7 @@ function itemHTML(c,cur){
   const aberto=abertos.has(c.id);
   return `<li class="item${c===cur?" on":""}${aberto?" aberto":""}" data-id="${esc(c.id)}">
     <div class="item-row"><a class="item-link" href="#${esc(c.id)}"${c===cur?' aria-current="page"':""}><span class="num">${esc(rotulo(c))}</span><span>${esc(c.meta.titulo||c.arquivo)}${DADOS.concl[c.id]&&DADOS.concl[c.id].v?' <span class="ok-mark" title="Concluído">✓</span>':""}</span></a>${secs.length?`<button class="item-tog" type="button" aria-expanded="${aberto}" aria-label="Mostrar seções de ${esc(c.meta.titulo||"")}">${I.chev}</button>`:""}</div>
-    ${secs.length?`<ul class="subs">${secs.map(s=>`<li><a class="sub" href="#${esc(c.id)}/${s.id}" data-cap="${esc(c.id)}" data-s="${s.id}"><span class="num">${esc(s.label||"·")}</span><span>${esc(s.title)}</span></a></li>`).join("")}</ul>`:""}
+    ${secs.length?`<ul class="subs">${secs.map(s=>`<li><a class="sub" href="#${esc(c.id)}/${s.id}" data-cap="${esc(c.id)}" data-s="${s.id}"><span class="num">${esc(s.label||"·")}</span><span>${esc(s.title)}${s.selo==="cai"?' <span class="sub-star" title="Cai muito na CETAP">★</span>':""}</span></a></li>`).join("")}</ul>`:""}
   </li>`;
 }
 function montarSumario(cur){

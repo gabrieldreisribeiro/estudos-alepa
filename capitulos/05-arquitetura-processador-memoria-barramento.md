@@ -5,7 +5,7 @@ edital: Qua 07/10 · Item 2 — Arquitetura: processador, registradores, memóri
 lead: Como o computador funciona por dentro, peça por peça, e o que a banca cobra de cada uma.
 ---
 
-## Os blocos do computador
+## Os blocos do computador {.cai}
 
 O modelo de **von Neumann** organiza o computador em: **processador (CPU)**, **memória principal**, **dispositivos de entrada e saída** e **barramentos** que ligam tudo. Instruções e dados ficam guardados na **mesma memória**.[^1][^2]
 
@@ -15,7 +15,7 @@ O modelo de **von Neumann** organiza o computador em: **processador (CPU)**, **m
 > [!PEGADINHA]
 > Na arquitetura **Harvard**, instruções e dados ficam em **memórias separadas**, cada uma com seu barramento. Em von Neumann é **uma memória só**.[^2]
 
-## Processador (CPU)
+## Processador (CPU) {.cai}
 
 | Parte | O que faz |
 |---|---|
@@ -31,14 +31,14 @@ Fonte: Stallings, cap. 14.[^1]
 > [!PEGADINHA]
 > A **memória principal não faz parte da CPU**. A CPU é formada por **UC, ULA e registradores**. A memória principal fica **fora** dela e se liga à CPU pelo barramento. A CETAP já considerou **errada** a frase "a CPU possui 4 componentes: registradores, ULA, UC e memória principal".[^1]
 
-### Ciclo de instrução
+### Ciclo de instrução {.pouco}
 
 Toda instrução passa por: **busca** (*fetch*) → **decodificação** (*decode*) → **execução** (*execute*). Depois o processador busca a próxima.[^1]
 
 > [!SIMPLES]
 > É como seguir uma receita: **ler** o próximo passo, **entender** o que ele pede e **fazer**. Depois, ler o passo seguinte, e assim por diante.
 
-### Desempenho
+### Desempenho {.cai}
 
 - **Clock**: frequência do processador, medida em **hertz** (GHz = bilhões de ciclos por segundo).[^1]
 - **Multicore**: vários **núcleos** num mesmo chip, que executam tarefas **em paralelo**.[^1]
@@ -50,7 +50,7 @@ Toda instrução passa por: **busca** (*fetch*) → **decodificação** (*decode
 > [!SIMPLES]
 > O **clock** é o "ritmo" do processador. Ter **mais núcleos** é como ter **mais cozinheiros** trabalhando ao mesmo tempo. O **pipeline** é começar a ler a próxima receita enquanto a anterior ainda está no forno.
 
-### RISC x CISC
+### RISC x CISC {.cai}
 
 | RISC | CISC |
 |---|---|
@@ -68,7 +68,7 @@ Fonte: Stallings, cap. 15.[^1]
 > [!PEGADINHA]
 > Os processadores **x86 atuais são híbridos**: por fora aceitam instruções **CISC**, mas por dentro as quebram em **micro-operações simples**, no estilo RISC. Por isso é **falso** dizer que "não é possível juntar as duas tecnologias no mesmo processador". O CISC usa **microcódigo** para decodificar as instruções.[^1]
 
-## Registradores
+## Registradores {.pouco}
 
 São as memórias **mais rápidas e menores** do computador, ficam **dentro da CPU**.[^1][^2]
 
@@ -91,7 +91,7 @@ Fonte: Stallings, cap. 14.[^1]
 > [!PEGADINHA]
 > O **PC** guarda um **endereço**, não a instrução. Quem guarda a instrução é o **IR**.[^1]
 
-## Memória
+## Memória {.cai}
 
 ### Hierarquia de memória
 
@@ -102,7 +102,7 @@ Do **mais rápido, caro e pequeno** ao **mais lento, barato e grande**:[^1]
 > [!SIMPLES]
 > Quanto mais **perto do processador**, mais **rápida** e mais **cara** a memória, e por isso **menor**. É como guardar as coisas: o que você usa toda hora fica **no bolso** (registrador), depois **na mesa** (cache), **no armário** (RAM) e **no depósito** (HD).
 
-### Tipos de memória
+### Tipos de memória {.cai}
 
 | Memória | Característica | Uso |
 |---|---|---|
@@ -119,7 +119,7 @@ Fonte: Stallings, cap. 5.[^1]
 > [!SIMPLES]
 > **Volátil** = esquece tudo quando desliga, como a RAM. **Não volátil** = guarda mesmo desligado, como a ROM e o pendrive. A **cache** usa a memória mais rápida (SRAM) e a **RAM** usa a mais barata (DRAM).
 
-### Memória cache
+### Memória cache {.cai}
 
 A cache guarda **cópias dos dados mais usados** da RAM, perto do processador. Funciona por causa do **princípio da localidade**:[^1]
 
@@ -141,7 +141,7 @@ A cache guarda **cópias dos dados mais usados** da RAM, perto do processador. F
 > [!DICA]
 > Memória virtual, paginação e segmentação são de **Sistemas Operacionais** e têm dia próprio (Seg 12/10).
 
-## Barramento
+## Barramento {.cai}
 
 Barramento é o **conjunto de fios** que liga CPU, memória e E/S. O **barramento do sistema** tem três partes:[^1][^2]
 

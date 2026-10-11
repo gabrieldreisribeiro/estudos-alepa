@@ -8,7 +8,7 @@ lead: As regras do Novo Acordo Ortográfico que mais caem: hífen, uso de letras
 > [!DICA]
 > Tudo aqui segue o **Novo Acordo Ortográfico**, obrigatório no Brasil desde **1º/01/2016**.[^1][^2] A banca adora palavras que **perderam** o acento ou o hífen.
 
-## Alfabeto e trema
+## Alfabeto e trema {.pouco}
 
 - O alfabeto tem **26 letras**: o Acordo incluiu oficialmente **K, W e Y**.[^1]
 - O **trema foi abolido**: linguiça, frequente, tranquilo, cinquenta. Só fica em nomes estrangeiros e derivados (Müller, mülleriano).[^1]
@@ -16,7 +16,7 @@ lead: As regras do Novo Acordo Ortográfico que mais caem: hífen, uso de letras
 > [!SIMPLES]
 > K, W e Y já eram usados em nomes como "Kátia" e "show"; o Acordo só oficializou. E os dois pontinhos do "ü" sumiram das palavras portuguesas.
 
-## Uso do hífen com prefixos
+## Uso do hífen com prefixos {.pouco}
 
 | Regra | Exemplos |
 |---|---|
@@ -42,7 +42,7 @@ Palavras como **dia a dia**, **fim de semana**, **pé de moleque**, **mão de ob
 > [!PEGADINHA]
 > "Dia-a-dia" com hífen é forma **antiga**. Hoje é **dia a dia**.
 
-## Uso de letras: as dúvidas clássicas
+## Uso de letras: as dúvidas clássicas {.cai}
 
 | Regra | Exemplos |
 |---|---|
@@ -61,9 +61,9 @@ Fonte: Bechara.[^3]
 > [!SIMPLES]
 > Não tente decorar tudo: guarde os **padrões** (ditongo → x; nacionalidade → ês; adjetivo virando substantivo → ez/eza) e faça o **teste do oposto** para mal/mau (troque por bem/bom).
 
-## Acentuação gráfica
+## Acentuação gráfica {.cai}
 
-### Regras pela sílaba tônica
+### Regras pela sílaba tônica {.cai}
 
 | Tipo de palavra | Leva acento se terminar em | Exemplos |
 |---|---|---|
@@ -80,7 +80,7 @@ Fonte: Acordo Ortográfico, Bases VIII a XI.[^1]
 > [!PEGADINHA]
 > **Hífen** tem acento, mas **hifens** não. **Pólen**, mas **polens**. **Item** e **itens** não têm acento (paroxítonas terminadas em -em/-ens).
 
-### O que mudou com o Acordo
+### O que mudou com o Acordo {.pouco}
 
 | Regra | Antes | Agora |
 |---|---|---|
@@ -95,7 +95,7 @@ Fonte: Acordo Ortográfico, Bases VIII a XI.[^1]
 > [!CAI]
 > **Assembleia** não tem mais acento. Atenção: o próprio nome da **ALEPA** aparece nas provas assim.
 
-### Acentos que continuam
+### Acentos que continuam {.cai}
 
 - **Hiato com i/u tônico** sozinho na sílaba: sa-**í**-da, sa-**ú**-de, ba-**ú**, pa-**í**s. Não leva acento se vier seguido de **nh** (ra-i-nha) ou formar sílaba com outra letra (ru-im, Ra-ul).[^1]
 - **Pôde** (passado) x pode (presente).[^1]
@@ -106,7 +106,7 @@ Fonte: Acordo Ortográfico, Bases VIII a XI.[^1]
 > [!SIMPLES]
 > Os acentos que sobreviveram servem para **diferenciar palavras de verdade**: "ele **pôde** ontem" x "ele **pode** hoje"; "vou **pôr** a mesa" x "passei **por** aqui".
 
-## Como a CETAP cobra acentuação
+## Como a CETAP cobra acentuação {.cai}
 
 Em 62 questões de acentuação da CETAP no TEC (2012 a 2026), quase todas são de **três tipos**:
 

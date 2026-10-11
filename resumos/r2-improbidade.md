@@ -7,7 +7,7 @@ edital: Resumo · Legislação e Ética — Lei nº 8.429/1992 e alterações (L
 lead: Já com a reforma de 2021, que é o que as provas cobram hoje. Texto completo em [Leis · Lei 8.429](#l8429).
 ---
 
-## A regra de ouro: só existe improbidade com dolo
+## A regra de ouro: só existe improbidade com dolo {.cai}
 
 - Ato de improbidade é **conduta dolosa** prevista nos arts. 9º, 10 e 11.[^1]
 - **Dolo** é a vontade livre e consciente de alcançar o resultado ilícito. Não basta a voluntariedade do agente.[^1]
@@ -31,7 +31,7 @@ lead: Já com a reforma de 2021, que é o que as provas cobram hoje. Texto compl
 > Responde quem trabalha para o poder público, **mesmo temporário ou sem salário**, e também o particular que **ajudou** no esquema.
 
 
-## As três espécies
+## As três espécies {.cai}
 
 | Artigo | Espécie | Ideia | Exemplos |
 |---|---|---|---|
@@ -50,7 +50,7 @@ lead: Já com a reforma de 2021, que é o que as provas cobram hoje. Texto compl
 > - **Art. 11**: ninguém ganhou nem perdeu dinheiro, mas o agente **agiu de forma desonesta** numa das situações listadas, como **nomear parente** (nepotismo).
 
 
-## Sanções (art. 12)
+## Sanções (art. 12) {.pouco}
 
 | | Art. 9º | Art. 10 | Art. 11 |
 |---|---|---|---|
@@ -72,7 +72,7 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 > Quanto mais grave, maior a pena: **enriquecer** (art. 9º) é o pior, depois **dar prejuízo** (art. 10), depois **ferir princípios** (art. 11). No art. 11 a pessoa **não perde o cargo** nem os direitos políticos, só leva multa e proibição de contratar.
 
 
-## Processo
+## Processo {.cai}
 
 - Qualquer pessoa pode **representar** à autoridade administrativa.[^8]
 - **Ação de improbidade**: pela letra da lei, proposta pelo **Ministério Público**.[^9] O STF (ADIs 7042 e 7043) garantiu também a **pessoa jurídica interessada** (o ente lesado).[^14]
@@ -84,7 +84,7 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 > Qualquer pessoa pode **denunciar**. Quem entra com a ação na Justiça é o **Ministério Público** (e, pelo STF, também o órgão prejudicado). Para garantir o ressarcimento, o juiz pode **bloquear bens**, mas não a poupança pequena (até 40 salários mínimos) nem, em regra, a casa da família.
 
 
-## Prescrição (art. 23)
+## Prescrição (art. 23) {.pouco}
 
 - **8 anos**, contados do **fato** ou, se a infração for permanente, do dia em que ela cessou.[^13]
 - Interrompida (por exemplo, pelo ajuizamento da ação ou pela sentença condenatória), volta a correr pela **metade: 4 anos**.[^13]
@@ -94,7 +94,7 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 > Depois de **8 anos** do fato, não dá mais para processar. Se o processo começar e houver interrupção, o prazo **recomeça pela metade** (4 anos).
 
 
-## Outros artigos que a CETAP cobra
+## Outros artigos que a CETAP cobra {.cai}
 
 Mapeado em 19 questões da CETAP no TEC (a maioria de 2021 a 2026, Pará). Além do que está acima:
 

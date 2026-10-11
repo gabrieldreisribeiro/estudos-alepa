@@ -5,7 +5,7 @@ edital: Seg 05/10 · Item 1 — Hardware e Software: conceitos e característica
 lead: Só o que o tema pede: conceito e características de hardware e software, e as três modalidades de processamento. Quadros azuis marcam o que mais cai; vermelhos, as pegadinhas.
 ---
 
-## Hardware
+## Hardware {.cai}
 
 **Hardware é a parte física do computador**: tudo o que é tangível — processador, memória, placa-mãe, disco, teclado, monitor, cabos.[^4]
 
@@ -19,7 +19,7 @@ lead: Só o que o tema pede: conceito e características de hardware e software,
 > [!DICA]
 > O funcionamento interno de cada bloco (registradores, barramento, interfaces) é o item 2 do edital e tem dia próprio no cronograma.
 
-## Software
+## Software {.cai}
 
 **Software é a parte lógica**: os programas, ou seja, conjuntos de instruções que dizem ao hardware o que fazer.[^4]
 
@@ -37,7 +37,7 @@ lead: Só o que o tema pede: conceito e características de hardware e software,
 | Utilitário | Manutenção, proteção e otimização do sistema | Antivírus, compactador, desfragmentador, backup |
 | Aplicativo | Resolve tarefas do usuário final | Word, Excel, navegador, sistema de folha de pagamento |
 
-### Firmware
+### Firmware {.cai}
 
 **Firmware é software gravado diretamente em um chip do hardware** (memória ROM/flash). Fica "entre" hardware e software e controla o equipamento em baixo nível.[^4]
 
@@ -50,14 +50,14 @@ lead: Só o que o tema pede: conceito e características de hardware e software,
 > [!PEGADINHA]
 > Quando a questão divide tudo **só em hardware e software**, a CETAP coloca a **BIOS do lado do software** (é um programa, mesmo gravado num chip). Ex.: "BIOS, sistema operacional e antivírus" = só software; "memória RAM" e "processador" = hardware.
 
-### Software embarcado
+### Software embarcado {.cai}
 
 É o software de um **sistema embarcado**: um computador **dentro de outro equipamento**, que não é um computador de uso geral e faz **uma função específica**. Exemplos: micro-ondas, injeção eletrônica do carro, roteador, catraca. Normalmente fica gravado como firmware.[^6]
 
 > [!SIMPLES]
 > Seu micro-ondas tem um "computadorzinho" que só sabe fazer uma coisa: controlar o micro-ondas. O programa dele é o **software embarcado**. A CETAP já perguntou exatamente essa definição (veja as questões da banca no fim do capítulo).
 
-## Hardware x Software
+## Hardware x Software {.cai}
 
 | | Hardware | Software |
 |---|---|---|
@@ -67,7 +67,7 @@ lead: Só o que o tema pede: conceito e características de hardware e software,
 | Exemplos | CPU, memória, SSD, teclado | Windows, Word, antivírus |
 | Meio-termo | Firmware (software gravado no hardware) | |
 
-### Tipos de computador pelo porte
+### Tipos de computador pelo porte {.cai}
 
 | Porte | O que é |
 |---|---|

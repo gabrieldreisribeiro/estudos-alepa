@@ -7,7 +7,7 @@ edital: Resumo · Legislação e Ética — Legislação anticorrupção: Lei n�
 lead: Responsabilização de empresas por atos contra a administração pública. Texto completo em [Leis · Lei 12.846](#l12846).
 ---
 
-## A ideia central
+## A ideia central {.cai}
 
 - A lei pune **pessoas jurídicas**, nas esferas **administrativa e civil**.[^1]
 - A responsabilidade da empresa é **objetiva**: **não precisa provar culpa ou dolo**, basta o ato lesivo praticado em seu interesse ou benefício.[^2]
@@ -33,7 +33,7 @@ lead: Responsabilização de empresas por atos contra a administração pública
 > São coisas como **pagar propina**, usar **"laranja"**, **combinar preço em licitação** ou **atrapalhar uma fiscalização**.
 
 
-## Sanções administrativas (art. 6º)
+## Sanções administrativas (art. 6º) {.cai}
 
 | Sanção | Regra |
 |---|---|
@@ -47,7 +47,7 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 > A empresa paga **multa calculada sobre o faturamento** (de 0,1% a 20%) e ainda tem que **publicar a condenação** no jornal, pagando do próprio bolso. E continua devendo o **prejuízo** que causou.
 
 
-## Processo Administrativo de Responsabilização (PAR)
+## Processo Administrativo de Responsabilização (PAR) {.cai}
 
 - Instaurado e julgado pela **autoridade máxima** de cada órgão ou entidade dos **três Poderes**, de ofício ou por provocação.[^6]
 - Pode ser **delegado**, sendo **vedada a subdelegação**.[^6]
@@ -58,7 +58,7 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 > O **PAR** é o processo interno do órgão público para punir a empresa. Quem abre é o **chefe máximo** do órgão, e quem conduz é uma **comissão de servidores estáveis**.
 
 
-## Acordo de leniência (art. 16)
+## Acordo de leniência (art. 16) {.cai}
 
 **Requisitos cumulativos:**[^8]
 1. ser a **primeira** a manifestar interesse em cooperar;
@@ -100,7 +100,7 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 > Depois de **5 anos** da descoberta, a infração não pode mais ser punida. As empresas punidas vão para **listas públicas** (CNEP e CEIS), consultadas por quem vai contratar.
 
 
-## Outros artigos que a CETAP cobra
+## Outros artigos que a CETAP cobra {.cai}
 
 Mapeado em 27 questões da CETAP no TEC (2021 a 2025, quase todas do Pará). Além do que está acima:
 

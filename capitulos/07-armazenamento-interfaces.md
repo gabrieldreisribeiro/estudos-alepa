@@ -12,7 +12,7 @@ A **memória secundária** (de massa) guarda os dados de forma **permanente**: *
 > [!SIMPLES]
 > A RAM é a mesa de trabalho: rápida, mas esvazia quando você desliga. A memória secundária é o **armário**: mais lenta para pegar as coisas, mas guarda tudo mesmo com o computador desligado.
 
-### Acesso sequencial x acesso direto
+### Acesso sequencial x acesso direto {.pouco}
 
 | Acesso | Como funciona | Exemplo |
 |---|---|---|
@@ -36,7 +36,7 @@ Fonte: Stallings, cap. 6.[^1]
 > [!SIMPLES]
 > O HD funciona como uma **vitrola**: um disco girando e uma "agulha" que se move até o ponto certo. Por isso demora mais e não gosta de pancada.
 
-### SSD (unidade de estado sólido)
+### SSD (unidade de estado sólido) {.cai}
 
 - Usa **memória flash (NAND)**, **sem partes móveis**.[^1]
 - É **muito mais rápido**, silencioso, gasta menos energia e resiste melhor a impactos.
@@ -45,7 +45,7 @@ Fonte: Stallings, cap. 6.[^1]
 > [!PEGADINHA]
 > **M.2 é o formato** (o "jeito" da peça, uma plaquinha), **não a velocidade**. Um SSD M.2 pode usar a interface **SATA** (mais lenta) ou **NVMe** (muito mais rápida).[^4]
 
-### Mídias ópticas
+### Mídias ópticas {.pouco}
 
 Gravadas e lidas por **laser**.[^1]
 
@@ -60,12 +60,12 @@ Gravadas e lidas por **laser**.[^1]
 > [!SIMPLES]
 > Quanto mais "fino" o laser, mais dados cabem no disco. Por isso o Blu-ray, com laser azul, guarda muito mais que o CD.
 
-### Flash removível e fita
+### Flash removível e fita {.pouco}
 
 - **Pendrive** e **cartões de memória** (SD, microSD): memória **flash**, pequenos e portáteis.[^1]
 - **Fita magnética**: acesso **sequencial**, barata e de grande capacidade. Ainda é usada para **backup** de grandes volumes.[^1]
 
-## Interfaces de armazenamento: SATA e NVMe
+## Interfaces de armazenamento: SATA e NVMe {.cai}
 
 ### SATA (Serial ATA)
 
@@ -95,7 +95,7 @@ Gravadas e lidas por **laser**.[^1]
 > - **NVMe** = protocolo para SSD sobre **PCIe**, muitas filas, bem mais rápido.
 > - **M.2** = formato físico (pode ser SATA ou NVMe).
 
-## USB (Universal Serial Bus)
+## USB (Universal Serial Bus) {.cai}
 
 - Barramento **serial universal** para ligar periféricos: teclado, mouse, impressora, pendrive, celular…[^2]
 - **Plug and play** e **hot swap**: o dispositivo é reconhecido ao ser conectado, com o computador ligado.[^2]
@@ -140,7 +140,7 @@ Fonte: Stallings, cap. 7.[^1]
 > [!PEGADINHA]
 > Parece que paralelo seria mais rápido, mas as interfaces modernas são **seriais** (USB, SATA, PCIe) porque conseguem frequências muito mais altas.
 
-### Como o processador conversa com os dispositivos
+### Como o processador conversa com os dispositivos {.cai}
 
 | Técnica | Como funciona | Desvantagem/vantagem |
 |---|---|---|

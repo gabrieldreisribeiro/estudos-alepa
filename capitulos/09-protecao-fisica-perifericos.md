@@ -60,7 +60,7 @@ Fonte: IEC 62040-3.[^3]
 > - **Senoidal pura** (forma de onda igual à da rede) é a melhor para equipamentos sensíveis; a **senoidal aproximada** (ou **quadrada**) é mais simples.
 > - O **off-line** deixa uma interrupção de **poucos milissegundos** (na ordem de 10 ms) na troca para a bateria; o **on-line** não tem interrupção.
 
-## Proteção física do ambiente
+## Proteção física do ambiente {.pouco}
 
 - **Controle de acesso físico**: portas com crachá, biometria, salas trancadas para servidores, câmeras (CFTV).[^4]
 - **Ambiente**: temperatura e umidade controladas, **aterramento** elétrico, proteção contra incêndio e água.[^4]
@@ -69,7 +69,7 @@ Fonte: IEC 62040-3.[^3]
 > [!SIMPLES]
 > Não adianta senha forte se qualquer pessoa pode **entrar na sala e levar o servidor**. Proteção física é cuidar do **lugar** e do **equipamento**: porta trancada, ar-condicionado, energia boa e extintor adequado.
 
-## Periféricos do microcomputador
+## Periféricos do microcomputador {.cai}
 
 Periféricos são os dispositivos que se ligam ao computador para **entrada**, **saída** ou **armazenamento** de dados.[^5]
 
@@ -90,7 +90,7 @@ Fonte: Tanenbaum e Austin, cap. 2.[^5]
 > - **Placa de rede** e **modem** são **entrada e saída**. O **leitor de código de barras** é só **entrada**.
 > - **Placa-mãe não é periférico**: é um componente interno, onde os periféricos se ligam.
 
-### Impressoras
+### Impressoras {.pouco}
 
 | Tipo | Como funciona | Destaque |
 |---|---|---|
@@ -100,7 +100,7 @@ Fonte: Tanenbaum e Austin, cap. 2.[^5]
 
 Fonte: Tanenbaum e Austin, cap. 2.[^5]
 
-### Outros conceitos que caem
+### Outros conceitos que caem {.cai}
 
 - **Resolução** de impressora e scanner em **dpi** (pontos por polegada); de monitor em **pixels** (ex.: 1920 × 1080).[^5]
 - Tamanho do monitor em **polegadas**, medido na **diagonal**.

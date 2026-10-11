@@ -20,7 +20,7 @@ lead: O que mais cai: conceitos, princípios, bases legais, dados sensíveis, di
 > A LGPD é a lei que diz **como empresas e governo podem usar seus dados** (nome, CPF, endereço, foto...). Vale para qualquer um que trate dados de pessoas no Brasil, no papel ou no computador. Não vale, por exemplo, para a sua agenda pessoal de contatos nem para uma reportagem de jornal.
 
 
-## Conceitos (art. 5º)
+## Conceitos (art. 5º) {.cai}
 
 | Termo | Significado |
 |---|---|
@@ -44,7 +44,7 @@ lead: O que mais cai: conceitos, princípios, bases legais, dados sensíveis, di
 > - **Dado sensível** é o que pode gerar discriminação (religião, saúde, raça...), por isso tem regras mais duras.
 
 
-## Princípios (art. 6º)
+## Princípios (art. 6º) {.cai}
 
 Além da **boa-fé**, são 10:[^6] **finalidade, adequação, necessidade, livre acesso, qualidade dos dados, transparência, segurança, prevenção, não discriminação e responsabilização e prestação de contas**.
 
@@ -57,7 +57,7 @@ Além da **boa-fé**, são 10:[^6] **finalidade, adequação, necessidade, livre
 > São as "regras de bom comportamento" de quem usa dados: pedir **só o necessário**, usar **só para o que avisou**, deixar o titular **consultar de graça**, manter os dados **seguros** e conseguir **provar** que cumpre a lei.
 
 
-## Bases legais (art. 7º)
+## Bases legais (art. 7º) {.cai}
 
 O tratamento só pode ocorrer em uma destas **10 hipóteses**:[^7]
 
@@ -78,7 +78,7 @@ O tratamento só pode ocorrer em uma destas **10 hipóteses**:[^7]
 > [!SIMPLES]
 > Ninguém pode usar seus dados "porque sim". Precisa de um **motivo previsto na lei**. O seu **consentimento** é um desses motivos, mas não o único. Por exemplo, o empregador usa seus dados para pagar o salário porque existe um **contrato**, mesmo sem você assinar um "aceito".
 
-### Dados sensíveis (art. 11) e de crianças (art. 14)
+### Dados sensíveis (art. 11) e de crianças (art. 14) {.cai}
 
 - Sensível: consentimento **específico e destacado**. Sem consentimento, só nas hipóteses do art. 11.[^8]
 - Criança: consentimento **específico e em destaque de pelo menos um dos pais** ou do responsável.[^9]
@@ -90,7 +90,7 @@ O tratamento só pode ocorrer em uma destas **10 hipóteses**:[^7]
 > Para dados **sensíveis não existem** as bases **"legítimo interesse"** e **"proteção do crédito"**.[^8]
 
 
-## Direitos do titular (art. 18)
+## Direitos do titular (art. 18) {.cai}
 
 A qualquer momento, **sem custo**, mediante requisição:[^10] confirmação da existência de tratamento; acesso; correção; anonimização, bloqueio ou eliminação de dados desnecessários; portabilidade; eliminação dos dados tratados com consentimento; informação sobre compartilhamento; informação sobre a possibilidade de não consentir; revogação do consentimento.
 
@@ -108,7 +108,7 @@ A qualquer momento, **sem custo**, mediante requisição:[^10] confirmação da 
 > Se houver um **vazamento** que possa prejudicar as pessoas, o controlador tem que **avisar a ANPD e os titulares** atingidos.
 
 
-## Sanções (art. 52) e ANPD
+## Sanções (art. 52) e ANPD {.cai}
 
 Aplicadas pela **ANPD**, após processo com ampla defesa, de forma gradativa:[^13]
 
@@ -127,7 +127,7 @@ Aplicadas pela **ANPD**, após processo com ampla defesa, de forma gradativa:[^1
 > Quem descumpre a LGPD pode levar de uma **advertência** até **multa** e **proibição** de tratar dados. Quem aplica é a **ANPD**, o órgão que fiscaliza a lei. Órgãos públicos são punidos, mas **sem multa**.
 
 
-## Outros artigos que a CETAP cobra
+## Outros artigos que a CETAP cobra {.cai}
 
 Mapeado em 34 questões da CETAP no TEC (2021 a 2025, quase todas de concursos do Pará). Além do que está acima, a banca cobra **estes artigos ao pé da letra**:
 

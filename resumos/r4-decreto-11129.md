@@ -15,7 +15,7 @@ lead: Regulamenta a Lei Anticorrupção: investigação, PAR, cálculo da multa,
 > [!DICA]
 > As regras gerais (responsabilidade objetiva, faixas da multa, requisitos da leniência) estão no resumo da [Lei 12.846](#r-l12846). Aqui ficam só os detalhes que o decreto acrescenta.
 
-## Antes do PAR: juízo de admissibilidade
+## Antes do PAR: juízo de admissibilidade {.cai}
 
 O titular da **corregedoria**, ao saber do possível ato lesivo, decide por despacho fundamentado entre:[^3]
 
@@ -30,7 +30,7 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > Antes de abrir um processo, a corregedoria **analisa se há indícios**. Se precisar, faz uma **investigação preliminar**, que é **em segredo** e **não pune ninguém**: só serve para juntar provas.
 
 
-## PAR
+## PAR {.cai}
 
 - **Competência**: autoridade máxima da entidade lesada ou, na administração direta, o **Ministro de Estado**. Pode delegar, **vedada a subdelegação**.[^4]
 - **Comissão**: **2 ou mais servidores estáveis**. Conclui em até **180 dias**, prorrogáveis.[^5]
@@ -40,7 +40,7 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > O processo é conduzido por pelo menos **2 servidores estáveis**. A empresa tem **30 dias** para se defender, e o processo deve acabar em **180 dias**, com prorrogação possível.
 
 
-## Cálculo da multa
+## Cálculo da multa {.pouco}
 
 - **Base de cálculo**: faturamento bruto do último exercício anterior à instauração do PAR, **excluídos os tributos**.[^7]
 - O cálculo **soma agravantes** (art. 22) e **subtrai atenuantes** (art. 23), em percentuais da base.[^8][^9]
@@ -64,7 +64,7 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > A multa funciona como uma **conta de somar e subtrair**: coisas que pioram a situação (reincidência, diretoria sabia) **aumentam** a porcentagem. Coisas que ajudam (confessar, devolver o dinheiro, ter programa de integridade) **diminuem**.
 
 
-## Acordo de leniência
+## Acordo de leniência {.cai}
 
 - É **ato administrativo negocial**: busca aumentar a capacidade de investigação e a recuperação de ativos.[^10]
 - **Requisitos para a empresa**: ser a **primeira** a manifestar interesse (quando relevante), **cessar** o envolvimento e **admitir** a responsabilidade objetiva.[^11]
@@ -75,7 +75,7 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > O decreto detalha a "delação premiada da empresa". Enquanto o acordo está sendo negociado, o prazo para punir **fica parado** (até 360 dias).
 
 
-## Programa de integridade (compliance)
+## Programa de integridade (compliance) {.cai}
 
 **Conceito:** conjunto de mecanismos e procedimentos internos de integridade, auditoria e incentivo à denúncia de irregularidades, e aplicação efetiva de códigos de ética e conduta. Serve para **prevenir, detectar e sanar** ilícitos e manter uma **cultura de integridade**.[^14]
 
@@ -94,7 +94,7 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > É o conjunto de **regras internas da empresa contra a corrupção**: código de ética, treinamentos, canal de denúncia e chefes que dão o exemplo. Ter um programa que funcione de verdade **reduz a multa** em até 5%.
 
 
-## Outros artigos que a CETAP cobra
+## Outros artigos que a CETAP cobra {.cai}
 
 Mapeado em 15 questões da CETAP no TEC. **Atenção:** as de 2021 e 2022 citam o **Decreto 8.420/2015**, que foi **revogado** pelo 11.129/2022. As regras abaixo são as do decreto **atual**, e algumas mudaram.
 
