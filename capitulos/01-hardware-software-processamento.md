@@ -47,6 +47,9 @@ lead: Só o que o tema pede: conceito e características de hardware e software,
 > [!PEGADINHA]
 > **Driver** não é firmware: driver é software instalado no sistema operacional para que ele saiba conversar com um dispositivo.
 
+> [!PEGADINHA]
+> Quando a questão divide tudo **só em hardware e software**, a CETAP coloca a **BIOS do lado do software** (é um programa, mesmo gravado num chip). Ex.: "BIOS, sistema operacional e antivírus" = só software; "memória RAM" e "processador" = hardware.
+
 ### Software embarcado
 
 É o software de um **sistema embarcado**: um computador **dentro de outro equipamento**, que não é um computador de uso geral e faz **uma função específica**. Exemplos: micro-ondas, injeção eletrônica do carro, roteador, catraca. Normalmente fica gravado como firmware.[^6]
@@ -63,6 +66,17 @@ lead: Só o que o tema pede: conceito e características de hardware e software,
 | Correção | Troca ou reparo da peça | Atualização, nova versão |
 | Exemplos | CPU, memória, SSD, teclado | Windows, Word, antivírus |
 | Meio-termo | Firmware (software gravado no hardware) | |
+
+### Tipos de computador pelo porte
+
+| Porte | O que é |
+|---|---|
+| **Mainframe** | Computador de **grande porte**, com grande capacidade de processamento (bancos, governo) |
+| **Desktop** | Computador pessoal **de mesa**, sem foco em mobilidade |
+| **Notebook** | Computador pessoal **portátil** |
+| **Handheld** | Cabe **na palma da mão** (smartphone, PDA) |
+
+Fonte: Tanenbaum e Bos, cap. 1.[^2]
 
 ## Modalidades de processamento
 
@@ -159,6 +173,9 @@ São implementados de forma parecida com os de tempo compartilhado; a diferença
 - Driver é firmware? :: **Não.** Driver é software instalado no sistema operacional para ele conversar com um dispositivo.
 - Antivírus é software de que tipo? :: **Utilitário**.
 - O que é software embarcado? :: Software de um equipamento que **não é computador de uso geral**, com **função específica** (micro-ondas, carro, roteador).
+- BIOS é hardware ou software? :: **Software** (firmware: programa gravado em chip).
+- Mainframe :: Computador de **grande porte**, grande capacidade de processamento.
+- PC de mesa, sem foco em mobilidade :: **Desktop**.
 - Palavra-chave do processamento **batch** :: **Sem interação** do usuário; trabalhos executados em lote.
 - Palavra-chave do **time sharing** :: **Fatia de tempo** (quantum); interativo, também chamado de sistema **on-line**.
 - Palavra-chave do **real time** :: **Prazo rígido** (deadline): a resposta só é correta se vier dentro do tempo.

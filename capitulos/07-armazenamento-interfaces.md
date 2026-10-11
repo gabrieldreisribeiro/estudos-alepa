@@ -74,7 +74,9 @@ Gravadas e lidas por **laser**.[^1]
 - Permite **hot-plug** (conectar com o computador ligado) quando o controlador trabalha em modo AHCI.[^3]
 - **eSATA** é a versão para discos **externos**.
 - O cabo SATA é **estreito**; o do IDE era uma fita **larga** (flat). Em PCs antigos sem SATA, dá para instalar uma **controladora SATA num slot PCI**. A mesma controladora liga HDs e drives de CD/DVD.
-- **SCSI**: interface antiga, usada principalmente em **servidores**.
+- **IDE (PATA)**: cabo **paralelo** de **40 pinos**, até 2 dispositivos por cabo (mestre e escravo). **SATA**: **serial**, conector de dados de **7 pinos**, mais rápido.
+- **SCSI**: padrão **ANSI** dos anos 1980, várias unidades no mesmo barramento (pelo menos 8), comum em **servidores**; as últimas versões chegaram a **640 MB/s**. O sucessor é o **SAS** (SCSI serial).
+- Do mais lento para o mais rápido: **IDE < SATA < SAS < NVMe**.
 
 > [!PEGADINHA]
 > **HD externo** se liga por **USB** (ou eSATA), e não por IDE. A CETAP já usou "discos externos são conectados através de controladoras IDE" como alternativa **errada**.
@@ -121,6 +123,9 @@ Fonte: USB Implementers Forum.[^2]
 > Velocidade em **Mb/s** é em **bits**. USB 2.0 = 480 Mb/s ≈ **60 MB/s** (divida por 8).
 
 ## Entrada e saída (E/S)
+
+> [!CAI]
+> **Buffer**: área de **armazenamento temporário** dos dados que entram ou saem de um dispositivo, para compensar a diferença de velocidade entre ele e o processador. Das portas de E/S comuns (serial, paralela, PS/2, USB), a **USB é a mais rápida**.
 
 ### Interface serial x paralela
 
@@ -175,6 +180,11 @@ Fonte: Stallings, cap. 7.[^1]
 - Velocidade do SATA III :: **6 Gb/s** (cerca de 600 MB/s).
 - SATA substituiu qual interface? :: **IDE/PATA** (paralela).
 - HD externo se conecta por… :: **USB** (ou eSATA). IDE é interno e antigo.
+- IDE x SATA (pinos e tipo) :: **IDE**: 40 pinos, **paralelo**. **SATA**: 7 pinos, **serial**, mais rápido.
+- SCSI :: Padrão **ANSI** antigo, vários discos no mesmo barramento, comum em **servidores**.
+- Interface de disco mais rápida :: **NVMe**.
+- Função do buffer na E/S :: **Armazenamento temporário** dos dados de um dispositivo de entrada ou saída.
+- Porta mais rápida: serial, paralela, PS/2 ou USB? :: **USB**.
 - USB é serial ou paralelo? :: **Serial** (o S de USB) e não depende do sistema operacional.
 - O que é NVMe? :: **Protocolo** para SSD que usa o barramento **PCIe**, com muitas filas de comandos.
 - M.2 é velocidade ou formato? :: **Formato** físico; pode ser SATA ou NVMe.

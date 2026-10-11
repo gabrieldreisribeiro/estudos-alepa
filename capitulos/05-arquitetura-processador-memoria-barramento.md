@@ -43,7 +43,9 @@ Toda instrução passa por: **busca** (*fetch*) → **decodificação** (*decode
 - **Clock**: frequência do processador, medida em **hertz** (GHz = bilhões de ciclos por segundo).[^1]
 - **Multicore**: vários **núcleos** num mesmo chip, que executam tarefas **em paralelo**.[^1]
 - **Pipeline**: sobrepõe as etapas de várias instruções, como uma **linha de montagem**.[^1]
-- **Bits do processador** (16, 32, 64): quantos bits ele processa **de uma vez** (o tamanho da **palavra**). Um sistema operacional de 32 bits **não aproveita** os recursos de um processador de 64 bits. E 64 bits não é exclusividade da Intel: AMD e ARM também têm.[^1]
+- **Bits do processador** (16, 32, 64): quantos bits ele processa **de uma vez** (o tamanho da **palavra**). Um sistema operacional de 32 bits **não aproveita** os recursos de um processador de 64 bits. E 64 bits não é exclusividade da Intel: AMD e ARM também têm. Na prática, a **principal diferença** entre 32 e 64 bits é a **quantidade de memória suportada** (32 bits endereçam cerca de 4 GB).[^1]
+- **Núcleo** (*core*): cada unidade de processamento dentro do chip. **Dual-core** = 2 núcleos.[^1]
+- **Famílias**: Intel = Celeron, Pentium, Core (i3 a i9) e **Xeon** (servidores e estações de trabalho). **Duron, Athlon e Ryzen são da AMD**.
 
 > [!SIMPLES]
 > O **clock** é o "ritmo" do processador. Ter **mais núcleos** é como ter **mais cozinheiros** trabalhando ao mesmo tempo. O **pipeline** é começar a ler a próxima receita enquanto a anterior ainda está no forno.
@@ -129,6 +131,13 @@ A cache guarda **cópias dos dados mais usados** da RAM, perto do processador. F
 > [!SIMPLES]
 > A cache é a **gaveta de cima**: você deixa ali o que usa mais, para não ir ao armário toda hora. Se o que você precisa está na gaveta, é um **acerto**; se não está, é uma **falha** e você vai ao armário.
 
+> [!CAI]
+> - **Voláteis**: RAM e cache. **Não voláteis**: ROM, HD, SSD, pendrive.
+> - **Memória principal (primária)** = RAM. HD e SSD são memória **secundária**.
+> - A **cache** é **pequena, volátil e a mais rápida** depois dos registradores; serve para **aumentar a velocidade** de processamento.
+> - Gerações **DDR, DDR2… DDR5**: cada uma aumenta a **largura de banda** (taxa de transferência). DDR é mais rápida que a antiga SDR.
+> - A ROM é **só de leitura** (gravada de fábrica).[^1]
+
 > [!DICA]
 > Memória virtual, paginação e segmentação são de **Sistemas Operacionais** e têm dia próprio (Seg 12/10).
 
@@ -157,6 +166,7 @@ Fonte: Stallings, cap. 3.[^1]
 > - **Barramento assíncrono**: **sem clock** comum; os dispositivos se coordenam por sinais de confirmação (*handshake*).
 > - **Arbitragem**: decide **quem usa o barramento** quando dois dispositivos querem usá-lo ao mesmo tempo.
 > - O barramento de **controle** leva **sinais de comando**, não energia. A energia vem pelas linhas de **alimentação**.[^1]
+> - Barramentos de expansão: **ISA** (antigo, **lento**, 16 bits) → **PCI** → **PCI Express** (atual). **AGP** era só para vídeo.[^2]
 
 > [!SIMPLES]
 > Síncrono é uma banda tocando no ritmo do **mesmo baterista** (o clock). Assíncrono é uma conversa em que cada um espera o outro dizer **"recebi"**. A arbitragem é o **semáforo** do barramento.
@@ -204,6 +214,11 @@ Fonte: Stallings, cap. 3.[^1]
 - Barramento síncrono x assíncrono :: **Síncrono**: segue um **clock**. **Assíncrono**: sem clock, usa **handshake**.
 - Arbitragem do barramento :: Resolve **conflitos** quando dois dispositivos querem usar o barramento ao mesmo tempo.
 - O que o barramento de controle transporta? :: **Sinais de comando** (ler, escrever, interrupção, clock), **não** energia.
+- Principal diferença entre 32 e 64 bits :: A **quantidade de memória** suportada.
+- Memórias voláteis :: **RAM e cache**.
+- Função da cache :: **Aumentar a velocidade**: memória pequena, volátil e muito rápida com os dados mais usados.
+- DDR2, DDR3, DDR4, DDR5 diferem em… :: **Largura de banda** (taxa de transferência).
+- Xeon é de qual fabricante e para quê? :: **Intel**, para **servidores** e estações de trabalho. (Duron é AMD.)
 
 ## Questões de fixação {-}
 

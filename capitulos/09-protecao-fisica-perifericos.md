@@ -57,7 +57,8 @@ Fonte: IEC 62040-3.[^3]
 > [!CAI]
 > - Potência do no-break em **VA** (potência aparente). Em watts: **W = VA × fator de potência**.[^2]
 > - **Autonomia** = quanto tempo a bateria segura a carga.
-> - **Senoidal pura** (forma de onda igual à da rede) é a melhor para equipamentos sensíveis; a **senoidal aproximada** é mais simples.
+> - **Senoidal pura** (forma de onda igual à da rede) é a melhor para equipamentos sensíveis; a **senoidal aproximada** (ou **quadrada**) é mais simples.
+> - O **off-line** deixa uma interrupção de **poucos milissegundos** (na ordem de 10 ms) na troca para a bateria; o **on-line** não tem interrupção.
 
 ## Proteção física do ambiente
 
@@ -86,6 +87,8 @@ Fonte: Tanenbaum e Austin, cap. 2.[^5]
 
 > [!PEGADINHA]
 > Monitor **comum** é só **saída**. Monitor **touchscreen** é **entrada e saída**. A **multifuncional** também é mista.
+> - **Placa de rede** e **modem** são **entrada e saída**. O **leitor de código de barras** é só **entrada**.
+> - **Placa-mãe não é periférico**: é um componente interno, onde os periféricos se ligam.
 
 ### Impressoras
 
@@ -102,7 +105,8 @@ Fonte: Tanenbaum e Austin, cap. 2.[^5]
 - **Resolução** de impressora e scanner em **dpi** (pontos por polegada); de monitor em **pixels** (ex.: 1920 × 1080).[^5]
 - Tamanho do monitor em **polegadas**, medido na **diagonal**.
 - Teclado **ABNT2**: padrão brasileiro, com a tecla **Ç**.
-- **Plug and play**: o sistema reconhece e configura o periférico sozinho; o **driver** é o programa que permite ao sistema usar o dispositivo.[^5]
+- **Plug and play**: o sistema reconhece e configura o periférico sozinho (e, se não conseguir, ainda dá para configurar **manualmente**); o **driver** é o programa que permite ao sistema usar o dispositivo.[^5]
+- O driver é instalado **uma vez**, não a cada uso. Se o Windows instalar um **driver genérico** (ex.: vídeo com baixa resolução e ponto de exclamação no Gerenciador de Dispositivos), instale o driver **do fabricante** para a versão do sistema.
 - Conexões comuns: **USB**, **HDMI** e **DisplayPort** (vídeo), **Bluetooth** (sem fio).
 - Teclado digitando caracteres trocados (o Ç não sai, acentos errados): é o **layout/idioma** errado (ABNT2 x US), que se ajusta **no sistema operacional**, não na BIOS.[^7]
 - **Impressoras**: um computador pode ter **várias** instaladas, e uma é a **padrão**. A **fila de impressão** mostra os documentos que esperam ou deram erro. Algumas se ligam **direto à rede**, por cabo de rede.[^7]
@@ -143,6 +147,10 @@ Fonte: Tanenbaum e Austin, cap. 2.[^5]
 - O que é plug and play? :: O sistema **reconhece e configura** o dispositivo sozinho ao conectar.
 - Teclado com caracteres trocados: onde corrigir? :: No **layout/idioma do teclado** no sistema operacional (ABNT2), **não na BIOS**.
 - Um computador pode ter mais de uma impressora? :: **Sim**; uma fica como **padrão**. A **fila** mostra o que espera ou deu erro.
+- Placa-mãe é periférico? :: **Não**: é componente interno.
+- Placa de rede é entrada, saída ou as duas? :: **Entrada e saída**.
+- Leitor de código de barras :: Só **entrada**.
+- Driver genérico instalado pelo Windows (vídeo em baixa resolução) :: Instalar o driver **do fabricante** para a versão do sistema.
 
 ## Questões de fixação {-}
 

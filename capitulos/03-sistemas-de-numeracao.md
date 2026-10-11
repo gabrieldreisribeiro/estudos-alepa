@@ -42,6 +42,31 @@ Todos esses sistemas são **posicionais**: o valor de um dígito depende da **po
 > [!CAI]
 > Com **n bits** dá para representar **2ⁿ valores**, de 0 até **2ⁿ − 1**.[^2] Exemplo: 8 bits = 256 valores (0 a 255).
 
+## Unidades de medida
+
+A CETAP cobra conversão de unidades com frequência (TB em GB, GB em bytes, capacidade de pendrive). A regra é a das **potências de 2**:[^2]
+
+| Unidade | Vale |
+|---|---|
+| **bit** (b) | 0 ou 1, a menor unidade |
+| **byte** (B) | **8 bits** |
+| **KB** (quilobyte) | **1024** bytes = 2¹⁰ |
+| **MB** (megabyte) | 1024 KB = 2²⁰ bytes |
+| **GB** (gigabyte) | 1024 MB = 2³⁰ bytes |
+| **TB** (terabyte) | 1024 GB = 2⁴⁰ bytes |
+
+> [!EXEMPLO]
+> - 3 TB = 3 × 1024 = **3072 GB**.
+> - 1 GB = 1024 × 1024 **KB** = 1024 × 1024 × 1024 **bytes**.
+> - 32 GB em TB = 32 ÷ 1024 = **0,03125 TB**.
+
+> [!PEGADINHA]
+> - **b minúsculo = bit**, **B maiúsculo = byte**. 100 Mb/s (megabits) é 8 vezes menos que 100 MB/s.
+> - Os fabricantes de HD usam múltiplos de **1000** (por isso um HD de 1 TB aparece com cerca de 931 GB). A norma IEC 80000-13 criou KiB, MiB e GiB para os múltiplos de 1024. Na prova, salvo aviso, use **1024**.[^5]
+
+> [!SIMPLES]
+> Cada degrau (KB → MB → GB → TB) multiplica por **1024**. Para subir de degrau, divida por 1024. Para descer, multiplique.
+
 ## Qualquer base → decimal
 
 Multiplique cada dígito pela **potência da base** da sua posição e **some**.[^1]
@@ -76,6 +101,9 @@ Multiplique cada dígito pela **potência da base** da sua posição e **some**.
 
 > [!DICA]
 > Atalho para decimal → binário: subtraia a **maior potência de 2** que cabe e marque 1 nessa posição. 156 = 128 + 16 + 8 + 4 → **10011100**.
+
+> [!DICA]
+> Hexadecimal de 4 dígitos (questão comum na CETAP de 2021 a 2023): use as posições **4096 · 256 · 16 · 1**. 4EFF = 4·4096 + 14·256 + 15·16 + 15 = **20223**. Atalho com F no fim: 4FFF = 5000₁₆ − 1 = 5·4096 − 1 = **20479**.
 
 ## Binário ↔ octal e binário ↔ hexadecimal
 
@@ -156,6 +184,7 @@ Fonte: Tanenbaum e Austin, apêndice A.[^2]
 - Fração: multiplicações por 2, lidas de cima para baixo.
 - Bit mais à esquerda = sinal (1 = negativo).
 - Complemento de 1: inverte; complemento de 2: inverte e soma 1.
+- Unidades: cada degrau × 1024; byte = 8 bits.
 
 ## Flashcards {- .flashcards}
 
@@ -175,6 +204,9 @@ Fonte: Tanenbaum e Austin, apêndice A.[^2]
 - Complemento de 1 de 00110 :: **11001** (inverte todos os bits).
 - Complemento de 2 de 00110 :: **11010** (inverte e **soma 1**) = −6.
 - Qual representação de negativos o computador usa? :: **Complemento de 2**.
+- 3 TB em GB :: **3072 GB** (3 × 1024).
+- 1 GB em bytes :: **1024 × 1024 × 1024** bytes (2³⁰).
+- b x B :: **b** = bit; **B** = byte (8 bits).
 
 ## Questões de fixação {-}
 
@@ -332,3 +364,4 @@ E) Todas as afirmativas estão corretas.
 2. TANENBAUM, Andrew S.; AUSTIN, Todd. *Organização Estruturada de Computadores*. 6. ed. São Paulo: Pearson, 2013. Apêndice A — Números binários.
 3. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Técnico em Atividade Administrativa – Técnico em Rede de Computador, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.
 4. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Técnico em Atividade Administrativa – Programador de Computador, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15588-cetap-2010-detran-rr-programador-de-computador-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15588-cetap-2010-detran-rr-programador-de-computador-gabarito.pdf>. Acesso em: 11 out. 2026.
+5. INTERNATIONAL ELECTROTECHNICAL COMMISSION. *IEC 80000-13:2008: Quantities and units — Part 13: Information science and technology*. Genebra: IEC, 2008.
