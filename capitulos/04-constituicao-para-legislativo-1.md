@@ -173,6 +173,8 @@ Não perde o mandato o Deputado que vira **Ministro**, **Secretário de Estado**
 
 > [!PEGADINHA]
 > A CPI exige **1/3**. Até 2006 a Constituição do Pará exigia **1/5**.[^14]
+>
+> A CETAP já trocou as palavras para tornar a frase errada: "criada com **aprovação do Plenário**, para apurar **fato genérico**, por **tempo indeterminado**". O certo é **sem votação**, **fato determinado** e **prazo certo**.
 
 ## Processo legislativo (arts. 102 a 104)
 
@@ -180,6 +182,9 @@ O processo legislativo compreende a elaboração de: **emendas à Constituição
 
 > [!SIMPLES]
 > São os **6 tipos de norma** que a Assembleia pode produzir. Repare que **não existe medida provisória** nessa lista.
+
+> [!PEGADINHA]
+> A CETAP já deu como **errada** a frase "o processo legislativo compreende **somente** emendas, leis complementares, ordinárias, delegadas e decretos legislativos": faltavam as **resoluções**. Desconfie de listas com "somente".
 
 ### Emenda à Constituição (art. 103)
 
@@ -240,6 +245,9 @@ Fonte: art. 103.[^16]
 - Emenda à Constituição do Pará: proposta por Deputados e votação :: **1/3** dos Deputados; **2 turnos**; **3/5** em cada.
 - Iniciativa popular de lei estadual :: **0,5%** do eleitorado estadual.
 - Licença do Deputado por interesse particular :: Até **120 dias** por sessão legislativa, sem remuneração.
+- CPI: plenário, fato e prazo :: **Sem votação** em plenário, **fato determinado**, **prazo certo**. ("Fato genérico" e "tempo indeterminado" estão errados.)
+- Tipos de comissão :: **Permanentes** e **temporárias**, com representação proporcional dos partidos.
+- Quantas espécies no processo legislativo estadual? Quais? :: **6**: emendas, leis complementares, ordinárias, delegadas, **decretos legislativos e resoluções**.
 
 ## Questões de fixação {-}
 

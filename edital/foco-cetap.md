@@ -34,6 +34,26 @@ Lidas em 11/10/2026: 78 questões (Informática › Hardware e TI › Organizaç
 > [!SIMPLES]
 > A CETAP do Pará (2021 a 2025) faz questões **curtas e diretas** ("Qual é…?", 4 ou 5 alternativas). As pegadinhas preferidas são de **unidade** (bit x byte, 1000 x 1024), de **"somente"** e de **classificação** (entrada ou saída, volátil ou não). Conversão de bases é a campeã: treine até ficar automático.
 
+## Constituição do Pará e Poder Legislativo
+
+Lidas em 11/10/2026: 25 questões (Direito Constitucional Estadual e Legislação das Casas Legislativas).
+
+> [!AVISO]
+> **A CETAP nunca cobrou no TEC o Poder Legislativo da Constituição do Pará** (arts. 86 a 116). Das 12 questões de Constituição Estadual, só **3 são da CE-PA**, e de outros títulos: vedações do art. 15, controle dos atos da administração e meio ambiente. As de **Poder Legislativo** vêm da Assembleia de **Roraima** (2010), que tem regras parecidas com as do Pará. Por isso, aqui o treino principal é a **lei seca** e as questões do livro.
+
+| Tema | Questões | Exemplos no TEC | Capítulo |
+|---|---|---|---|
+| **Poder Legislativo estadual** (CPI, perda do mandato, processo legislativo, iniciativa privativa do Governador, matérias com sanção) | 5 | [#598853](https://www.tecconcursos.com.br/questoes/598853) CPI · [#602169](https://www.tecconcursos.com.br/questoes/602169) perda do mandato · [#598855](https://www.tecconcursos.com.br/questoes/598855) processo legislativo · [#598451](https://www.tecconcursos.com.br/questoes/598451) iniciativa do Governador · [#602168](https://www.tecconcursos.com.br/questoes/602168) (todas ALERR 2010) | [Cap. 4](#4) |
+| Regimento Interno (iniciativa popular, urgência, comissões permanentes e temporárias) | 3 | [#598444](https://www.tecconcursos.com.br/questoes/598444) · [#598445](https://www.tecconcursos.com.br/questoes/598445) · [#602166](https://www.tecconcursos.com.br/questoes/602166) (ALERR 2010) | Regimento da ALEPA (ainda sem capítulo) |
+| CE-PA: vedações ao Estado e Municípios (art. 15) | 1 | [#757250](https://www.tecconcursos.com.br/questoes/757250) MPCM-PA 2015 | fora dos artigos do edital |
+| CE-PA: controle dos atos da administração | 1 | [#776479](https://www.tecconcursos.com.br/questoes/776479) MPCM-PA 2015 | fora dos artigos do edital |
+| CE-PA: meio ambiente | 1 | [#1189212](https://www.tecconcursos.com.br/questoes/1189212) São Miguel do Guamá 2016 | fora dos artigos do edital |
+| Constituição de Roraima (capital, objetivos, separação dos Poderes) | 4 | [#597944](https://www.tecconcursos.com.br/questoes/597944) · [#598561](https://www.tecconcursos.com.br/questoes/598561) · [#597935](https://www.tecconcursos.com.br/questoes/597935) · [#598881](https://www.tecconcursos.com.br/questoes/598881) | só como estilo |
+| Plano de cargos de Câmaras Municipais (Ananindeua, Belém) | 10 | [#809311](https://www.tecconcursos.com.br/questoes/809311) e outras | não cai para a ALEPA |
+
+> [!SIMPLES]
+> O estilo da CETAP em legislação é **trocar uma palavra** do artigo: fração (1/3 ou 1/5), "com" ou "sem" votação, "determinado" ou "genérico", "somente". Para acertar, é preciso decorar os **números** e as **palavras exatas** da lei. Por isso o capítulo 4 tem tabelas com os quóruns e prazos.
+
 ## Para os próximos capítulos {-}
 
 Questões que apareceram nesta leitura e entram nos capítulos da semana 2:
@@ -49,4 +69,4 @@ Questões que apareceram nesta leitura e entram nos capítulos da semana 2:
 
 ## Ainda não mapeado {-}
 
-Sistemas Operacionais, Redes, Banco de Dados, Desenvolvimento, Engenharia de Software, Português e Legislação. Cada matéria é mapeada quando o capítulo dela for escrito.
+Sistemas Operacionais, Redes, Banco de Dados, Desenvolvimento, Engenharia de Software, Português e o resto da Legislação (LGPD, improbidade, anticorrupção, ética). Cada matéria é mapeada quando o capítulo dela for escrito.
