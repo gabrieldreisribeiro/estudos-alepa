@@ -262,6 +262,22 @@ E) interativo
 = C | Batch tem boa vazão, mas resposta demorada.
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Analista Técnico I – Analista de Sistemas · Questão 32**[^7] · [ver prova](https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-gabarito.pdf)
+
+Software embarcado é um tipo de software:
+A) destinado a funcionar dentro de uma máquina que não é um computador de uso geral e normalmente com um destino muito específico.
+B) destinado a funcionar somente dentro de vídeo games modernos, como o Xbox e PS3.
+C) que é sinônimo de software ERP.
+D) bastante usado em sites de comércio eletrônico.
+E) que é desenvolvido somente em linguagens de programação interpretadas como Java e PHP.
+= A | Gabarito **oficial definitivo** da CETAP. Sistema embarcado = computador **dentro de outro equipamento** (micro-ondas, carro, roteador), feito para **uma tarefa específica**. O "somente" da B e da E já denuncia o erro.
+:::
+
 ## Referências {- .referencias}
 
 1. MACHADO, Francis B.; MAIA, Luiz Paulo. *Arquitetura de Sistemas Operacionais*. 5. ed. Rio de Janeiro: LTC, 2013. Cap. 2 — Tipos de Sistemas Operacionais.
@@ -270,3 +286,4 @@ E) interativo
 4. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Caps. 1 e 2.
 5. UEFI FORUM. *UEFI Specifications*. Disponível em: <https://uefi.org/specifications>.
 6. KOPETZ, Hermann; STEINER, Wilfried. *Real-Time Systems: Design Principles for Distributed Embedded Applications*. 3. ed. Cham: Springer, 2022. Cap. 1.
+7. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Analista Técnico I – Analista de Sistemas, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-gabarito.pdf>. Acesso em: 11 out. 2026.

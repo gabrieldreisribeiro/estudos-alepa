@@ -199,8 +199,25 @@ E) conduta permitida em casos de excesso de demanda.
 = B | Inciso X das regras deontológicas.
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Assistente Legislativo · Questão 40**[^4] · [ver prova](https://www.estudegratis.com.br/images/provas/15595-cetap-2010-al-rr-assistente-legislativo-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15595-cetap-2010-al-rr-assistente-legislativo-gabarito.pdf)
+
+Qualquer dos Poderes dos Estados obedecerá aos seguintes princípios, EXCETO:
+A) de legalidade.
+B) de impessoalidade.
+C) de moralidade.
+D) de obscuridade.
+E) de eficiência.
+= D | Gabarito **oficial definitivo** da CETAP. **LIMPE** (CF, art. 37): legalidade, impessoalidade, moralidade, **publicidade** e eficiência. "Obscuridade" é o contrário de publicidade.
+:::
+
 ## Referências {- .referencias}
 
 1. CHAUI, Marilena. *Convite à Filosofia*. São Paulo: Ática, 2000. Unidade 8 — O mundo da prática (a existência ética).
 2. BRASIL. Constituição da República Federativa do Brasil de 1988, art. 37, caput. Disponível em: <https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm>.
 3. BRASIL. Decreto nº 1.171, de 22 de junho de 1994. Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (incisos I a XV, XVI, XXII e XXIV; alguns incisos revogados pelo Decreto nº 6.029/2007). Disponível em: <https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm>. Acesso em: 10 out. 2026.
+4. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Assistente Legislativo, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15595-cetap-2010-al-rr-assistente-legislativo-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15595-cetap-2010-al-rr-assistente-legislativo-gabarito.pdf>. Acesso em: 11 out. 2026.

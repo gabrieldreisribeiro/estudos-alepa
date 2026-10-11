@@ -244,8 +244,25 @@ E) exdiretor, vicepresidente, coautor
 = A | Ex e vice pedem hífen; o prefixo co se junta sempre.
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Analista Técnico I – Analista de Sistemas · Questão 06**[^4] · [ver prova](https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-gabarito.pdf)
+
+Assinale o excerto em que a acentuação é justificada pela concordância verbal:
+A) "...os bichos têm sentimentos."
+B) "...nem deixa ninguém pegá-lo."
+C) "É um adepto do alto astral!"
+D) "Tenho três cachorros..."
+E) "Há muito tempo estive no México..."
+= A | Gabarito **oficial definitivo** da CETAP. **têm** leva o acento circunflexo porque é **plural** (concorda com "os bichos"). No singular: o bicho **tem**. As outras são regras de oxítona (pegá, três), monossílabo tônico (é, há) e proparoxítona (México).
+:::
+
 ## Referências {- .referencias}
 
 1. BRASIL. Decreto nº 6.583, de 29 de setembro de 2008. Promulga o Acordo Ortográfico da Língua Portuguesa (Anexo, Bases I, VIII a XI, XIV e XVI). Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm>.
 2. BRASIL. Decreto nº 7.875, de 27 de dezembro de 2012. Prazo de transição do Acordo Ortográfico até 31 de dezembro de 2015. Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7875.htm>.
 3. BECHARA, Evanildo. *Moderna Gramática Portuguesa*. 38. ed. Rio de Janeiro: Nova Fronteira, 2015. Parte sobre ortografia.
+4. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Analista Técnico I – Analista de Sistemas, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-gabarito.pdf>. Acesso em: 11 out. 2026.

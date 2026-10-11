@@ -229,6 +229,34 @@ E) Mb/s
 = B | Dots per inch (pontos por polegada).
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Técnico em Informática · Questão 35**[^6] · [ver prova](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf)
+
+A instalação dos periféricos mais simples e mais presentes em computadores de mesa, como o teclado e o mouse, precisa de algumas configurações básicas. Sobre o assunto, selecione a alternativa ERRADA.
+A) Quando as teclas pressionadas no teclado geram no computador caracteres diferentes aos esperados, é preciso configurar o teclado na BIOS.
+B) A configuração do idioma do teclado é feita na opção Teclado do Painel de Controle.
+C) A maioria dos mouses modernos pode ser instalada na porta USB.
+D) O teclado pode ser instalado nas portas serial, PS2 ou USB.
+E) O teclado e o mouse podem ser de diferentes marcas.
+= A | Gabarito **oficial definitivo** da CETAP. Tecla que sai trocada (ex.: o Ç não aparece) é **layout/idioma** errado (ABNT2 x US), que se ajusta **no sistema operacional**, não na BIOS.
+:::
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Técnico em Informática · Questão 40**[^6] · [ver prova](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf)
+
+Sobre a instalação de impressoras, selecione a alternativa INCORRETA.
+A) Algumas impressoras podem ser conectadas diretamente à rede através de um cabo de rede.
+B) A configuração de uma impressora é feita na opção Impressoras do Painel de Controle.
+C) A fila de impressões é uma lista dos documentos enviados a serem impressos que ainda não concluíram ou encontram-se com erro.
+D) A página de teste é utilizada para testar se a impressora encontra-se corretamente configurada.
+E) Somente se pode configurar uma impressora por computador.
+= E | Gabarito **oficial definitivo** da CETAP. Um computador pode ter **várias impressoras** instaladas, uma delas marcada como padrão. Mais um "somente" errado.
+:::
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017.
@@ -236,3 +264,4 @@ E) Mb/s
 3. INTERNATIONAL ELECTROTECHNICAL COMMISSION. *IEC 62040-3: Uninterruptible power systems (UPS) — Part 3: Method of specifying the performance and test requirements*. Genebra: IEC, 2021.
 4. ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. *NBR ISO/IEC 27002: Segurança da informação, segurança cibernética e proteção à privacidade — Controles de segurança da informação*. Rio de Janeiro: ABNT, 2022. Controles físicos.
 5. TANENBAUM, Andrew S.; AUSTIN, Todd. *Organização Estruturada de Computadores*. 6. ed. São Paulo: Pearson, 2013. Cap. 2 — Entrada/saída.
+6. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Técnico em Informática, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.

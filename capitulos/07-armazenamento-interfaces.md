@@ -279,9 +279,60 @@ E) 50 GB
 = B | 8,5 GB é a camada dupla; 25 GB é o Blu-ray.
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Analista Técnico I – Analista de Sistemas · Questão 31**[^5] · [ver prova](https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-gabarito.pdf)
+
+Universal Serial Bus (USB) permite a conexão de periféricos sem a necessidade de desligar o computador. Sobre o USB 2.0, podemos afirmar que:
+A) permite a conexão máxima de até 32 dispositivos.
+B) permite conexão com velocidade de 480 Mbps.
+C) não usa o modo de transmissão serial.
+D) somente pode ser usado em computadores com sistema operacional Windows.
+E) USB é sinônimo de Pen Drive.
+= B | Gabarito **oficial definitivo** da CETAP. USB 2.0 = **480 Mb/s** (Hi-Speed). O USB aceita até **127** dispositivos, é **serial** (o S de USB) e não depende de sistema operacional.
+:::
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Técnico em Rede de Computador · Questão 33**[^6] · [ver prova](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf)
+
+Dadas as seguintes afirmativas sobre Barramentos de E/S (Entrada e Saída) e Sistemas de Entrada e Saída, analise-as e assinale a alternativa CORRETA.
+
+I- O Barramento E/S é um conjunto de linhas de transmissão de sinais que conecta dispositivos periféricos a CPU (Central Process Unit) do computador;
+
+II- O Barramento USB (Universal Serial Bus) é um tipo de barramento E/S que utiliza o padrão PnP(Plug and Play), de modo que o Sistema Operacional reconheça e disponibilize imediatamente o dispositivo a ser instalado;
+
+III- Mouse, Teclado e WebCam são alguns dispositivos de entrada que utilizam o barramento E/S;
+
+IV- Impressora e Auto-falantes são alguns dispositivos de saída que utilizam o barramento E/S.
+A) Apenas as afirmativas I, III e IV estão corretas.
+B) Apenas as afirmativas III e IV estão corretas.
+C) Apenas as afirmativas II, III e IV estão corretas.
+D) Apenas as afirmativas I, II e IV estão corretas.
+E) Todas as afirmativas estão corretas.
+= E | Gabarito **oficial definitivo** da CETAP. Todas certas. Atenção à II: **plug and play** é o sistema reconhecer e configurar o dispositivo sozinho, sem reiniciar.
+:::
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Técnico em Informática · Questão 33**[^7] · [ver prova](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf)
+
+Sobre as controladoras de disco rígido disponíveis no mercado, marque a alternativa ERRADA.
+A) SCSI, SATA e IDE são as mais utilizadas no mercado.
+B) O conector Serial ATA é mais estreito do que o paralelo IDE.
+C) Para computadores mais antigos sem conectores SATA na placa mãe, é possível instalar uma controladora SATA através dos slots PCI.
+D) As controladoras de disco também são utilizadas para conectar os drives de CD e DVD.
+E) Os discos rígidos externos são conectados através de controladoras IDE.
+= E | Gabarito **oficial definitivo** da CETAP. Discos externos usam **USB** (ou eSATA/Thunderbolt), não IDE. A B confirma: SATA é **serial**, com cabo fino; o IDE era **paralelo**, com cabo largo (flat).
+:::
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Caps. 6 (memória externa) e 7 (entrada/saída).
 2. USB IMPLEMENTERS FORUM. *USB Specifications and Documents*. Disponível em: <https://www.usb.org/documents>.
 3. SERIAL ATA INTERNATIONAL ORGANIZATION. *SATA Specification*. Disponível em: <https://sata-io.org>.
 4. NVM EXPRESS. *NVM Express Base Specification*. Disponível em: <https://nvmexpress.org/specifications>.
+5. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Analista Técnico I – Analista de Sistemas, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15539-cetap-2010-detran-rr-analista-de-sistemas-gabarito.pdf>. Acesso em: 11 out. 2026.
+6. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Técnico em Atividade Administrativa – Técnico em Rede de Computador, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.
+7. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Técnico em Informática, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.

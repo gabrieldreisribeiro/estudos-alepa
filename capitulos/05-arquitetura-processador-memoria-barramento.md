@@ -282,7 +282,99 @@ E) PROM
 = C | A PROM só pode ser gravada uma vez; DRAM e SRAM são voláteis.
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Técnico em Rede de Computador · Questão 43**[^3] · [ver prova](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf)
+
+Dadas as afirmativas sobre a Arquitetura de Computadores proposta por Von Neumann, analise-as e assinale a alternativa CORRETA.
+
+I- Uma CPU (Central Process Unit) possui 4 componentes principais: Um conjunto de registradores, a Unidade Lógica e Aritmética (ALU - Arithmetic Logic Unit), a Unidade de Controle (CU - Control Unit) e a Memória Principal;
+
+II- A CPU de um computador é responsável pelo processamento e execução dos programas armazenados na Memória Principal;
+
+III- A Unidade Lógica e Aritmética é um circuito digital que realiza operações lógicas e aritméticas em base binária;
+
+IV- O Contador de Programa (PC - Program Counter) é um registrador que armazena o endereço de memória da próxima instrução a ser executada pela CPU;
+
+V- Os dados e as instruções são armazenados como um número binário em uma única memória de leitura e escrita.
+A) Todas as afirmativas estão corretas.
+B) Apenas as afirmativas II e III estão corretas.
+C) Apenas as afirmativas I, III e IV estão corretas.
+D) Apenas as afirmativas I e IV estão corretas.
+E) Apenas as afirmativas II, III, IV e V estão corretas.
+= E | Gabarito **oficial definitivo** da CETAP. Só a I está errada: a **memória principal não faz parte da CPU**. A CPU tem registradores, ULA e unidade de controle. A V é a ideia central de Von Neumann: dados e instruções **na mesma memória**.
+:::
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Técnico em Rede de Computador · Questão 31**[^3] · [ver prova](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf)
+
+Sobre arquiteturas CISC e RISC, analise as afirmativas seguintes e assinale a alternativa CORRETA.
+
+I- A arquitetura CISC (Complex Instruction Set Computers) é utilizada em processadores que suportam a execução de diversas instruções complexas;
+
+II- A arquitetura CISC (Complex Instruction Set Computers) implementa micro-código para decodificar e executar cada instrução nos processadores que a utilizam;
+
+III- A arquitetura RISC (Reduced Instruction Set Computers) é utilizada em processadores que suportam um conjunto de instruções simples e reduzidas;
+
+IV- Dado que as arquiteturas CISC e RISC possuem diferentes formas de processamento de instruções, não é possível agregar as duas tecnologias em um mesmo processador.
+A) Apenas a afirmativa I está correta.
+B) Apenas as afirmativas I e III estão corretas.
+C) Apenas as afirmativas I, III e IV estão corretas.
+D) Apenas as afirmativas I, II e III estão corretas.
+E) Todas as afirmativas estão corretas.
+= D | Gabarito **oficial definitivo** da CETAP. A IV está errada: os processadores x86 atuais são **híbridos**, CISC por fora e com núcleo do tipo RISC por dentro (traduzem instruções complexas em micro-operações simples).
+:::
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Técnico em Rede de Computador · Questão 44**[^3] · [ver prova](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf)
+
+Sobre processadores, analise as afirmativas seguintes e assinale a alternativa CORRETA.
+
+I- Processadores dual-core são processadores que contam com dois núcleos distintos no mesmo circuito integrado, como se houvesse dois processadores dentro de um. Dessa forma um processador pode trabalhar com dois processos distintos de uma vez;
+
+II- A quantidade de bits de um processador é uma característica importante que promove grande influência no desempenho desse circuito;
+
+III- Um Sistema Operacional de 32 bits possui desempenho melhor rodando em um computador com processador de 64 bits do que em um computador com processador de 32 bits;
+
+IV- O valor máximo de memória que um processador consegue acessar é igual a 2 elevado ao número de bits do barramento de endereços.
+A) Apenas as afirmativas I e II estão corretas.
+B) Apenas as afirmativas I, II e IV estão corretas.
+C) Apenas as afirmativas II, III e IV estão corretas.
+D) Apenas as afirmativas I e IV estão corretas.
+E) Todas as afirmativas estão corretas.
+= B | Gabarito **oficial definitivo** da CETAP. A III está errada: um sistema de 32 bits **não aproveita** os recursos de 64 bits, então não fica "melhor" por isso. A IV é a regra **2ⁿ** do barramento de endereços.
+:::
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Técnico em Informática · Questão 49**[^4] · [ver prova](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf)
+
+Assinale a alternativa ERRADA sobre as arquiteturas e processadores de 16, 32 e 64 bits.
+A) Uma arquitetura de 64 bits pode ser utilizada somente em processadores Intel.
+B) Um processador de 32 bits pode processar 32 bits de dados por vez.
+C) A família de micro processadores x86 da Intel pode ter arquiteturas de 16 e 32 bits.
+D) Um processador x86 da Intel pode utilizar o conjunto de instruções de computador CISC.
+E) Existem diferentes sistemas operacionais desenvolvidos para 32 e 64 bits.
+= A | Gabarito **oficial definitivo** da CETAP. O "somente" denuncia: AMD, ARM e outros fabricantes também têm processadores de 64 bits. A D confirma o que você estudou: **x86 é CISC**.
+:::
+
+::: questao
+**CETAP · 2010 · Assembleia Legislativa de Roraima · Técnico em Informática · Questão 50**[^4] · [ver prova](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf)
+
+Com relação aos barramentos, assinale a alternativa ERRADA:
+A) Existem barramentos síncronos e assíncronos.
+B) A arbitragem do barramento é necessária para resolver conflitos na utilização do barramento.
+C) O "clock" atua como uma referência de tempo para todas os sinais de um barramento síncrono.
+D) O barramento de controle transporta voltagem às unidades do sistema.
+E) USB, PCI e AGP são exemplos de barramentos.
+= D | Gabarito **oficial definitivo** da CETAP. O barramento de **controle** leva **sinais de comando** (leitura, escrita, interrupção, clock), e não energia. Quem leva a energia são as **linhas de alimentação**.
+:::
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Caps. 3 (barramentos), 4 (cache), 5 (memória interna), 14 (estrutura do processador) e 15 (RISC).
 2. TANENBAUM, Andrew S.; AUSTIN, Todd. *Organização Estruturada de Computadores*. 6. ed. São Paulo: Pearson, 2013. Cap. 2 — Organização de sistemas de computadores.
+3. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Técnico em Atividade Administrativa – Técnico em Rede de Computador, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.
+4. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 da Assembleia Legislativa do Estado de Roraima*: prova objetiva do cargo Técnico em Informática, aplicada em 4 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15602-cetap-2010-al-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.

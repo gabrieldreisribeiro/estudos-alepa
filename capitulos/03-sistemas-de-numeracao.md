@@ -247,7 +247,34 @@ E) (255)₁₀
 = D | As alternativas A, B, C e E valem 255. Apenas a D vale 256.
 :::
 
+## Questões da banca (CETAP) {-}
+
+Questões **reais** de provas anteriores da Fundação CETAP sobre este tema, com o **gabarito oficial definitivo**. O texto está como na prova (inclusive a grafia da época).
+
+::: questao
+**CETAP · 2010 · DETRAN-RR · Técnico em Rede de Computador · Questão 45**[^3] · [ver prova](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf) · [gabarito](https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf)
+
+Dadas as afirmativas sobre sistemas de numeração e codificação, analise-as e assinale a alternativa CORRETA:
+
+I- O conjunto de símbolos do sistema hexadecimal é formado pela seqüência de números S = {0, 1, 2, 3, ..., 12, 13, 14, 15};
+
+II- Um bit é um dígito que pode ser representado pelos símbolos do sistema decimal S = {0, 1, 2, ..., 7, 8, 9};
+
+III- Para converter um número hexadecimal para binário, deve-se simplesmente converter cada dígito hexadecimal ao seu correspondente binário. Exemplo: o número hexadecimal 92 é igual ao número binário 10010010;
+
+IV- O "Complemento de Um" do número binário de 5 dígitos 00110 (6 na base decimal) é 11001 (25 na base decimal);
+
+V- O "Complemento de Dois" do número binário de 5 dígitos 00110 (6 na base decimal) é 11010 (-6 na base decimal).
+A) Todas as afirmativas estão corretas.
+B) Apenas as afirmativas I, II estão corretas.
+C) Apenas as afirmativas I e III estão corretas.
+D) Apenas as afirmativas III, IV e V estão corretas.
+E) Nenhuma das afirmativas está correta.
+= D | Gabarito **oficial definitivo** da CETAP. I está errada: os símbolos do hexadecimal são **0–9 e A–F** (não "12, 13…"). II está errada: bit é **0 ou 1**. III está certa: 9 = 1001 e 2 = 0010. IV e V tratam de **complemento**: complemento de um = **inverter todos os bits** (00110 → 11001); complemento de dois = complemento de um **+ 1** (11001 + 1 = 11010), que representa o negativo (−6).
+:::
+
 ## Referências {- .referencias}
 
 1. STALLINGS, William. *Arquitetura e Organização de Computadores*. 10. ed. São Paulo: Pearson, 2017. Cap. 9 — Sistemas numéricos.
 2. TANENBAUM, Andrew S.; AUSTIN, Todd. *Organização Estruturada de Computadores*. 6. ed. São Paulo: Pearson, 2013. Apêndice A — Números binários.
+3. FUNDAÇÃO CETAP. *Concurso Público nº 001/2009 do DETRAN-RR*: prova objetiva do cargo Técnico em Atividade Administrativa – Técnico em Rede de Computador, aplicada em 11 abr. 2010, e gabarito oficial definitivo. Prova: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-prova.pdf>. Gabarito: <https://www.estudegratis.com.br/images/provas/15587-cetap-2010-detran-rr-tecnico-em-informatica-gabarito.pdf>. Acesso em: 11 out. 2026.

@@ -603,6 +603,7 @@ function render(cap){
     else el=buildDialogo(b.corpo);
     slot.replaceWith(el);
   });
+  tmp.querySelectorAll('a[href^="http"]').forEach(a=>{a.target="_blank";a.rel="noopener"});
 
   // agrupar por h2 em seções
   const out=document.createElement("div");
@@ -645,12 +646,13 @@ function buildQuestao(corpo,n,capId,chave){
     if((m=l.match(/^\s*([A-E])\)\s+(.*)$/))) alts.push([m[1],m[2]]);
     else if((m=l.match(/^\s*=\s*([A-E])\s*\|\s*(.*)$/))){resp=m[1];expl=m[2]}
     else if((m=l.match(/^\s*🔊\s*(.+)$/))) audio=m[1].trim();
-    else if(l.trim()) enun.push(l);
+    else enun.push(l);
   });
   if(audio) expl+=` Áudio: *"${audio}"*`;
   const div=document.createElement("div");
   div.className="q";
-  div.innerHTML=`<span class="qn">${audio?"🎧 Ouça e responda · ":""}Questão ${n}</span><div class="enun">${audio?`<button type="button" class="ouvir" data-say="${esc(audio)}">${I.som} Ouvir</button>`:""}${marked.parse(enun.join("\n"))}</div>
+  const refs=t=>t.replace(/\[\^(\d+)\]/g,'<sup class="ref"><a href="#ref-$1" data-ref="$1">$1</a></sup>');
+  div.innerHTML=`<span class="qn">${audio?"🎧 Ouça e responda · ":""}Questão ${n}</span><div class="enun">${audio?`<button type="button" class="ouvir" data-say="${esc(audio)}">${I.som} Ouvir</button>`:""}${marked.parse(refs(enun.join("\n").trim()))}</div>
     <div class="alts">${alts.map(([k,t])=>`<button type="button" class="alt" data-k="${k}"><b>${k}</b><span>${marked.parseInline(t)}</span></button>`).join("")}</div>`;
   div.addEventListener("click",e=>{
     const b=e.target.closest("button.alt"); if(!b||div.dataset.done) return;
