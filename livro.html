@@ -547,7 +547,7 @@ resumos.forEach(c=>c.resumo=true);
 const leis=todos.filter(c=>c.lei).sort((a,b)=>(+a.meta.ordem||0)-(+b.meta.ordem||0));
 const caps=[...estudo,...resumos,...leis,...editais,...licoes,...enExtras];
 const grupoDe=c=>c.livro==="ingles"?(c.virtual?enExtras:licoes):c.edital?editais:c.lei?leis:c.resumo?resumos:estudo;
-const rotulo=c=>c.progresso?"%":c.virtual==="vocab"?"Aa":c.virtual==="gram"?"G":c.edital?"✓":c.lei?"§":c.resumo?"R"+(resumos.indexOf(c)+1):String(c.num);
+const rotulo=c=>c.id==="foco"?"★":c.progresso?"%":c.virtual==="vocab"?"Aa":c.virtual==="gram"?"G":c.edital?"✓":c.lei?"§":c.resumo?"R"+(resumos.indexOf(c)+1):String(c.num);
 const ingles=c=>c.livro==="ingles";
 
 /* seções de cada capítulo, lidas do próprio Markdown (mesma numeração do render) */
@@ -818,7 +818,7 @@ function migalhas(cap){
   let partes=["ALEPA 2026","Analista Legislativo","Programação"];
   if(ingles(cap)){partes=["Inglês","Conversação · básico",cap.virtual?cap.meta.titulo:"Lição "+cap.num];if(!cap.virtual)partes.push(cap.meta.titulo)}
   else if(cap.progresso) partes.push("Meu progresso");
-  else if(cap.edital) partes.push("Edital oficial");
+  else if(cap.edital) partes.push(cap.id==="edital"?"Edital oficial":cap.meta.titulo);
   else if(cap.lei) partes.push("Leis · texto oficial",cap.meta.titulo);
   else if(cap.resumo) partes.push("Resumos das leis",cap.meta.titulo);
   else{const p=ed.split(" · ");if(p.length>1){partes.push(p[0].toUpperCase());partes.push(p.slice(1).join(" · ").split(" — ")[0])}else partes.push("Capítulo "+cap.num)}
@@ -836,7 +836,7 @@ function mostrar(){
   if(temVoz)speechSynthesis.cancel();
   montarSumario(cap);migalhas(cap);
 
-  const chip=en?(cap.virtual?cap.meta.titulo:"Lição "+cap.num):cap.progresso?"Meu progresso":cap.edital?"Edital · acompanhamento":cap.lei?"Lei · texto oficial":cap.resumo?"Resumo "+rotulo(cap):"Capítulo "+cap.num;
+  const chip=cap.meta.chip||(en?(cap.virtual?cap.meta.titulo:"Lição "+cap.num):cap.progresso?"Meu progresso":cap.edital?"Edital · acompanhamento":cap.lei?"Lei · texto oficial":cap.resumo?"Resumo "+rotulo(cap):"Capítulo "+cap.num);
   const linhaMeta=en?"Inglês · Conversação · Nível básico"+(cap.meta.tema?" · "+esc(cap.meta.tema):""):"ALEPA 2026 · Analista Legislativo · Programação"+(cap.meta.edital?" · "+esc(cap.meta.edital):"");
   page.innerHTML=`<span class="chip">${esc(chip)}</span>
     <div class="meta">${linhaMeta}</div>
