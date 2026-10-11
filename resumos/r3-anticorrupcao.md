@@ -100,6 +100,34 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 > Depois de **5 anos** da descoberta, a infração não pode mais ser punida. As empresas punidas vão para **listas públicas** (CNEP e CEIS), consultadas por quem vai contratar.
 
 
+## Outros artigos que a CETAP cobra
+
+Mapeado em 27 questões da CETAP no TEC (2021 a 2025, quase todas do Pará). Além do que está acima:
+
+| Artigo | O que diz a lei | Em palavras simples |
+|---|---|---|
+| Art. 6º, §§ 1º a 3º | Sanções aplicadas **isolada ou cumulativamente**; **precedidas de manifestação jurídica** da Advocacia Pública; **não excluem** a reparação integral do dano[^12] | Pode juntar multa e publicação; precisa de parecer jurídico antes; e o prejuízo sempre tem de ser pago |
+| Art. 7º | Na dosagem da sanção contam: gravidade; **vantagem** auferida ou pretendida; **consumação** ou não; grau de lesão; efeito negativo; **situação econômica**; **cooperação**; **mecanismos de integridade** (compliance); **valor dos contratos** com o órgão lesado[^13] | A lista do que aumenta ou diminui a pena. O compliance entra aqui |
+| Art. 9º | Atos contra a **administração pública estrangeira**: apura e julga a **CGU**[^14] | Não é o Ministério Público |
+| Art. 11 | Prazo de **30 dias** para a defesa, contados da intimação[^15] | |
+| Art. 13 | Não pagou: crédito inscrito em **dívida ativa**[^16] | |
+| Art. 16, §§ 5º e 9º | Leniência se **estende ao grupo econômico** que assinar junto; e **interrompe** a prescrição[^17] | |
+| Art. 21, parágrafo único | A condenação obriga a **reparar integralmente**; o valor é apurado em **posterior liquidação**, se não constar da sentença[^18] | |
+| Art. 24 | Multa e perdimento vão **preferencialmente** aos **órgãos ou entidades lesados**[^19] | |
+| Art. 25 | Prescrição em **5 anos**, da **ciência**; na infração continuada, do dia em que **cessar**[^20] | Não é "do dia em que começou" |
+| Art. 29 | Não exclui as competências do **CADE**, do **Ministério da Justiça** e do **Ministério da Fazenda** sobre infração à ordem econômica[^21] | |
+| Art. 30 | Não afeta os processos por **improbidade** (Lei 8.429) nem por ilícitos de **licitações e contratos**[^22] | Pode responder pelas várias leis ao mesmo tempo |
+
+> [!PEGADINHA]
+> Trocas que a CETAP já usou como **erradas**:
+> - responsabilidade "**subjetiva**" da pessoa jurídica (é **objetiva**);
+> - "a **promessa** de vantagem não basta" (basta: já é ato lesivo);
+> - "o **MP** apura atos contra a administração estrangeira" (é a **CGU**);
+> - sanções "**vedada a cumulação**" e "**independe** de manifestação jurídica";
+> - "autorizada a **subdelegação**" (é **vedada**);
+> - leniência que "**exime** de reparar o dano", "**não interrompe** a prescrição" ou "não se estende ao grupo";
+> - prescrição da infração continuada contada "do dia em que **começou**" (é do dia em que **cessou**).
+
 ## Revisão rápida {- .colunas}
 
 - Pune pessoa jurídica: esferas administrativa e civil.
@@ -123,6 +151,11 @@ As sanções **não excluem a reparação integral do dano**.[^5]
 - Lei Anticorrupção: efeitos da leniência :: Reduz a multa em até **2/3**; isenta da publicação extraordinária e da proibição de incentivos; **não exime o dano**.
 - Lei Anticorrupção: prescrição :: **5 anos** da ciência da infração.
 - Lei Anticorrupção: prazo da proibição judicial de receber incentivos :: **1 a 5 anos**.
+- Anticorrupção: o que pesa na dosagem da sanção (art. 7º)? :: Gravidade, vantagem, consumação, lesão, efeito negativo, **situação econômica**, **cooperação**, **compliance** e valor dos contratos.
+- Anticorrupção: ato contra administração estrangeira, quem apura? :: A **CGU** (art. 9º).
+- Anticorrupção: prazo de defesa no PAR :: **30 dias** (art. 11).
+- Anticorrupção: prescrição na infração continuada :: **5 anos** do dia em que **cessar** (art. 25).
+- Anticorrupção: leniência interrompe a prescrição? Alcança o grupo? :: **Sim** e **sim**, se o grupo assinar junto (art. 16, §§ 5º e 9º).
 
 ## Questões de fixação {-}
 
@@ -189,3 +222,14 @@ E) são imprescritíveis.
 9. BRASIL. Lei nº 12.846/2013, art. 19.
 10. BRASIL. Lei nº 12.846/2013, arts. 22 e 23.
 11. BRASIL. Lei nº 12.846/2013, art. 25.
+12. BRASIL. Lei nº 12.846/2013, art. 6º, §§ 1º a 3º.
+13. BRASIL. Lei nº 12.846/2013, art. 7º.
+14. BRASIL. Lei nº 12.846/2013, art. 9º.
+15. BRASIL. Lei nº 12.846/2013, art. 11.
+16. BRASIL. Lei nº 12.846/2013, art. 13, parágrafo único.
+17. BRASIL. Lei nº 12.846/2013, art. 16, §§ 5º e 9º.
+18. BRASIL. Lei nº 12.846/2013, art. 21, parágrafo único.
+19. BRASIL. Lei nº 12.846/2013, art. 24.
+20. BRASIL. Lei nº 12.846/2013, art. 25.
+21. BRASIL. Lei nº 12.846/2013, art. 29.
+22. BRASIL. Lei nº 12.846/2013, art. 30.

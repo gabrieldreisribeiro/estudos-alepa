@@ -94,6 +94,27 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 > É o conjunto de **regras internas da empresa contra a corrupção**: código de ética, treinamentos, canal de denúncia e chefes que dão o exemplo. Ter um programa que funcione de verdade **reduz a multa** em até 5%.
 
 
+## Outros artigos que a CETAP cobra
+
+Mapeado em 15 questões da CETAP no TEC. **Atenção:** as de 2021 e 2022 citam o **Decreto 8.420/2015**, que foi **revogado** pelo 11.129/2022. As regras abaixo são as do decreto **atual**, e algumas mudaram.
+
+| Artigo | O que diz o decreto | Em palavras simples |
+|---|---|---|
+| Art. 3º | No juízo de admissibilidade, a autoridade decide: **investigação preliminar**, recomendação de **PAR** ou recomendação de **arquivamento**[^16] | "Ajuizar execução judicial" não está na lista |
+| Art. 3º, § 3º | Na investigação: propor **suspensão cautelar**, pedir **especialistas**, informações **bancárias** e **tributárias**, medidas judiciais[^16] | |
+| Art. 9º | A pessoa jurídica acompanha o PAR com **amplo acesso** aos autos; é **vedada a retirada** de autos físicos, mas pode tirar **cópias**[^17] | |
+| Art. 15 | Reconsideração com efeito **suspensivo**, em **10 dias**; quem não pede cumpre as sanções em **30 dias**; a autoridade decide em **30 dias**[^18] | |
+| Art. 17 | CGU: competência **concorrente** para instaurar e julgar PAR e **exclusiva** para avocar, se houver **omissão**, falta de condições, **complexidade**, **valor dos contratos** ou **mais de um órgão** envolvido[^19] | |
+| Art. 28 | Publicação extraordinária em **extrato de sentença**, **cumulativamente**: jornal de grande circulação, **edital** no estabelecimento (mín. **30 dias**) e **site** (mín. **30 dias**)[^20] | |
+| Art. 32 | Leniência é **ato administrativo negocial**; busca **capacidade investigativa**, **recuperação de ativos** e **cultura de integridade**[^21] | Visa a pessoas **jurídicas** |
+| Art. 37 | Para a leniência: ser a **primeira** a manifestar interesse (quando relevante), **cessar** o envolvimento, **admitir** a responsabilidade objetiva e **cooperar**[^22] | |
+| Art. 58 | **CEIS**: sanções que **restringem licitar ou contratar** com a administração[^23] | CEIS ≠ CNEP (o CNEP é o das punições da Lei 12.846) |
+
+> [!PEGADINHA]
+> - Leniência "visa à responsabilização de pessoas **físicas** e jurídicas": errado, só **jurídicas** (art. 32).
+> - Reconsideração "com efeito **devolutivo**, em **30 dias**": errado, é **suspensivo** e **10 dias**.
+> - Código de ética "aplicável a **alguns** empregados": errado, vale para **todos**, independentemente de cargo (art. 57).
+
 ## Revisão rápida {- .colunas}
 
 - Regulamenta a Lei 12.846/2013.
@@ -116,6 +137,9 @@ O titular da **corregedoria**, ao saber do possível ato lesivo, decide por desp
 - Decreto 11.129: atenuante do programa de integridade :: Até **5%** (máximo só se o programa for anterior ao ato lesivo).
 - Decreto 11.129: natureza do acordo de leniência :: **Ato administrativo negocial**.
 - Decreto 11.129: a negociação da leniência suspende a prescrição por até… :: **360 dias**.
+- Decreto 11.129: reconsideração da decisão do PAR :: Efeito **suspensivo**, prazo de **10 dias** (art. 15).
+- Decreto 11.129: finalidades da leniência (art. 32) :: Capacidade **investigativa**, **recuperação de ativos** e **cultura de integridade**.
+- Decreto 11.129: CEIS reúne… :: Sanções que **restringem licitar e contratar** com a administração (art. 58).
 
 ## Questões de fixação {-}
 
@@ -186,3 +210,11 @@ E) gestão adequada de riscos
 13. BRASIL. Decreto nº 11.129/2022, art. 42.
 14. BRASIL. Decreto nº 11.129/2022, art. 56.
 15. BRASIL. Decreto nº 11.129/2022, art. 57.
+16. BRASIL. Decreto nº 11.129/2022, art. 3º e § 3º.
+17. BRASIL. Decreto nº 11.129/2022, art. 9º e parágrafo único.
+18. BRASIL. Decreto nº 11.129/2022, art. 15 e §§ 1º e 2º.
+19. BRASIL. Decreto nº 11.129/2022, art. 17 e § 1º.
+20. BRASIL. Decreto nº 11.129/2022, art. 28.
+21. BRASIL. Decreto nº 11.129/2022, art. 32 e parágrafo único.
+22. BRASIL. Decreto nº 11.129/2022, art. 37.
+23. BRASIL. Decreto nº 11.129/2022, art. 58.

@@ -86,6 +86,28 @@ Uma dízima periódica sempre vira fração:[^1]
 > [!PEGADINHA]
 > **0,999… = 1**. Pela regra, 9/9 = 1.
 
+## Os problemas de fração que a CETAP mais cobra
+
+Em 74 questões da CETAP no TEC (frações, dízimas e decimais, 2012 a 2025), quase todas são **problemas do dia a dia**, e não contas soltas. São cinco moldes:[^1]
+
+| Molde | Como resolver | Exemplo |
+|---|---|---|
+| **Fração de um total** | Divida pelo de baixo e multiplique pelo de cima | 3/5 de 12.500 m² = 12.500 ÷ 5 × 3 = **7.500 m²** |
+| **Quanto sobrou** | Sobra = 1 − fração usada | Usou 3/4 de 20 L → sobra 1/4 = **5 L** |
+| **Achar o total pelo que sobrou** | Total = sobra ÷ (fração que sobra) | Fez 2/5 e faltam 12 questões → 12 é 3/5 → total = 12 ÷ 3 × 5 = **20** |
+| **Várias frações + um resto** | Some as frações, veja quanto falta para 1 e use o número dado | 1/3 + 1/4 = 7/12; 60 pessoas são os 5/12 que faltam → total = 60 ÷ 5 × 12 = **144** |
+| **Contas com dinheiro e medidas** | Alinhe as vírgulas; troque toneladas e quilos antes | 4,28 t = 4.280 kg × R$ 1,40 = **R$ 5.992,00** |
+
+> [!SIMPLES]
+> No molde 3, o número que a questão dá (os 12) **não** é o total: é só a parte que **falta**. Primeiro descubra que fração essa parte representa (1 − 2/5 = 3/5) e depois "volte" ao total.
+
+> [!PEGADINHA]
+> - **Dízima composta**: 0,14777… = (147 − 14)/900 = **133/900**. A alternativa 147/999 é a armadilha de quem esquece a parte que não se repete.
+> - **Razão** "meninas para meninos" é meninas ÷ meninos (150/120 = **5/4**), nessa ordem.
+
+> [!DICA]
+> Razão e proporção, regra de três e porcentagem têm dias próprios no cronograma.
+
 ## Revisão rápida {- .colunas}
 
 - ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.
@@ -100,6 +122,7 @@ Uma dízima periódica sempre vira fração:[^1]
 - Multiplicar decimais: soma as casas.
 - Dividir decimais: iguala as casas.
 - Dízima: 9 para cada algarismo do período.
+- Total pelo que sobrou: sobra ÷ fração que sobra.
 
 ## Flashcards {- .flashcards}
 
@@ -115,6 +138,10 @@ Uma dízima periódica sempre vira fração:[^1]
 - Como multiplicar decimais? :: Multiplique sem vírgula; o resultado tem a **soma das casas** decimais dos fatores.
 - Como dividir decimais? :: **Iguale as casas** (×10, ×100…) e divida normalmente.
 - 0,999… é igual a quanto? :: **1**
+- Fez 2/5 da prova e faltam 12 questões. Total? :: 12 é 3/5 do total → **20** questões.
+- 1/3 + 1/4 do grupo e mais 60 pessoas. Total? :: 60 são os **5/12** que faltam → **144**.
+- Fração geratriz de 0,14777… :: (147 − 14)/900 = **133/900**.
+- 3/5 de 12.500 :: 12.500 ÷ 5 × 3 = **7.500**.
 
 ## Questões de fixação {-}
 

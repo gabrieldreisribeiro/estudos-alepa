@@ -94,6 +94,23 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 > Depois de **8 anos** do fato, não dá mais para processar. Se o processo começar e houver interrupção, o prazo **recomeça pela metade** (4 anos).
 
 
+## Outros artigos que a CETAP cobra
+
+Mapeado em 19 questões da CETAP no TEC (a maioria de 2021 a 2026, Pará). Além do que está acima:
+
+| Artigo | O que diz a lei | Em palavras simples |
+|---|---|---|
+| Art. 7º | Havendo **indícios**, a autoridade que conhecer dos fatos **representará ao Ministério Público**[^15] | Quem descobre avisa o MP; a autoridade não julga nem pune sozinha |
+| Art. 8º | O **sucessor ou herdeiro** só responde pela **reparação**, até o **limite da herança** ou do patrimônio transferido[^16] | O herdeiro paga o prejuízo, mas só até o que herdou |
+| Art. 8º-A | Vale também em **alteração contratual, transformação, incorporação, fusão ou cisão**. Na fusão e incorporação, a sucessora só repara o dano, **salvo simulação ou fraude**[^17] | Empresa que "engole" outra herda a dívida, não as outras penas |
+| Art. 13, § 3º | Recusar a **declaração de bens** (IR) no prazo ou declarar **falso** = pena de **demissão**[^18] | Sem declaração, sem cargo |
+| Art. 15 | A comissão dá conhecimento ao **Ministério Público** e ao **Tribunal ou Conselho de Contas**[^19] | Não é obrigatório avisar o Governador |
+
+> [!PEGADINHA]
+> - A CETAP já cobrou o contrário do art. 1º: "o **mero exercício** da função, sem dolo, **é suficiente**" (errado: **afasta** a responsabilidade).
+> - Art. 14: **qualquer pessoa** pode representar (não "somente servidor").
+> - Questões **anteriores a 2021** no TEC podem estar **desatualizadas** pela Lei 14.230/2021 (fim da improbidade culposa, afastamento **sem** prejuízo da remuneração). Confira o ano.
+
 ## Revisão rápida {- .colunas}
 
 - Improbidade só com dolo; não existe culposa.
@@ -114,6 +131,10 @@ Fonte: art. 12 da Lei 8.429/1992.[^5]
 - Improbidade: as três espécies :: Art. 9º **enriquecimento ilícito**; art. 10 **lesão ao erário**; art. 11 **violação de princípios**.
 - Improbidade: suspensão dos direitos políticos :: Até **14 anos** (art. 9º) e até **12 anos** (art. 10). O art. 11 não tem.
 - Improbidade: sanções do art. 11 :: Multa de até **24x** a remuneração e proibição de contratar por até **4 anos**.
+- Improbidade: autoridade que tem indícios faz o quê? :: **Representa ao Ministério Público** (art. 7º).
+- Improbidade: herdeiro responde até… :: O **limite da herança**, só pela reparação (art. 8º).
+- Improbidade: recusa da declaração de bens :: Pena de **demissão** (art. 13, § 3º).
+- Improbidade: a comissão avisa quem? :: **Ministério Público** e **Tribunal/Conselho de Contas** (art. 15).
 - Improbidade: prescrição :: **8 anos** do fato; interrompida, recomeça pela **metade (4 anos)**.
 - Improbidade: quando as sanções são executadas? :: Só após o **trânsito em julgado**.
 
@@ -185,3 +206,8 @@ E) Apenas o próprio agente pode representar à autoridade administrativa.
 12. BRASIL. Lei nº 8.429/1992, art. 13.
 13. BRASIL. Lei nº 8.429/1992, art. 23, caput e §§ 1º, 2º, 4º e 5º.
 14. BRASIL. Supremo Tribunal Federal. ADI 7042 e ADI 7043. Plenário, julgadas em 2022 (legitimidade ativa concorrente da pessoa jurídica interessada).
+15. BRASIL. Lei nº 8.429/1992, art. 7º (redação da Lei nº 14.230/2021).
+16. BRASIL. Lei nº 8.429/1992, art. 8º (redação da Lei nº 14.230/2021).
+17. BRASIL. Lei nº 8.429/1992, art. 8º-A (incluído pela Lei nº 14.230/2021).
+18. BRASIL. Lei nº 8.429/1992, art. 13, § 3º.
+19. BRASIL. Lei nº 8.429/1992, art. 15.

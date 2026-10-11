@@ -21,15 +21,15 @@ Conferido em 11/10/2026. **Abertas** são as questões transcritas no próprio l
 | [Cap. 3](#3) Sistemas de numeração | 2 | 14 (+3 de unidades) | Sim |
 | [Cap. 4](#4) Constituição do Pará: Poder Legislativo | **0** | **0** da CE-PA nesse título (5 da CE de Roraima) | Sim |
 | [Cap. 5](#5) Arquitetura | 5 | ~30 | Sim |
-| [Cap. 6](#6) Conjuntos numéricos, frações e decimais | **0** | 46 frações e dízimas · 22 decimais · 6 conjuntos | Não |
+| [Cap. 6](#6) Conjuntos numéricos, frações e decimais | **0** | 46 frações e dízimas · 22 decimais · 6 conjuntos | Sim |
 | [Cap. 7](#7) Armazenamento e interfaces | 3 | ~14 | Sim |
-| [Cap. 8](#8) Ortografia e acentuação | 2 | 62 acentuação · 24 ortografia · 2 hífen | Não |
+| [Cap. 8](#8) Ortografia e acentuação | 2 | 62 acentuação · 24 ortografia · 2 hífen | Sim |
 | [Cap. 9](#9) Proteção física e periféricos | 2 | 9 | Sim |
-| [Cap. 10](#10) Ética e moral | 2 | 14 (5 ética e moral · 2 Decreto 1.171 · 7 outras) | Não |
-| [R1](#r-lgpd) LGPD | **0** | 34 | Não |
-| [R2](#r-l8429) Improbidade | **0** | 19 | Não |
-| [R3](#r-l12846) Anticorrupção | **0** | 27 | Não |
-| [R4](#r-d11129) Decreto 11.129/2022 | **0** | 15 | Não |
+| [Cap. 10](#10) Ética e moral | 2 | 14 (5 ética e moral · 2 Decreto 1.171 · 7 outras) | Sim |
+| [R1](#r-lgpd) LGPD | **0** | 34 | Sim |
+| [R2](#r-l8429) Improbidade | **0** | 19 | Sim |
+| [R3](#r-l12846) Anticorrupção | **0** | 27 | Sim |
+| [R4](#r-d11129) Decreto 11.129/2022 | **0** | 15 | Sim |
 | [R5](#r-lcp95) LC 95/1998 | **0** | **nenhuma** no caderno | — |
 
 > [!SIMPLES]
@@ -61,6 +61,37 @@ Lidas em 11/10/2026: 78 questões (Informática › Hardware e TI › Organizaç
 
 > [!SIMPLES]
 > A CETAP do Pará (2021 a 2025) faz questões **curtas e diretas** ("Qual é…?", 4 ou 5 alternativas). As pegadinhas preferidas são de **unidade** (bit x byte, 1000 x 1024), de **"somente"** e de **classificação** (entrada ou saída, volátil ou não). Conversão de bases é a campeã: treine até ficar automático.
+
+## Leis do edital
+
+Lidas em 11/10/2026: 95 questões (LGPD, Improbidade, Lei Anticorrupção e Decreto 11.129). Quase todas de **2021 a 2026**, em concursos do **Pará** (PGE, SEPLAD, JUCEPA, AGE, SEMAS, SEOP, BANPARÁ, prefeituras).
+
+| Lei | Questões | O que mais cai | Exemplos no TEC | Resumo |
+|---|---|---|---|---|
+| **LGPD** | 34 | Bases legais, princípios (definições trocadas), dados anonimizados e sensíveis, direitos do titular, Poder Público, sanções (6 + 6 meses), CNPD | [#1862550](https://www.tecconcursos.com.br/questoes/1862550) PGE-PA 2021 · [#2410128](https://www.tecconcursos.com.br/questoes/2410128) SEMAS-PA 2023 · [#3334408](https://www.tecconcursos.com.br/questoes/3334408) BANPARÁ 2025 · [#1905672](https://www.tecconcursos.com.br/questoes/1905672) AGE-PA 2022 · [#3168368](https://www.tecconcursos.com.br/questoes/3168368) SEOP-PA 2024 | [R1](#r-lgpd) |
+| **Lei Anticorrupção** | 27 | A quem se aplica, responsabilidade **objetiva**, art. 7º (dosimetria), PAR, leniência, prescrição, CNEP | [#3168093](https://www.tecconcursos.com.br/questoes/3168093) SEOP-PA 2024 · [#1876856](https://www.tecconcursos.com.br/questoes/1876856) SEAP-PA 2021 · [#2410125](https://www.tecconcursos.com.br/questoes/2410125) SEMAS-PA 2023 · [#3168386](https://www.tecconcursos.com.br/questoes/3168386) SEOP-PA 2024 · [#1992017](https://www.tecconcursos.com.br/questoes/1992017) JUCEPA 2021 | [R3](#r-l12846) |
+| **Improbidade** | 19 | Dolo (art. 1º), art. 7º (representar ao MP), sucessor (arts. 8º e 8º-A), rol do art. 10 e 11, declaração de bens, procedimento (arts. 14 e 15) | [#3168097](https://www.tecconcursos.com.br/questoes/3168097) SEOP-PA 2024 · [#3772715](https://www.tecconcursos.com.br/questoes/3772715) Viseu 2026 · [#2410127](https://www.tecconcursos.com.br/questoes/2410127) SEMAS-PA 2023 · [#3990466](https://www.tecconcursos.com.br/questoes/3990466) Mãe do Rio 2026 · [#1924158](https://www.tecconcursos.com.br/questoes/1924158) SEPLAD-PA 2021 | [R2](#r-l8429) |
+| **Decreto 11.129** | 15 | Juízo de admissibilidade, PAR, reconsideração, CGU, leniência (art. 32), programa de integridade, CEIS/CNEP | [#3168104](https://www.tecconcursos.com.br/questoes/3168104) SEOP-PA 2024 · [#3168392](https://www.tecconcursos.com.br/questoes/3168392) SEOP-PA 2024 · [#1862434](https://www.tecconcursos.com.br/questoes/1862434) PGE-PA 2021 · [#1991022](https://www.tecconcursos.com.br/questoes/1991022) JUCEPA 2021 | [R4](#r-d11129) |
+
+> [!AVISO]
+> - As questões de **2021 e 2022** sobre o decreto citam o **Decreto 8.420/2015**, revogado pelo 11.129/2022. Algumas regras mudaram (ex.: reconsideração agora é em **10 dias**). Estude pelo resumo R4, que segue o decreto atual.
+> - Questões de improbidade **anteriores a 2021** podem estar desatualizadas pela Lei 14.230/2021.
+> - As do **BANPARÁ 2025** também citam o **Decreto Estadual nº 2.289/2018** (anticorrupção no Pará), que não está no seu edital.
+
+> [!SIMPLES]
+> Em leis, a CETAP do Pará cobra **lei seca**: copia o artigo e troca **uma palavra** (anuais/mensais, culpa/dolo, publicamente/privativamente, objetiva/subjetiva, cessou/iniciou). Cada resumo agora tem a seção **"Outros artigos que a CETAP cobra"** e a lista dessas trocas.
+
+## Ética
+
+Lidas: 14 questões. Definições de **ética x moral** (a CETAP usa Kelsen e a ideia de que moral = hábitos e costumes de um povo em um momento), **ética e cidadania** (item próprio do edital), compliance e o **Decreto 1.171** (vida privada; vedações). Exemplos: [#1938067](https://www.tecconcursos.com.br/questoes/1938067) SEPLAD-PA 2021 · [#1862456](https://www.tecconcursos.com.br/questoes/1862456) PGE-PA 2021 · [#2188893](https://www.tecconcursos.com.br/questoes/2188893) Maracanã 2019 · [#1258645](https://www.tecconcursos.com.br/questoes/1258645) Abaetetuba 2016. → [Cap. 10](#10)
+
+## Frações e decimais
+
+Lidas: 71 questões. Quase todas são **problemas do dia a dia**: fração de um total, quanto sobrou, achar o total pelo que sobrou, várias frações e um resto, contas com dinheiro. Também cai **dízima composta**. Exemplos: [#3050514](https://www.tecconcursos.com.br/questoes/3050514) Castanhal 2024 (dízima) · [#3335595](https://www.tecconcursos.com.br/questoes/3335595) BANPARÁ 2025 · [#1452839](https://www.tecconcursos.com.br/questoes/1452839) Maracanã 2019 · [#738054](https://www.tecconcursos.com.br/questoes/738054) CM Belém 2012. → [Cap. 6](#6)
+
+## Ortografia e acentuação
+
+Lidas: 105 questões (62 de acentuação). O tipo campeão é **"mesma regra de acentuação"**; depois vêm **"a falta do acento muda a classe"** (hábito/habito), **hiato** (saída, país × rainha, juiz), **têm/vêm** e emprego de letras (x/ch, s/z, ç, -eza). Exemplos: [#3168075](https://www.tecconcursos.com.br/questoes/3168075) SEOP-PA 2024 · [#2408904](https://www.tecconcursos.com.br/questoes/2408904) SEMAS-PA 2023 · [#1876395](https://www.tecconcursos.com.br/questoes/1876395) SEAP-PA 2021 · [#3048270](https://www.tecconcursos.com.br/questoes/3048270) Castanhal 2024 · [#3036071](https://www.tecconcursos.com.br/questoes/3036071) Castanhal 2024 (hífen). → [Cap. 8](#8)
 
 ## Constituição do Pará e Poder Legislativo
 
@@ -97,4 +128,4 @@ Questões que apareceram nesta leitura e entram nos capítulos da semana 2:
 
 ## Ainda não mapeado {-}
 
-Sistemas Operacionais, Redes, Banco de Dados, Desenvolvimento, Engenharia de Software, Português e o resto da Legislação (LGPD, improbidade, anticorrupção, ética). Cada matéria é mapeada quando o capítulo dela for escrito.
+Sistemas Operacionais, Redes, Banco de Dados, Desenvolvimento, Engenharia de Software, Interpretação de textos (335) e o resto de Português. Cada matéria é mapeada quando o capítulo dela for escrito.

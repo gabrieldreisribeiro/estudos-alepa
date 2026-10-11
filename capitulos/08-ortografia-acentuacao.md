@@ -106,6 +106,46 @@ Fonte: Acordo Ortográfico, Bases VIII a XI.[^1]
 > [!SIMPLES]
 > Os acentos que sobreviveram servem para **diferenciar palavras de verdade**: "ele **pôde** ontem" x "ele **pode** hoje"; "vou **pôr** a mesa" x "passei **por** aqui".
 
+## Como a CETAP cobra acentuação
+
+Em 62 questões de acentuação da CETAP no TEC (2012 a 2026), quase todas são de **três tipos**:
+
+**1. "Mesma regra de acentuação"** (o tipo mais comum). Para resolver: ache a **sílaba tônica**, classifique a palavra e diga **por que** ela leva acento. As regras que a banca mistura nas alternativas:[^1]
+
+| Regra | Exemplos |
+|---|---|
+| Proparoxítona (todas) | ônibus, inédita, árvores, típica, lágrimas |
+| Paroxítona terminada em **ditongo** | história, família, início, Fábio, água, contrário |
+| Paroxítona terminada em l, n, r, x, i(s), us… | fácil, câncer, Fênix, lápis, húmus, bônus |
+| Oxítona terminada em a, e, o, em, ens | Pará, café, crochê, também, ninguém |
+| Monossílabo tônico terminado em a, e, o | já, pé, é, nós, lá |
+| **Hiato** com i ou u tônico | saída, país, saúde, Piauí, reúne, destruído |
+| **Ditongo aberto** éi, éu, ói em oxítona ou monossílabo | céu, dói, herói, constrói |
+| Acento **diferencial** | têm, vêm (plural); pôr; pôde |
+
+> [!PEGADINHA]
+> - **Ninguém** e **cupim** são oxítonas, mas só **ninguém** leva acento (termina em **em**).
+> - **História** e **contrário** são paroxítonas terminadas em ditongo, e não proparoxítonas.
+> - Hiato **sem** acento: **rainha** (seguido de nh), **juiz** e **Raul** (o i/u divide a sílaba com outra letra), **xiita** (vogal repetida), **feiura** (depois de ditongo em paroxítona).
+
+**2. "A falta do acento muda a classe ou o sentido".** Exemplos que já caíram:[^3]
+
+| Com acento | Sem acento |
+|---|---|
+| **hábito** (substantivo) | **habito** (verbo habitar) |
+| **filósofo** (substantivo) | **filosofo** (verbo filosofar) |
+| **imaginária** (adjetivo) | **imaginaria** (verbo) |
+| **bebês** (substantivo, tônica no fim) | **bebes** (verbo beber, tônica no início) |
+| **têm**, **vêm** (plural) | **tem**, **vem** (singular) |
+
+> [!SIMPLES]
+> Tire o acento e leia em voz alta. Se a palavra muda de sílaba forte e vira **outra palavra**, normalmente um verbo, o acento é que diferencia as duas.
+
+**3. Classificação pela sílaba tônica**: oxítona, paroxítona ou proparoxítona ("câncer, vital, diabetes, saúde": a única que não é paroxítona é **vital**, que é oxítona).
+
+> [!DICA]
+> Porquês, "aonde/onde", "a fim/afim" e "mau/mal" também aparecem nas provas de Português da CETAP. O porquê tem dia próprio no cronograma.
+
 ## Revisão rápida {- .colunas}
 
 - Alfabeto: 26 letras (K, W, Y).
@@ -141,6 +181,11 @@ Fonte: Acordo Ortográfico, Bases VIII a XI.[^1]
 - Pára (verbo) ainda tem acento? :: **Não**: **para**.
 - Pôde x pode :: **Pôde** = passado; **pode** = presente.
 - Eles têm / ele tem :: **Têm** (plural) com acento; **tem** (singular) sem.
+- Tire o acento de **hábito**: o que acontece? :: Vira **habito** (verbo): muda a classe e o sentido.
+- **Saída** e **país** levam acento por quê? :: **Hiato** com i tônico.
+- **Rainha** e **juiz** têm hiato. Por que sem acento? :: Rainha: i seguido de **nh**. Juiz: o i forma sílaba com **z**.
+- **Céu, dói, herói**: qual regra? :: **Ditongo aberto** (éu, ói) em monossílabo ou oxítona.
+- **História, família, início**: qual regra? :: **Paroxítona terminada em ditongo**.
 
 ## Questões de fixação {-}
 

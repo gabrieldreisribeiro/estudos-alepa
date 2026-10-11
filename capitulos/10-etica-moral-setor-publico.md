@@ -21,6 +21,8 @@ Fonte: Chaui.[^1]
 
 > [!PEGADINHA]
 > As bancas às vezes usam ética e moral como sinônimos. Mas, quando a questão pede a **diferença**, ética = **teoria/reflexão**; moral = **prática/costumes**.
+>
+> A CETAP já deu como **certa** a definição "moral é o conjunto de **hábitos e costumes** de um povo **em um momento específico**", e como **errada** "ética é um conjunto de regras introjetadas que vira questão de consciência" (isso é a moral). Ela também usa a ideia de Kelsen: a **moral** são normas sociais; a **ética** é a disciplina que **estuda** essas normas.
 
 ## Valores, princípios e a lei
 
@@ -107,6 +109,8 @@ A administração pública obedece aos princípios de **Legalidade, Impessoalida
 - Deixar o cidadão em longas filas é… :: **Dano moral** ao usuário.
 - Pena aplicada pela Comissão de Ética :: **Censura**.
 - Servidor pode receber presente para cumprir sua função? :: **Não**, é vedado.
+- "Conjunto de hábitos e costumes de um povo num momento específico" é… :: A **moral**.
+- Alterar o teor de documentos que deva encaminhar é dever ou vedação? :: **Vedação** (Decreto 1.171, inciso XV).
 
 ## Questões de fixação {-}
 

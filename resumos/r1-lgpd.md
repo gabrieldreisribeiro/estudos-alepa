@@ -127,6 +127,35 @@ Aplicadas pela **ANPD**, após processo com ampla defesa, de forma gradativa:[^1
 > Quem descumpre a LGPD pode levar de uma **advertência** até **multa** e **proibição** de tratar dados. Quem aplica é a **ANPD**, o órgão que fiscaliza a lei. Órgãos públicos são punidos, mas **sem multa**.
 
 
+## Outros artigos que a CETAP cobra
+
+Mapeado em 34 questões da CETAP no TEC (2021 a 2025, quase todas de concursos do Pará). Além do que está acima, a banca cobra **estes artigos ao pé da letra**:
+
+| Artigo | O que diz a lei | Em palavras simples |
+|---|---|---|
+| Art. 2º | Fundamentos: respeito à **privacidade**; **autodeterminação informativa**; liberdade de expressão; inviolabilidade da intimidade; **desenvolvimento econômico e tecnológico e inovação**; livre iniciativa e defesa do consumidor; direitos humanos e cidadania[^16] | São as "bases" da lei. Até o desenvolvimento econômico está na lista |
+| Art. 8º, § 4º | O consentimento deve ser para **finalidades determinadas**; **autorizações genéricas são nulas**[^17] | "Autorizo tudo" não vale |
+| Art. 13, § 4º | **Pseudonimização**: o dado perde a associação com a pessoa, **salvo** com informação adicional guardada **separadamente** pelo controlador[^18] | Diferente da anonimização: dá para voltar, com a "chave" guardada à parte |
+| Art. 15 | Término do tratamento: finalidade alcançada; **fim do período**; **comunicação do titular** (revogação); **determinação da ANPD**[^19] | Quatro motivos para parar de usar os dados |
+| Art. 20 | Revisão de decisão **automatizada** que defina perfil **pessoal, profissional, de consumo e de crédito**[^20] | Se um robô decidiu sobre você, você pode pedir revisão |
+| Art. 25 | Dados do Poder Público em formato **interoperável**, para políticas públicas, serviços públicos, **descentralização** e acesso do público[^21] | Os sistemas do governo devem "conversar" entre si |
+| Art. 26, § 1º | O Poder Público **não pode** passar dados a entidades privadas, **exceto**: execução **descentralizada**; dados **acessíveis publicamente**; previsão legal ou contrato/convênio; prevenção de **fraudes**[^22] | Regra é proibir; a lei lista as exceções |
+| Art. 33 | Transferência internacional só para país com proteção **adequada**, com garantias, cooperação, **proteção da vida**, autorização da ANPD, **acordo de cooperação**, política pública ou consentimento específico[^23] | Mandar dados para fora só nos casos da lista |
+| Art. 43 | O agente **não responde** se provar: que **não fez** o tratamento; que fez **sem violar** a lei; ou **culpa exclusiva** do titular ou de terceiro[^24] | As três "saídas" do controlador e do operador |
+| Art. 52, X e XI | **Suspensão** do banco de dados ou da atividade por até **6 meses, prorrogável** por igual período[^13] | Seis meses mais seis |
+| Art. 58-B | O **CNPD** propõe diretrizes, faz relatórios **anuais**, sugere ações à ANPD, faz estudos e audiências e dissemina conhecimento[^25] | Conselho consultivo, com relatório por ano |
+
+> [!PEGADINHA]
+> A CETAP troca **uma palavra** do artigo. Trocas que já apareceram:
+> - consentimento "**pelo familiar**" (é **pelo titular**);
+> - autorizações genéricas "**válidas**" (são **nulas**);
+> - relatórios "**mensais**" do CNPD (são **anuais**);
+> - "**dolo** exclusivo do titular" (é **culpa** exclusiva);
+> - "**centralização** da atividade pública" (é **descentralização**);
+> - dados acessíveis "**privativamente**" (é **publicamente**);
+> - sanção de "**anonimização** da infração" (é **publicização**);
+> - princípio da **segurança** com a definição do **livre acesso**.
+
 ## Revisão rápida {- .colunas}
 
 - Protege só pessoa natural.
@@ -143,6 +172,7 @@ Aplicadas pela **ANPD**, após processo com ampla defesa, de forma gradativa:[^1
 - Multa: até 2% do faturamento, máx. R$ 50 mi por infração.
 - Órgão público não leva multa.
 - ANPD = Agência Nacional de Proteção de Dados.
+- Autorizações genéricas: nulas; CNPD: relatórios anuais; suspensão: 6 + 6 meses.
 
 ## Flashcards {- .flashcards}
 
@@ -153,6 +183,12 @@ Aplicadas pela **ANPD**, após processo com ampla defesa, de forma gradativa:[^1
 - LGPD: multa simples :: Até **2% do faturamento** no Brasil, limitada a **R$ 50 milhões por infração**.
 - LGPD: órgão público pode levar multa? :: **Não.** Sofre as demais sanções.
 - LGPD: dados de criança :: Consentimento específico e em destaque de **pelo menos um dos pais** ou do responsável.
+- LGPD: autorização genérica de tratamento vale? :: **Não**: é **nula** (art. 8º, § 4º).
+- LGPD: pseudonimização :: Perde a associação com a pessoa, **salvo** por informação adicional guardada **separadamente** (art. 13).
+- LGPD: quando termina o tratamento? :: Finalidade alcançada; fim do período; comunicação do titular; determinação da ANPD (art. 15).
+- LGPD: excludentes do agente (art. 43) :: Não tratou; tratou sem violar a lei; **culpa exclusiva** do titular ou de terceiro.
+- LGPD: CNPD faz relatórios… :: **Anuais** (art. 58-B).
+- LGPD: suspensão da atividade ou do banco :: Até **6 meses, prorrogável** por igual período.
 
 ## Questões de fixação {-}
 
@@ -223,3 +259,13 @@ E) operador e ANPD
 13. BRASIL. Lei nº 13.709/2018, art. 52 e § 3º.
 14. BRASIL. Lei nº 13.709/2018, art. 55-A (redação atual).
 15. AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS. Resolução CD/ANPD nº 15, de 24 de abril de 2024. Aprova o Regulamento de Comunicação de Incidente de Segurança.
+16. BRASIL. Lei nº 13.709/2018, art. 2º.
+17. BRASIL. Lei nº 13.709/2018, art. 8º, § 4º.
+18. BRASIL. Lei nº 13.709/2018, art. 13, § 4º.
+19. BRASIL. Lei nº 13.709/2018, art. 15.
+20. BRASIL. Lei nº 13.709/2018, art. 20 (redação da Lei nº 13.853/2019).
+21. BRASIL. Lei nº 13.709/2018, art. 25.
+22. BRASIL. Lei nº 13.709/2018, art. 26, § 1º.
+23. BRASIL. Lei nº 13.709/2018, art. 33.
+24. BRASIL. Lei nº 13.709/2018, art. 43.
+25. BRASIL. Lei nº 13.709/2018, art. 58-B (incluído pela Lei nº 13.853/2019).
