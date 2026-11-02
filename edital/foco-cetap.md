@@ -37,6 +37,16 @@ Conferido em 11/10/2026. **Abertas** são as questões transcritas no próprio l
 | [Cap. 8](#8) Ortografia e acentuação | 2 | 62 acentuação · 24 ortografia · 2 hífen | Sim |
 | [Cap. 9](#9) Proteção física e periféricos | 2 | 9 | Sim |
 | [Cap. 10](#10) Ética e moral | 2 | 14 (5 ética e moral · 2 Decreto 1.171 · 7 outras) | Sim |
+| [Cap. 11](#11) Gerência de memória e memória virtual | 0 | 7 (paginação, page fault, memória virtual) | Sim |
+| [Cap. 12](#12) Classes de palavras (I) | 2 | ~175 (artigo, substantivo, adjetivo, pronome, numeral) | Não |
+| [Cap. 13](#13) Escalonamento, multiprogramação | 0 | 3 | Sim |
+| [Cap. 14](#14) Constituição do Pará (II) | 0 | **0** da CE-PA nesses artigos | Sim |
+| [Cap. 15](#15) Windows e Linux | 7 | ainda não contado | Não |
+| [Cap. 16](#16) Razão, proporção e divisão proporcional | 0 | ainda não contado | Não |
+| [Cap. 17](#17) Arquivos, proteção lógica e backup | 1 | 1 mapeada (Btrfs) | Parcial |
+| [Cap. 18](#18) Classes de palavras (II) e porquês | 3 | ainda não contado | Não |
+| [Cap. 19](#19) Word, Excel, PowerPoint, Access e LibreOffice | 5 | ainda não contado | Não |
+| [Cap. 20](#20) Assédio moral e sexual | 0 | ainda não contado | Não |
 | [R1](#r-lgpd) LGPD | **0** | 34 | Sim |
 | [R2](#r-l8429) Improbidade | **0** | 19 | Sim |
 | [R3](#r-l12846) Anticorrupção | **0** | 27 | Sim |
@@ -124,17 +134,17 @@ Lidas em 11/10/2026: 25 questões (Direito Constitucional Estadual e Legislaçã
 > [!SIMPLES]
 > O estilo da CETAP em legislação é **trocar uma palavra** do artigo: fração (1/3 ou 1/5), "com" ou "sem" votação, "determinado" ou "genérico", "somente". Para acertar, é preciso decorar os **números** e as **palavras exatas** da lei. Por isso o capítulo 4 tem tabelas com os quóruns e prazos.
 
-## Para os próximos capítulos {-}
+## Questões da semana 2 {-}
 
-Questões que apareceram nesta leitura e entram nos capítulos da semana 2:
+Questões que apareceram nesta leitura e já estão nos capítulos da semana 2 ([Cap. 11](#11), [Cap. 13](#13) e [Cap. 17](#17)):
 
-| Tema | Exemplos no TEC | Quando |
+| Tema | Exemplos no TEC | Capítulo |
 |---|---|---|
-| Paginação: número de páginas e tamanho da página pelos bits do endereço | [#1905765](https://www.tecconcursos.com.br/questoes/1905765) AGE-PA 2022 · [#1992124](https://www.tecconcursos.com.br/questoes/1992124) JUCEPA 2021 | Seg 12/10 |
-| Page fault (falha de página) | [#2062357](https://www.tecconcursos.com.br/questoes/2062357) CRF-PA 2021 | Seg 12/10 |
-| Multiprogramação x multiprocessamento | [#2518732](https://www.tecconcursos.com.br/questoes/2518732) SEMAS-PA 2023 | Ter 13/10 |
-| Algoritmos de escalonamento (Round-Robin, FCFS, SJF) | [#2062107](https://www.tecconcursos.com.br/questoes/2062107) CRF-PA 2021 | Ter 13/10 |
-| Sistema de arquivos Btrfs | [#3336080](https://www.tecconcursos.com.br/questoes/3336080) BANPARÁ 2025 | Qui 15/10 |
+| Paginação: número de páginas e tamanho da página pelos bits do endereço | [#1905765](https://www.tecconcursos.com.br/questoes/1905765) AGE-PA 2022 · [#1992124](https://www.tecconcursos.com.br/questoes/1992124) JUCEPA 2021 | [Cap. 11](#11) |
+| Page fault (falha de página) | [#2062357](https://www.tecconcursos.com.br/questoes/2062357) CRF-PA 2021 | [Cap. 11](#11) |
+| Multiprogramação x multiprocessamento | [#2518732](https://www.tecconcursos.com.br/questoes/2518732) SEMAS-PA 2023 | [Cap. 13](#13) |
+| Algoritmos de escalonamento (Round-Robin, FCFS, SJF) | [#2062107](https://www.tecconcursos.com.br/questoes/2062107) CRF-PA 2021 | [Cap. 13](#13) |
+| Sistema de arquivos Btrfs | [#3336080](https://www.tecconcursos.com.br/questoes/3336080) BANPARÁ 2025 | [Cap. 17](#17) |
 | Tabela-verdade com XOR | [#3335877](https://www.tecconcursos.com.br/questoes/3335877) BANPARÁ 2025 | Raciocínio lógico |
 
 ## Ainda não mapeado {-}

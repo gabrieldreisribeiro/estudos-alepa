@@ -139,6 +139,70 @@ const Q = {
     ["alrr-publicitario", 41, "Ética é:",
       ["algo utópico que apenas sedimenta o que se deseja.", "uma filosofia moderna que surgiu após a Segunda Guerra Mundial.", "um sistema de conhecimentos racionais e objetivos a respeito do comportamento humano.", "um conjunto assistemático de bom comportamento.", "jamais mentir, apenas."],
       "C", "Ética é **reflexão sistemática** (teórica, racional) sobre a conduta humana. \"Conjunto de bom comportamento\" descreve a **moral**, e \"assistemático\" está errado."]
+  ],
+  "12-classes-de-palavras-1.md": [
+    ["detran-programador", 3, "(Texto: crônica \"Aluguel de Temporada\", de Walcyr Carrasco. Trecho: \"Quando cheguei, descobri que era um semiflat. Sim, isso existe! É o flat que já não tem todos os serviços.\")\n\nA relação anafórica de pronome demonstrativo em: \"Sim, isso existe!\" faz-se com:",
+      ["\"cheguei\".", "\"descobri\".", "\"Sim\".", "\"existe\".", "\"semiflat\"."],
+      "E", "**Isso** retoma (anáfora) o que acabou de ser dito: o **semiflat**. Teste: \"Sim, o semiflat existe!\"."],
+    ["alrr-tecnico", 4, "(Trecho do comando da questão anterior: \"Apreciem, prezados leitores, a clareza do bom Morais, cujo dicionário é de 1813\".)\n\nO pronome relativo \"cujo\", no trecho do comando da questão anterior, dá idéia de:",
+      ["concessão.", "companhia.", "tempo.", "lugar.", "posse."],
+      "E", "**Cujo** sempre indica **posse**: o dicionário **de Morais**."]
+  ],
+  "15-windows-linux-arquivos-pastas.md": [
+    ["detran-analista", 16, "Com relação ao sistema operacional Linux, analise as afirmativas a seguir e marque a alternativa CORRETA.\n\nI- O comando mkdir é usado para excluir os arquivos em um diretório;\nII- O comando ls é usado para listar os arquivos em um diretório;\nIII- O sistema operacional Linux foi criado pela Microsoft;\nIV- O GIMP é um programa para edição de textos;\nV- O sistema operacional Linux só pode ser usado em computadores pessoais.",
+      ["Somente a afirmativa II está correta.", "Somente as afirmativas I e II estão corretas.", "Somente as afirmativas I, II e V estão corretas.", "Somente as afirmativas II e V estão corretas.", "Todas as afirmativas estão corretas."],
+      "A", "**mkdir cria** diretório; **ls lista**; o Linux não é da Microsoft; o **GIMP edita imagens**; o Linux roda em servidores, celulares e outros equipamentos."],
+    ["detran-analista", 17, "Com relação ao sistema operacional Windows analise as afirmativas a seguir e marque a alternativa CORRETA.\n\nI- A tecla print screen tem a função de imprimir o documento na impressora padrão disponível no momento;\nII- O usuário pode alternar a visualização das janelas abertas no computador utilizando as teclas ALT+ESC;\nIII- Windows 7 e Windows Now ! são nomes de duas versões desse sistema operacional;\nIV- O Paint é um programa para edição de planilhas;\nV- O Outlook Express é um programa usado para o gerenciamento de contatos e mensagens de e-mail.",
+      ["Somente as afirmativas II e IV estão corretas.", "Somente as afirmativas II e V estão corretas.", "Somente as afirmativas I, II e V estão corretas.", "Somente as afirmativas II, III e V estão corretas.", "Todas as afirmativas estão corretas."],
+      "B", "**Print Screen copia** a tela (não imprime); \"Windows Now!\" não existe; **Paint** edita imagens. Alt + Esc alterna janelas e o Outlook Express era o programa de e-mail do Windows XP."],
+    ["detran-analista", 20, "Quanto aos conceitos de organização e de gerenciamento de informações, arquivos, pastas e programas, podemos afirmar que:",
+      ["Pasta, arquivo e diretório são sinônimos.", "O Windows Explorer, por questões de segurança, não permite a visualização de arquivos sob o diretório \"Windows/System32\".", "Um arquivo não pode ter mais de 100 giga bytes de tamanho.", "Todos os programas instalados no Windows estão obrigatoriamente sob o diretório \"Arquivos de Programas\".", "Não é possível usar a partição do tipo NTFS no Windows 98."],
+      "E", "O **Windows 98** usava **FAT/FAT32** e não reconhece **NTFS**. Pasta e diretório são sinônimos, mas **arquivo** não; não há limite de 100 GB no NTFS; programas podem ser instalados em outras pastas."],
+    ["detran-programador", 21, "Quais as informações que você deve fornecer como procedimento padrão para autenticar-se no sistema operacional Linux:",
+      ["Nome de usuário e senha.", "Somente o nome de usuário.", "Somente a senha.", "Certificado digital.", "Assinatura digital."],
+      "A", "O login padrão do Linux pede **usuário e senha**."],
+    ["detran-programador", 22, "No sistema Linux, a opção de reiniciar o sistema operacional é usada para:",
+      ["Desligar e ligar, nessa ordem, somente os serviços de rede e o monitor.", "Desligar e ligar, nessa ordem, o sistema operacional.", "Somente desligar o sistema operacional.", "Ligar e desligar, nessa ordem, o sistema operacional.", "Desligar e ligar, nessa ordem, somente os serviços de rede, o monitor e os periféricos."],
+      "B", "Reiniciar (**reboot**) = **desligar e ligar de novo** o sistema inteiro, nessa ordem."],
+    ["alrr-tecnico", 21, "Gnome é uma interface gráfica que facilita o uso do ambiente Linux e apresenta uma aparência semelhante à oferecida pelos sistemas Windows. Comparando Gnome com a interface gráfica do Windows, analise as afirmativas a seguir e marque a alternativa CORRETA.\n\nI- O Gnome tem uma área de trabalho;\nII- O Gnome permite utilizar o botão direito do mouse;\nIII- O Gnome permite criar pastas;\nIV- O Gnome permite as operações de copiar e colar;\nV- Quando houver uma leitora de CD disponível, o Gnome permitirá ver arquivos que se encontram em um CD.",
+      ["Somente a afirmativa III está correta.", "Somente a afirmativa IV está correta.", "Somente as afirmativas I, III, IV e V estão corretas.", "Somente as afirmativas I, II, III e V estão corretas.", "Todas as afirmativas estão corretas."],
+      "E", "O **GNOME** é um ambiente gráfico completo: área de trabalho, botão direito, pastas, copiar e colar e acesso a CDs e pendrives, como no Windows."],
+    ["alrr-tecnico", 25, "A informação no computador é organizada em pastas e arquivos. Pastas e arquivos têm nomes, e os arquivos usualmente contam com uma extensão que define o tipo de arquivo, o que dá uma idéia da sua funcionalidade. Das seguintes alternativas referentes a arquivos e pastas, selecione a CORRETA.",
+      ["Os arquivos que não tem extensão não têm utilidade.", "Toda pasta precisa ter pelo menos um arquivo.", "As operações de copiar e colar podem ser efetuadas em pastas e em arquivos.", "As operações de recortar e colar só podem ser efetuadas em arquivos.", "Um arquivo .doc criado no Microsoft Word não poderá ser aberto no Writer do Open Office."],
+      "C", "Copiar, recortar e colar funcionam em **arquivos e pastas**. Pasta pode estar vazia; arquivo sem extensão pode ser útil; o Writer abre .doc."]
+  ],
+  "17-sistemas-arquivos-backup.md": [
+    ["detran-analista", 22, "O backup é bastante útil para a recuperação de dados perdidos ou apagados acidentalmente. Sobre o backup, é possível afirmar:",
+      ["O backup completo copia apenas os arquivos criados nas últimas 24 horas.", "O backup diferencial é sinônimo de backup incremental.", "O backup diferencial copia arquivos criados ou alterados desde o último backup normal ou incremental.", "O backup frio é realizado sem tirar o sistema do ar.", "Pode-se gravar o backup na própria memória RAM do computador."],
+      "C", "Atenção: pela definição usual, \"desde o último backup normal **ou incremental**\" descreve o **incremental**; o diferencial copia o que mudou desde o último **completo** (veja a seção de backup). A banca manteve a C porque as outras têm erros evidentes: o completo copia **tudo**; diferencial e incremental **não** são sinônimos; backup **frio** é feito com o sistema **parado**; a RAM é **volátil**."]
+  ],
+  "18-classes-de-palavras-2-porques.md": [
+    ["detran-programador", 5, "(Texto: crônica \"Aluguel de Temporada\", de Walcyr Carrasco.)\n\nNÃO ocorreu o emprego de verbo impessoal em:",
+      ["\"Há um ano, seis amigos, sem muita grana, alugaram...\"", "\"...já havia três pessoas instaladas...\"", "\"Faz dois anos que os inquilinos estão lá.\"", "\"Todos haviam pago antecipadamente\".", "\"Havia dois ventiladores, um no quarto, outro na sala\"."],
+      "D", "Em \"haviam pago\", **haver é auxiliar** (= tinham pago), concorda com \"todos\" e não é impessoal. Nas outras: haver = tempo decorrido ou existir, e fazer = tempo decorrido (impessoais)."],
+    ["detran-programador", 7, "O verbo com o pronome \"se\" apassivado foi empregado corretamente em:",
+      ["Analisaram-se os contratos de locação.", "Alugou-se uns flats em Ipanema.", "Contestou-se os carnavalescos.", "Precisava-se de pessoas honestas para assinar contratos.", "Ferraram-se o locatário com aluguel de temporada."],
+      "A", "Passiva sintética: o verbo **concorda** com o sujeito (os contratos **foram analisados**). B e C deveriam estar no plural; em D o \"se\" é **índice de indeterminação** (precisar **de**), não apassivador."],
+    ["alrr-revisor", 2, "\"Portanto, a persistência é essencial\". O conectivo \"Portanto\" denota:",
+      ["Tempo.", "Conclusão.", "Concessão.", "Proporção.", "Fim."],
+      "B", "**Portanto** é conjunção coordenativa **conclusiva** (= logo, por isso)."]
+  ],
+  "19-office-libreoffice.md": [
+    ["detran-analista", 18, "Se tratando do Microsoft Excel, assinale a alternativa que contém, respectivamente, o resultado correspondente as fórmulas \"=mult(4;1;5;4)\" e \"=soma(2,2;4)\" :",
+      ["45 e 224.", "21 e 6,2.", "17 e 6,22.", "80 e 6,2.", "90 e 1,8."],
+      "D", "**MULT**: 4 × 1 × 5 × 4 = **80**. **SOMA(2,2;4)**: o ponto e vírgula separa os argumentos e a vírgula é decimal: 2,2 + 4 = **6,2**."],
+    ["detran-programador", 23, "No processador de textos Microsoft Word você dispõe do recurso \"proteger documento\". Sobre o assunto, selecione a alternativa ERRADA:",
+      ["A proteção pode ser utilizada para limitar a formatação de estilos.", "A proteção pode ser utilizada para limitar as alterações no documento.", "A proteção pode ser utilizada para encriptar o documento.", "A proteção pode ser utilizada para limitar a permissão de edição dos usuários.", "A proteção pode ser utilizada para controlar o preenchimento de formulários."],
+      "C", "Proteger documento (restringir edição) limita **formatação**, **alterações**, **edição por usuário** e **formulários**. Criptografar é outro recurso (Criptografar com Senha)."],
+    ["detran-programador", 24, "Na planilha eletrônica Microsoft Excel, quando a célula mostra #REF! significa que:",
+      ["A fórmula representa uma divisão por zero.", "A fórmula está acessando uma célula que não existe.", "A fórmula tem caracteres inválidos.", "A fórmula usa \";\" para especificar um intervalo.", "A fórmula está acessando uma célula com caracteres inválidos."],
+      "B", "**#REF!** = referência a célula que **não existe** (ex.: linha excluída). Divisão por zero é **#DIV/0!**."],
+    ["alrr-tecnico", 22, "O OpenOffice, também chamado de BROffice na sua versão em português, traz uma série de aplicativos para trabalho de escritório. Sobre o assunto, marque a única alternativa ERRADA.",
+      ["O Calc permite criar planilhas de cálculo e o Writer permite criar apresentações.", "O Writer é um editor de texto.", "O Writer gera arquivos com extensão .odt.", "O Impress permite a criação de apresentações e cria arquivos com extensão .odp.", "O Writer é um aplicativo de edição de textos e o Impress permite a criação de apresentações."],
+      "A", "Apresentações são do **Impress**; o **Writer** é editor de **texto** (.odt). O mesmo vale para o LibreOffice atual."],
+    ["alrr-tecnico", 23, "A média ponderada de três números a1, a2 e a3, com pesos b1, b2 e b3 é calculada como: ((a1*b1) + (a2*b2) + (a3*b3))/(b1+b2+b3). Considere que você precise calcular a média ponderada de três notas, cada uma com o seu peso e que, para fazer isso vai utilizar uma planilha de cálculo no Excel. Supondo que as notas se encontram nas células A1, A2 e A3 e os pesos nas células B1, B2 e B3, analise as soluções propostas e marque a alternativa CORRETA.\n\nI- Colocar na célula C1 a fórmula =(A1*B1+A2*B2+A3*B3)/(B1+B2+B3).\nII- Colocar na célula D1 a fórmula =A1*B1, na célula D2 a fórmula =A2*B2, na célula D3 a fórmula =A3*B3 e na célula C1 a fórmula =(D1+D2+D3)/(B1+B2+B3).\nIII- Colocar na célula C1 a fórmula =(A1*B1;A2*B2;A3*B3)/(B1;B2;B3).\nIV- Colocar na célula C1 a fórmula =(A*B)/(B).\nV- Colocar na célula C1 a fórmula =soma(A1*B1;A2*B2;A3*B3)/Soma(B1:B3).",
+      ["Somente a solução IV está correta.", "Somente as soluções III e V estão corretas.", "Todas as soluções estão corretas.", "Somente as soluções I, II e V estão corretas.", "Somente a solução V está correta."],
+      "D", "I, II e V calculam a média ponderada. III usa \";\" fora de uma função (erro) e IV usa referências incompletas (\"A\", \"B\")."]
   ]
 };
 

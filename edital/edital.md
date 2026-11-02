@@ -71,19 +71,19 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 ### 3 Sistemas Operacionais
 
 - [ ] Conceitos de sistemas operacionais
-- [ ] Gerência de memória; memória virtual (segmentação, paginação)
-- [ ] Escalonamento de processos
-- [ ] Multiprogramação e multiprocessamento
-- [ ] Ambientes Windows e Linux
+- [ ] Gerência de memória; memória virtual (segmentação, paginação) → [Cap. 11](#11)
+- [ ] Escalonamento de processos → [Cap. 13](#13)
+- [ ] Multiprogramação e multiprocessamento → [Cap. 13](#13)
+- [ ] Ambientes Windows e Linux → [Cap. 15](#15)
 
 ### 4 Pacote Office
 
-- [ ] Word, Excel, Access e PowerPoint
+- [ ] Word, Excel, Access e PowerPoint → [Cap. 19](#19)
 
 ### 5 Sistemas de Arquivamento e Proteção
 
-- [ ] Arquivo, registro, métodos de acesso, organização de diretórios, proteção de arquivos
-- [ ] Proteção de sistemas e equipamentos: proteção lógica e física, backup, estabilizadores, no-breaks → [Cap. 9](#9)
+- [ ] Arquivo, registro, métodos de acesso, organização de diretórios, proteção de arquivos → [Cap. 17](#17)
+- [ ] Proteção de sistemas e equipamentos: proteção lógica e física, backup, estabilizadores, no-breaks → [Cap. 9](#9) · [Cap. 17](#17)
 
 ### 6 Algoritmos e Linguagens de Programação
 
@@ -161,10 +161,10 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 - [ ] Acentuação gráfica → [Cap. 8](#8)
 - [ ] Comunicação assertiva: linguagem simples, concisa e objetiva
 - [ ] Emprego do sinal indicativo de crase
-- [ ] Uso dos porquês
+- [ ] Uso dos porquês → [Cap. 18](#18)
 - [ ] Coesão e coerência
 - [ ] Significação das palavras: sinônimos, antônimos, homônimos e parônimos
-- [ ] Classes de palavras
+- [ ] Classes de palavras → [Cap. 12](#12) · [Cap. 18](#18)
 - [ ] Período simples e composto
 - [ ] Pontuação
 - [ ] Concordância nominal e verbal
@@ -177,7 +177,7 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 
 ### Ética e leis federais
 
-- [ ] Assédio moral e sexual: conceitos e medidas de enfrentamento
+- [ ] Assédio moral e sexual: conceitos e medidas de enfrentamento → [Cap. 20](#20)
 - [ ] Segurança da informação: fundamentos, conceitos e mecanismos
 - [ ] LGPD (Lei nº 13.709/2018) → [Resumo R1](#r-lgpd) · [texto](#lgpd)
 - [ ] Lei Anticorrupção (Lei nº 12.846/2013) → [Resumo R3](#r-l12846) · [texto](#l12846)
@@ -191,7 +191,7 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 ### Constituição do Pará e técnica legislativa
 
 - [ ] Constituição do Pará: arts. 11, 86, 90 e 92 a 104 → [Cap. 4](#4)
-- [ ] Constituição do Pará: arts. 105 a 116, 121, 161, 162, 168 e 341
+- [ ] Constituição do Pará: arts. 105 a 116, 121, 161, 162, 168 e 341 → [Cap. 14](#14)
 - [ ] Técnica legislativa: LC nº 95/1998 → [Resumo R5](#r-lcp95) · [texto](#lcp95)
 
 ### Regimento Interno da ALEPA
@@ -212,11 +212,11 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 
 ## Noções de Informática (5 questões) {-}
 
-- [ ] Windows 10 e Windows 11
+- [ ] Windows 10 e Windows 11 → [Cap. 15](#15)
 - [ ] Conceitos básicos de hardware e periféricos → [Cap. 1](#1) · [Cap. 5](#5) · [Cap. 9](#9)
-- [ ] Word, Excel e PowerPoint (2013 até O365) e LibreOffice 7 ou superior
+- [ ] Word, Excel e PowerPoint (2013 até O365) e LibreOffice 7 ou superior → [Cap. 19](#19)
 - [ ] Segurança da informação: controle de USB, hardening, antimalware e firewall pessoal
-- [ ] Organização e gerenciamento de informações, arquivos, pastas e programas
+- [ ] Organização e gerenciamento de informações, arquivos, pastas e programas → [Cap. 15](#15) · [Cap. 17](#17)
 - [ ] Redes: conceitos básicos, Internet e intranet
 - [ ] Navegadores (Chrome, Edge, Firefox); busca e pesquisa na Web
 - [ ] Correio eletrônico (Outlook 2013 até O365); grupos de discussão, fóruns e wikis
@@ -232,7 +232,7 @@ lead: Todo o conteúdo programático oficial do seu cargo, item por item. Marque
 - [ ] Raciocínio verbal
 - [ ] Conjuntos numéricos racionais e reais: operações, propriedades, frações e decimais → [Cap. 6](#6)
 - [ ] Conjuntos numéricos complexos
-- [ ] Números e grandezas proporcionais; razão e proporção; divisão proporcional
+- [ ] Números e grandezas proporcionais; razão e proporção; divisão proporcional → [Cap. 16](#16)
 - [ ] Regra de três simples e composta
 - [ ] Porcentagem
 - [ ] Raciocínio sequencial
